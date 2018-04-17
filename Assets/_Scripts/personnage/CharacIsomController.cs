@@ -101,7 +101,7 @@ public class CharacIsomController : MonoBehaviour {
             if (NavMesh.CalculatePath(transform.position, hit.point, NavMesh.AllAreas, path))
             {
 
-                PA = (int)(InteractionPlayerManager.GetPathLength(path) / gameObject.GetComponent<InteractionPlayerManager>().distanceByAction) + 1;
+//                PA = (int)(InteractionPlayerManager.GetPathLength(path) / gameObject.GetComponent<InteractionPlayerManager>().distanceByAction) + 1;
 
                 setPointeurMouse(hit.point, path);
             }
@@ -113,12 +113,12 @@ public class CharacIsomController : MonoBehaviour {
     {
         if (Time.fixedTime - time < 0.15)
         {
-            if (PA <= GameManager.instance.playerCurrent.PA)
-            {
-                GameManager.instance.playerCurrent.setPA(-PA);
-                setPath(path);
-            }
-                
+//            if (PA <= GameManager.instance.playerCurrent.PA)
+//            {
+//                GameManager.instance.playerCurrent.setPA(-PA);
+//                setPath(path);
+//            }
+//                
         }
     }
     public void effectOnMouseDown()
@@ -133,7 +133,7 @@ public class CharacIsomController : MonoBehaviour {
                 if (NavMesh.CalculatePath(transform.position, hit.point, NavMesh.AllAreas, path))
                 {
 
-                    PA = (int)(InteractionPlayerManager.GetPathLength(path) / gameObject.GetComponent<InteractionPlayerManager>().distanceByAction) + 1;
+//                    PA = (int)(InteractionPlayerManager.GetPathLength(path) / gameObject.GetComponent<InteractionPlayerManager>().distanceByAction) + 1;
 
                     setPointeurMouse(hit.point, path);
                 }
@@ -158,7 +158,7 @@ public class CharacIsomController : MonoBehaviour {
                 if (NavMesh.CalculatePath(transform.position, hit.point, NavMesh.AllAreas, path))
                 {
 
-                    PA = (int)(InteractionPlayerManager.GetPathLength(path) / gameObject.GetComponent<InteractionPlayerManager>().distanceByAction) + 1;
+//                    PA = (int)(InteractionPlayerManager.GetPathLength(path) / gameObject.GetComponent<InteractionPlayerManager>().distanceByAction) + 1;
 
                     setPointeurMouse(hit.point, path);
                 }
@@ -204,14 +204,14 @@ public class CharacIsomController : MonoBehaviour {
     public void setPath(Vector3 destination)
     {
         
-        if(PA <= GameManager.instance.playerCurrent.PA)
-        {
+//        if(PA <= GameManager.instance.playerCurrent.PA)
+//        {
 
             agent.SetDestination(destination);
-            GameManager.instance.playerCurrent.setPA(-PA);
+//            GameManager.instance.playerCurrent.setPA(-PA);
             beginMoving();
             deactvatePointerMouse();
-        }
+//        }
     }
 
     public void setPath(NavMeshPath path)
