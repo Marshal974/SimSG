@@ -544,25 +544,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1911742909528648
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4291392076301536}
-  - component: {fileID: 20872022560793078}
-  - component: {fileID: 92358399684621884}
-  - component: {fileID: 124105918124765934}
-  - component: {fileID: 81539584571817294}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1916136833207514
 GameObject:
   m_ObjectHideFlags: 1
@@ -778,7 +759,7 @@ Transform:
   m_LocalScale: {x: 1.3791151, y: 1.3791151, z: 1.3791151}
   m_Children: []
   m_Father: {fileID: 4910949167623666}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 28.112991}
 --- !u!4 &4160895884098700
 Transform:
@@ -876,19 +857,6 @@ Transform:
   m_Father: {fileID: 4177957975106464}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4291392076301536
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1911742909528648}
-  m_LocalRotation: {x: 0.22305663, y: -0.77277344, z: 0.37206134, w: 0.46328962}
-  m_LocalPosition: {x: 13.553985, y: 20.190002, z: 7.735613}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4910949167623666}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 51.418003, y: 90.00001, z: 0}
 --- !u!4 &4346149392920286
 Transform:
   m_ObjectHideFlags: 1
@@ -1293,12 +1261,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1361022315937498}
   m_LocalRotation: {x: 0, y: 0.97005624, z: 0, w: -0.2428804}
-  m_LocalPosition: {x: -0.63437366, y: -0.79702663, z: 1.2336092}
+  m_LocalPosition: {x: -5.6, y: 1.04, z: 1.2336092}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4478969801002186}
   - {fileID: 4164337931267252}
-  - {fileID: 4291392076301536}
   - {fileID: 4160719744001126}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1332,42 +1299,6 @@ Transform:
   m_Father: {fileID: 4273396657599168}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &20872022560793078
-Camera:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1911742909528648}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 25.8
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: 1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 0
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
 --- !u!23 &23991224201201380
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -1424,20 +1355,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!81 &81539584571817294
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1911742909528648}
-  m_Enabled: 1
---- !u!92 &92358399684621884
-Behaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1911742909528648}
-  m_Enabled: 1
 --- !u!95 &95803207565829472
 Animator:
   serializedVersion: 3
@@ -1480,16 +1397,12 @@ MonoBehaviour:
       InstanceTarget: {fileID: 1661184527846636}
     - LIIF: -1472680183
       InstanceTarget: {fileID: 1321915677698210}
-    - LIIF: 1278775635
-      InstanceTarget: {fileID: 1911742909528648}
     - LIIF: -185257211
       InstanceTarget: {fileID: 1068469057467994}
     - LIIF: -1743000183
       InstanceTarget: {fileID: 4910949167623666}
     - LIIF: -1464197584
       InstanceTarget: {fileID: 137435686517680134}
-    - LIIF: -2067388059
-      InstanceTarget: {fileID: 20872022560793078}
     - LIIF: -1185257189
       InstanceTarget: {fileID: 1933273370690244}
     - LIIF: -1308843748
@@ -1498,8 +1411,6 @@ MonoBehaviour:
       InstanceTarget: {fileID: 4478969801002186}
     - LIIF: -1579438826
       InstanceTarget: {fileID: 4164337931267252}
-    - LIIF: 835971356
-      InstanceTarget: {fileID: 4291392076301536}
     - LIIF: 609330550
       InstanceTarget: {fileID: 4160719744001126}
     - LIIF: 211440283
@@ -1520,12 +1431,6 @@ MonoBehaviour:
       InstanceTarget: {fileID: 4147083705491312}
     - LIIF: 653604551
       InstanceTarget: {fileID: 212188770390957614}
-    - LIIF: -566227427
-      InstanceTarget: {fileID: 92358399684621884}
-    - LIIF: 766122146
-      InstanceTarget: {fileID: 124105918124765934}
-    - LIIF: 1725127982
-      InstanceTarget: {fileID: 81539584571817294}
     - LIIF: 2090247473
       InstanceTarget: {fileID: 95803207565829472}
     - LIIF: -1244311589
@@ -1682,25 +1587,14 @@ MonoBehaviour:
     Modificated:
     - Object: {fileID: 4910949167623666}
       ObjeckLink: -1743000183
-      PropertyPath: m_LocalPosition
-      Mode: 0
-    - Object: {fileID: 4910949167623666}
-      ObjeckLink: -1743000183
       PropertyPath: m_RootOrder
       Mode: 0
     NonPrefabObjects: []
     NonPrefabComponents: []
-    RemovedObjects: 769acfa0b2c6cfbc68f2a52b
+    RemovedObjects: 
     TransformParentChanges: []
   ParentPrefabGUID: 
   PrefabGUID: e8fe8d0d680b0604f88d50ec559766f5
---- !u!124 &124105918124765934
-Behaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1911742909528648}
-  m_Enabled: 1
 --- !u!136 &136801125062098380
 CapsuleCollider:
   m_ObjectHideFlags: 1
