@@ -7,7 +7,12 @@ public class InGameManager : MonoBehaviour {
 
 	public static InGameManager instance;
 
-	public GameObject playerObj;
+	public GameObject playerObj; // référencement du gameobject joueur.
+	public MainCameraController camController; //référencement du controller pour pouvoir désactiver le script quand on en a pas besoin.
+
+
+	#region MonoB functions
+
 	void Awake()
 	{
 		if (instance == null) {
@@ -17,13 +22,5 @@ public class InGameManager : MonoBehaviour {
 			Destroy (gameObject);
 		}
 	}
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	#endregion
 }

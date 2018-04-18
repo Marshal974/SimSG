@@ -3,103 +3,96 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+[RequireComponent(typeof(NavMeshAgent))]
 public class PlayerClickToMove : MonoBehaviour {
 
-	public LayerMask interactableLayer;
+	//ce script permet de déplacer le joueur.
+	//il peut être désactiver en toute sécurité quand on veut pas que le joueur se déplace.
 
-	public float shootDistance = 10f;
-	public float shootRate = .5f;
-	public Animator anim;
-//	public PlayerShooting shootingScript;
+	[Tooltip("Les layers qu'on peut raycast.")]
+	public LayerMask interactableLayer;  //la ou le joueur peut aller en gros ^^
+	public Animator anim;//aller chercher le modéle du joueur pour compléter cette variable.
 
 	private NavMeshAgent navMeshAgent;
-	private Transform targetedEnemy;
-	private Ray shootRay;
-	private RaycastHit shootHit;
-	private bool walking;
-	private bool enemyClicked;
-	private float nextFire;
+	private bool walking; //le joueur marche t-il actuellement?
+	private RaycastHit hit; //sert pour le raycast du joueur.
 
-	// Use this for initialization
+	#region MonoB functions
 	void Awake () 
 	{
-//		anim = GetComponent<Animator> ();
 		navMeshAgent = GetComponent<NavMeshAgent> ();
 	}
 
-	// Update is called once per frame
 	void Update () 
 	{
-		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
-		RaycastHit hit;
-		if (Input.GetButtonDown ("Fire2")) 
+
+		//Si le joueur clic / touch :
+		if (Input.GetMouseButtonDown(0)) 
 		{
+			//on cast un ray depuis la cam
+			Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 			
 			if (Physics.Raycast(ray, out hit, 100,interactableLayer))
 			{
-//				if (hit.collider.CompareTag("Enemy"))
+				//A utiliser plus tard pour détecter les objets d'intêret.
+//				if (hit.collider.CompareTag("Cequetuveux"))
 //				{
-//					targetedEnemy = hit.transform;
-//					enemyClicked = true;
+//					Cequetuveux= hit.transform;
+//					Clicked = true;
 //				}
 
-//				else
-//				{
-					walking = true;
-					enemyClicked = false;
-					navMeshAgent.destination = hit.point;
-					navMeshAgent.Resume();
+				walking = true;
+				navMeshAgent.destination = hit.point;
+				navMeshAgent.isStopped = false;
 				anim.SetBool ("IsWalking", walking);
 
-//				}
 			}
 		}
 
-		if (enemyClicked) {
-			MoveAndShoot();
-		}
 
-		if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance) {
-			if (!navMeshAgent.hasPath || Mathf.Abs (navMeshAgent.velocity.sqrMagnitude) < float.Epsilon) {
-				if (walking){
+		if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance) 
+		{
+			if (!navMeshAgent.hasPath || Mathf.Abs (navMeshAgent.velocity.sqrMagnitude) < float.Epsilon) 
+			{
+				if (walking)
+				{
 					walking = false;
 				anim.SetBool ("IsWalking", walking);
-			}
+				}
 			}
 
-		} else {
-			if (!walking) {
+		} else 
+		{
+			if (!walking) 
+			{
 				walking = true;
 				anim.SetBool ("IsWalking", walking);
-
-				Debug.Log (walking);
 			}
 		}
 
 	}
 
-	private void MoveAndShoot()
+	void OnEnable()
 	{
-		if (targetedEnemy == null)
-			return;
-		navMeshAgent.destination = targetedEnemy.position;
-		if (navMeshAgent.remainingDistance >= shootDistance) {
-
-			navMeshAgent.Resume();
-			walking = true;
-		}
-
-		if (navMeshAgent.remainingDistance <= shootDistance) {
-
-			transform.LookAt(targetedEnemy);
-			Vector3 dirToShoot = targetedEnemy.transform.position - transform.position;
-			if (Time.time > nextFire)
-			{
-				nextFire = Time.time + shootRate;
-//				shootingScript.Shoot(dirToShoot);
-			}
-			navMeshAgent.Stop();
-			walking = false;
-		}
+		//on clear le path au cas ou  / on s'assure que les variables sont bien configuré etc..
+		walking = false;
+		navMeshAgent.isStopped = false;
+		navMeshAgent.ResetPath ();
+		
 	}
+
+	void OnDisable()
+	{
+		//on s'assure qu'en cas de désactivation du script, aucun prob ne peut survenir.
+		walking = false;
+
+		//ce check permet juste de s'assurer qu'on est pas en train de quitter le jeu.
+		if (anim.isActiveAndEnabled) 
+		{
+		anim.SetBool ("IsWalking", walking);
+		navMeshAgent.isStopped = true;
+		}
+
+	}
+	#endregion
 }
