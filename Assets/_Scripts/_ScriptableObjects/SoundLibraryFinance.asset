@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe5ea32de5fd4cf42bbe747f283ff79b, type: 3}
   m_Name: SoundLibraryFinance
   m_EditorClassIdentifier: 
-  MainMusic: {fileID: 0}
-  errorSnd: {fileID: 0}
-  successSnd: {fileID: 0}
+  MainMusic: {fileID: 8300000, guid: ed6dd037003001b49b6893e63db7a6ec, type: 3}
+  validationSnd: {fileID: 8300000, guid: 7a171f3683021e3469ff07d82cef1fd1, type: 3}
+  errorSnd: {fileID: 8300000, guid: a1c1be9be1fd9e048aa0e71d446395e7, type: 3}
+  successSnd: {fileID: 8300000, guid: 2fe15a90f945fc945b6110beed2a3b60, type: 3}

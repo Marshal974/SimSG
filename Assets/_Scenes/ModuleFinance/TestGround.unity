@@ -164,12 +164,12 @@ Prefab:
     - target: {fileID: 195482799986986744, guid: e8fe8d0d680b0604f88d50ec559766f5,
         type: 2}
       propertyPath: m_Acceleration
-      value: 30
+      value: 99999
       objectReference: {fileID: 0}
     - target: {fileID: 195482799986986744, guid: e8fe8d0d680b0604f88d50ec559766f5,
         type: 2}
       propertyPath: m_AngularSpeed
-      value: 750
+      value: 2500
       objectReference: {fileID: 0}
     - target: {fileID: 195482799986986744, guid: e8fe8d0d680b0604f88d50ec559766f5,
         type: 2}
@@ -410,7 +410,6 @@ GameObject:
   m_Component:
   - component: {fileID: 267311860}
   - component: {fileID: 267311859}
-  - component: {fileID: 267311861}
   m_Layer: 0
   m_Name: '[GameManager]'
   m_TagString: Untagged
@@ -444,18 +443,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &267311861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 267311858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91d635e34dd612f48bbdcf8f6027733d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundsSO: {fileID: 11400000, guid: 8aa273b853d8c6d4c962731f723eeb34, type: 2}
 --- !u!1 &460436626 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1706839014113120, guid: 0bfde33f87b3ef049b968ad759adb9d9,

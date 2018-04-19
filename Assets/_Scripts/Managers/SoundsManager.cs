@@ -10,7 +10,9 @@ public class SoundsManager : MonoBehaviour
 
 	public static SoundsManager instance;
 
-	[Tooltip("Contient tous les sons du jeu pour référencement.")]public SoundLibrarySO soundsSO;
+	[Tooltip("Contient tous les sons du jeu pour référencement.")]
+	public SoundLibrarySO soundsSO;
+
 	#region MonoB functions
 
 	void Awake()
@@ -22,5 +24,11 @@ public class SoundsManager : MonoBehaviour
 			Destroy (gameObject);
 		}
 	}
+
+	void Start()
+	{
+		GetComponent<AudioSource> ().PlayOneShot (soundsSO.MainMusic);
+	}
 	#endregion
+
 }
