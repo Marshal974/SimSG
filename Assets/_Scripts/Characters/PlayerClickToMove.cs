@@ -27,26 +27,9 @@ public class PlayerClickToMove : MonoBehaviour {
 	{
 
 		//Si le joueur clic / touch :
-		if (Input.GetMouseButtonDown(0)) 
+		if (Input.GetMouseButtonUp(0)) 
 		{
-			//on cast un ray depuis la cam
-			Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
-			
-			if (Physics.Raycast(ray, out hit, 100,interactableLayer))
-			{
-				//A utiliser plus tard pour détecter les objets d'intêret.
-//				if (hit.collider.CompareTag("Cequetuveux"))
-//				{
-//					Cequetuveux= hit.transform;
-//					Clicked = true;
-//				}
-
-				walking = true;
-				navMeshAgent.destination = hit.point;
-				navMeshAgent.isStopped = false;
-				anim.SetBool ("IsWalking", walking);
-
-			}
+			CastRayForMoving ();
 		}
 
 
@@ -72,6 +55,35 @@ public class PlayerClickToMove : MonoBehaviour {
 
 	}
 
+
+	/// <summary>
+	/// Casts the ray for moving.
+	/// </summary>
+	void CastRayForMoving()
+	{
+		//on cast un ray depuis la cam
+		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+
+		if (Physics.Raycast(ray, out hit, 100,interactableLayer))
+		{
+			////A utiliser plus tard pour détecter les objets d'intêret.
+			//				if (hit.collider.CompareTag("Cequetuveux"))
+			//				{
+			//					Cequetuveux= hit.transform;
+			//					Clicked = true;
+			//				}
+			if (hit.transform.gameObject.layer == LayerMask.NameToLayer ("UI")) 
+			{
+				Debug.Log ("truite");
+				return;
+			}
+
+			walking = true;
+			navMeshAgent.destination = hit.point;
+			navMeshAgent.isStopped = false;
+			anim.SetBool ("IsWalking", walking);
+		}
+	}
 	void OnEnable()
 	{
 		//on clear le path au cas ou  / on s'assure que les variables sont bien configuré etc..

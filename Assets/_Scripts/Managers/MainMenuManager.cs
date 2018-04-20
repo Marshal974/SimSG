@@ -32,7 +32,7 @@ public class MainMenuManager : MonoBehaviour
 	#region private variables
 
 	AudioSource effectsAudioS; //L'audioS pour les retours utilisateur sur appui touche.
-	bool hasPressedEnter; //T'as appuyer qqpart déja ? que jtaffiche le menu.
+	bool hasTouchedOrClicked; //T'as appuyer qqpart déja ? que jtaffiche le menu.
 	int dontShowAgain; //un bool pour savoir si le joueur a coché le "don't show again" du welcomepanel plus haut.
 	int firstTimePlaying; //C'est la première fois que le jeu est lancé (un faux bool)
 
@@ -66,12 +66,12 @@ public class MainMenuManager : MonoBehaviour
 	}
 	public void Update ()
 	{
-		if (!hasPressedEnter) 
+		if (!hasTouchedOrClicked) 
 		{
 			if (Input.GetKeyDown (KeyCode.Space) || Input.GetKeyDown (KeyCode.Return) || Input.GetMouseButtonDown(0)) 
 			{
 				ShowMainMenu ();
-				hasPressedEnter = true;
+				hasTouchedOrClicked = true;
 				pressEnterObj.SetActive (false);
 
 				//On check si tu veux/dois voir le welcomePanel
@@ -87,11 +87,7 @@ public class MainMenuManager : MonoBehaviour
 
 	#endregion
 
-	void FirstTimePlayingProcedure()
-	{
-		ShowNicknameSelectionPanel ();
 
-	}
 
 	#region Main panel functions
 
@@ -132,13 +128,7 @@ public class MainMenuManager : MonoBehaviour
 		effectsAudioS.PlayOneShot(SoundsManager.instance.soundsSO.validationSnd);
 
 	}
-	void ShowNicknameSelectionPanel()
-	{
-		HideAllMenuPanels ();
-		nicknameSelecPanel.SetActive (true);
-		effectsAudioS.PlayOneShot(SoundsManager.instance.soundsSO.validationSnd);
 
-	}
 
 	void ShowWelcomePanel()
 	{
@@ -146,6 +136,14 @@ public class MainMenuManager : MonoBehaviour
 		welcomePanel.SetActive (true);
 	}
 
+	//Cette fonction n'est pas utilisé pour le moment:
+	void ShowNicknameSelectionPanel()
+	{
+		HideAllMenuPanels ();
+		nicknameSelecPanel.SetActive (true);
+		effectsAudioS.PlayOneShot(SoundsManager.instance.soundsSO.validationSnd);
+		
+	}
 
 	//utilitaires:
 
@@ -194,6 +192,13 @@ public class MainMenuManager : MonoBehaviour
 
 	#region Select your nickname
 
+	void FirstTimePlayingProcedure()
+	{
+		//On a pas parler de ca encore. A corriger a l'occase voir ce qu'on veut faire de plus que de montrer le welcome panel.
+		//		ShowNicknameSelectionPanel ();
+
+	}
+
 	//appeler depuis UI
 	public void ChangeYourNickname(string newNickname)
 	{
@@ -234,8 +239,11 @@ public class MainMenuManager : MonoBehaviour
 		clientPassword = newPassword;
 	}
 
+
+	//Appelé depuis UI (le bouton connection)
 	public void TryToConnectToAccount()
 	{
+		//Return toujours true pour le moment:
 		if (CheckClientConnectionInfo (clientID, clientPassword)) 
 		{
 			showModuleSelectionPanel();
