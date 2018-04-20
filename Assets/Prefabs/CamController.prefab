@@ -9,19 +9,19 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1706839014113120}
+  m_RootGameObject: {fileID: 1303807896013770}
   m_IsPrefabParent: 1
---- !u!1 &1605115875452080
+--- !u!1 &1233932553828136
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4951067566317488}
-  - component: {fileID: 20841603438935064}
-  - component: {fileID: 124448317005507116}
-  - component: {fileID: 81864329602325994}
+  - component: {fileID: 4389476456269428}
+  - component: {fileID: 20286660203001054}
+  - component: {fileID: 124285040375167368}
+  - component: {fileID: 81778445798661162}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -29,14 +29,15 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1706839014113120
+--- !u!1 &1303807896013770
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4567992359765986}
+  - component: {fileID: 4166142247132220}
+  - component: {fileID: 114378651726235164}
   m_Layer: 0
   m_Name: CamController
   m_TagString: Untagged
@@ -44,39 +45,39 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4567992359765986
+--- !u!4 &4166142247132220
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1706839014113120}
-  m_LocalRotation: {x: 0.29883623, y: 0.64085644, z: -0.29883623, w: 0.64085644}
-  m_LocalPosition: {x: -23, y: 23, z: 1}
+  m_GameObject: {fileID: 1303807896013770}
+  m_LocalRotation: {x: -0.29854083, y: -0.64148927, z: 0.29913124, w: -0.640223}
+  m_LocalPosition: {x: -22.835604, y: 22.87, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4951067566317488}
+  - {fileID: 4389476456269428}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: 90, z: 0}
---- !u!4 &4951067566317488
+  m_LocalEulerAnglesHint: {x: 50, y: 242, z: 0}
+--- !u!4 &4389476456269428
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1605115875452080}
+  m_GameObject: {fileID: 1233932553828136}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4567992359765986}
+  m_Father: {fileID: 4166142247132220}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &20841603438935064
+--- !u!20 &20286660203001054
 Camera:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1605115875452080}
+  m_GameObject: {fileID: 1233932553828136}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -107,17 +108,30 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &81864329602325994
+--- !u!81 &81778445798661162
 AudioListener:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1605115875452080}
+  m_GameObject: {fileID: 1233932553828136}
   m_Enabled: 1
---- !u!124 &124448317005507116
+--- !u!114 &114378651726235164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303807896013770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881a7866889d2ed4ab2a90e8bb557237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camLerpSpeed: 4
+  offset: {x: -20, y: 24, z: 0}
+--- !u!124 &124285040375167368
 Behaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1605115875452080}
+  m_GameObject: {fileID: 1233932553828136}
   m_Enabled: 1
