@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Scenes/ModuleFinance/MainMenu.unity
+    path: Assets/_Scenes/MainMenu.unity
     guid: 5a71272b376a50c4e820f081800593a2
   - enabled: 1
     path: Assets/_Scenes/ModuleFinance/TestGround.unity
