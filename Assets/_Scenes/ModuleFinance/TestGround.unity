@@ -157,7 +157,8 @@ Prefab:
       propertyPath: interactableLayer.m_Bits
       value: 288
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114809423162150810, guid: e8fe8d0d680b0604f88d50ec559766f5, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: e8fe8d0d680b0604f88d50ec559766f5, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &44136834
@@ -2824,7 +2825,8 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114487071798989770, guid: 01cc37a924b5c0140b747aab77f24c5e, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 01cc37a924b5c0140b747aab77f24c5e, type: 2}
   m_IsPrefabParent: 0
 --- !u!224 &1898476730 stripped

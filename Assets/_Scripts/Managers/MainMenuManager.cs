@@ -24,6 +24,8 @@ public class MainMenuManager : MonoBehaviour
 	public GameObject moreInfoPanel;
 	public GameObject welcomePanel; //On le montre a un joueur qui a jamais lancé le jeu. lié a un bouton "dont show again";
 	public GameObject logInPanel;
+	public GameObject serialNumberPanel;
+
 	[Header("Les boutons et objets dont on doit avoir connaissance:")]
 
 	public Button connectButton; //on en a besoin pour savoir si il faut le rendre interactif ou pas (pour plus tard) : check connection internet par exemple!
@@ -129,6 +131,13 @@ public class MainMenuManager : MonoBehaviour
 
 	}
 
+	public void ShowSerialNumberPanel()
+	{
+		HideAllMenuPanels ();
+		serialNumberPanel.SetActive (true);
+		effectsAudioS.PlayOneShot(SoundsManager.instance.soundsSO.validationSnd);
+
+	}
 
 	void ShowWelcomePanel()
 	{
@@ -156,6 +165,7 @@ public class MainMenuManager : MonoBehaviour
 		nicknameSelecPanel.SetActive (false);
 		welcomePanel.SetActive (false);
 		logInPanel.SetActive (false);
+		serialNumberPanel.SetActive (false);
 	}
 
 	public void QuitGame()
