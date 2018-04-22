@@ -43,7 +43,7 @@ public class HelpUI : MonoBehaviour
 	{
 		openPanelButton.SetActive (false);
 		ModuleUIManager.instance.playerResourcesUI.ToggleResourcesUI ();
-		ModuleUIManager.instance.ingameOptions.openPanelButton.SetActive (false);
+		ModuleUIManager.instance.inGameOptions.openPanelButton.SetActive (false);
 		helpPanel.SetActive(true);
 		playerMoveScript.enabled = false;
 		audioS.PlayOneShot (SoundsManager.instance.soundsSO.validationSnd );
@@ -53,9 +53,11 @@ public class HelpUI : MonoBehaviour
 	{
 		openPanelButton.SetActive (true);
 		ModuleUIManager.instance.playerResourcesUI.ToggleResourcesUI ();
-		ModuleUIManager.instance.ingameOptions.openPanelButton.SetActive (true);
+		ModuleUIManager.instance.inGameOptions.openPanelButton.SetActive (true);
 		helpPanel.SetActive(false);
 		playerMoveScript.enabled = true;
+		audioS.PlayOneShot (SoundsManager.instance.soundsSO.validationSnd );
+
 	}
 	#endregion
 }

@@ -44,7 +44,6 @@ public class MainMenuManager : MonoBehaviour
 
 	#endregion
 
-
 	#region monoB paradise
 
 	private void Awake()
@@ -63,8 +62,6 @@ public class MainMenuManager : MonoBehaviour
 
 		//check ou création du "show welcome panel" bool
 		dontShowAgain = PlayerPrefs.GetInt ("SHOW_WELCOME_PANEL", 0);
-	
-		
 	}
 	public void Update ()
 	{
@@ -81,15 +78,11 @@ public class MainMenuManager : MonoBehaviour
 				{
 					ShowWelcomePanel ();
 				}
-
 			}
-
 		}
 	}
 
 	#endregion
-
-
 
 	#region Main panel functions
 
@@ -214,9 +207,7 @@ public class MainMenuManager : MonoBehaviour
 	{
 		ShowMainMenu ();
 		PlayerPrefs.SetString ("NICKNAME", newNickname);
-		
 	}
-
 
 	#endregion
 
@@ -225,12 +216,13 @@ public class MainMenuManager : MonoBehaviour
 	//appelé depuis UI
 	public void DontShowWelcomePanelAgain(bool hidePanel)
 	{
-		if (hidePanel) {
+		if (hidePanel) 
+		{
 			PlayerPrefs.SetInt ("SHOW_WELCOME_PANEL", 1);
 			ShowMainMenu ();
-		} else {
+		} else 
+		{
 			PlayerPrefs.SetInt ("SHOW_WELCOME_PANEL", 0);
-
 		}
 	}
 
@@ -248,7 +240,6 @@ public class MainMenuManager : MonoBehaviour
 	{
 		clientPassword = newPassword;
 	}
-
 
 	//Appelé depuis UI (le bouton connection)
 	public void TryToConnectToAccount()
@@ -268,7 +259,6 @@ public class MainMenuManager : MonoBehaviour
 		//Pour le moment je return donc toujours true ^^
 		return true;
 	}
-
 
 	#endregion
 

@@ -31,7 +31,7 @@ public class InGameOptions : MonoBehaviour
 		playerMoveScript = InGameManager.instance.playerObj.GetComponent<PlayerClickToMove> ();
 
 		//On s'enregistre auprès du moduleUIManager
-		ModuleUIManager.instance.ingameOptions = this;
+		ModuleUIManager.instance.inGameOptions = this;
 	}
 
 	void Update()
@@ -82,6 +82,8 @@ public class InGameOptions : MonoBehaviour
 		ModuleUIManager.instance.helpUI.openPanelButton.SetActive (true);
 		optionsPanel.SetActive(false);
 		playerMoveScript.enabled = true;
+		audioS.PlayOneShot (SoundsManager.instance.soundsSO.validationSnd );
+
 	}
 	#endregion
 }
