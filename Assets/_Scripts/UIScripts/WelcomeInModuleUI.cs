@@ -73,6 +73,8 @@ public class WelcomeInModuleUI : MonoBehaviour
 	/// </summary>
 	public void StartWelcomePanelEvent()
 	{
+		TimelineManager.instance.PlayWelcomeCutscene(1);
+
 		InGameManager.instance.playerObj.GetComponent<PlayerClickToMove> ().enabled = false;
 		canvas.enabled = true;
 
@@ -86,6 +88,8 @@ public class WelcomeInModuleUI : MonoBehaviour
 	//a lancer lorsqu'on atteind le dernier panel
 	void EndWelcomePanelEvent()
 	{
+		TimelineManager.instance.PlayWelcomeCutscene(2);
+
 		InGameManager.instance.playerObj.GetComponent<PlayerClickToMove> ().enabled = true;
 
 		allPanelsToShowInOrder [currentPanelIndex].SetActive (false);
