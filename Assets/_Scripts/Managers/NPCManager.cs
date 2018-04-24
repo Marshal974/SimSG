@@ -6,10 +6,12 @@ public class NPCManager : MonoBehaviour
 {
 	public static NPCManager instance;
 	public List<GameObject> allActiveNPC = new List<GameObject>();
+	public List<NPCPatrolRoad> allPatrolRoads = new List<NPCPatrolRoad>();
 
 	void Awake()
 	{
-		if (instance == null) {
+		if (instance == null) 
+		{
 			instance = this;
 		} else 
 		{

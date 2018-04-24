@@ -8,21 +8,35 @@ public class NPCMovementBehaviour : MonoBehaviour
 {
 	//Il sert a déplacer les pnj de plusieurs facons.
 	//On peut le désactiver quand on en a pas besoin hein.
+	//Toute configuration du pnc se fait dans "npcgeneralbehaviour" pas ici !! 
 
 	public Animator anim;//aller chercher le modéle du PNJ pour compléter cette variable.
 
 	[HideInInspector]
 	public int patrolRange; //configurer dans le npcgeneral behaviour, pas ici!
 
+	[HideInInspector]
+	public NPCPatrolRoad predefinedRoad;
+
 	#region private variables
 	Transform currentTarget; //peut être vide.
 
 	NavMeshAgent agent;
+
 	bool walking;
 
 	bool isPatroling;
+	bool isFollowingTarget;
+	bool isOnPatrolRoad;
+	bool patrolRoadIsRandom;
+
 	Vector3 targetPatrolPoint;
 	Vector3 patrolStartPos;
+
+	int currentPatrolRoadPointIndex;
+
+	float minPauseTimeOnPatrolRoad;
+	float maxPauseTimeOnPatrolRoad;
 	#endregion
 
 	#region MonoB functions
@@ -34,8 +48,14 @@ public class NPCMovementBehaviour : MonoBehaviour
 
 	void Start()
 	{
-		//pour faire un test:
-		GoToTarget (InGameManager.instance.playerObj.transform.position);
+
+		//On gère des exceptions.
+		if (isFollowingTarget && isPatroling) 
+		{
+			Debug.Log ("attention il ne peut pas patrouiller et follow en mm tps!Allons bon mon ami!");
+			Debug.Log ("mode follow selectionner");
+			isPatroling = false;
+		}
 	}
 
 	void Update () 
@@ -80,8 +100,19 @@ public class NPCMovementBehaviour : MonoBehaviour
 		agent.SetDestination (targetPos);
 	}
 
+	//On arrête tous les ordres de déplacement!
+	void StopMovementOrders()
+	{
+		StopPatroling ();
+		StopFollowingPatrolRoad ();
+		StopFollowingTarget ();
+	}
+
+	#region la patrouille
+
 	public void StartPatroling(int newPatrolRange)
 	{
+		StopMovementOrders ();
 		patrolStartPos = transform.position;
 		patrolRange = newPatrolRange;
 		isPatroling = true;
@@ -100,6 +131,77 @@ public class NPCMovementBehaviour : MonoBehaviour
 	}
 	#endregion
 
+	#region le followTarget
+	/// <summary>
+	/// Le npc va suivre la cible.Invoquez StopFollowingTarget pour arrêter le follow!
+	/// </summary>
+	/// <param name="target">la cible.</param>
+	public void StartFollowingTarget(Transform target)
+	{
+		StopMovementOrders ();
+		currentTarget = target;
+		isFollowingTarget = true;
+		ActualizeFollowPath ();
+	}
+
+	void ActualizeFollowPath()
+	{
+		GoToTarget (currentTarget.position);
+	}
+
+	//Doit être invoquer une fois la destination finale atteinte ou l'arrêt du suivi désiré.
+	public void StopFollowingTarget()
+	{
+		isFollowingTarget = false;
+		currentTarget = null;
+	}
+	#endregion
+
+	#region follow predefined path (patrolroad)
+
+	public void StartFollowingPatrolRoad(NPCPatrolRoad newRoad, bool randomRoad, float minPause, float maxPause)
+	{
+		StopMovementOrders ();
+		minPauseTimeOnPatrolRoad = minPause;
+		maxPauseTimeOnPatrolRoad = maxPause;
+		patrolRoadIsRandom = randomRoad;
+		predefinedRoad = newRoad;
+		isOnPatrolRoad = true;
+		currentPatrolRoadPointIndex = 0;
+		GoToNextPatrolPoint ();
+	}
+
+	void GoToNextPatrolPoint()
+	{
+		GoToTarget (predefinedRoad.allPatrolPoints [currentPatrolRoadPointIndex].position);
+
+		if (!patrolRoadIsRandom) 
+		{
+			if (currentPatrolRoadPointIndex == predefinedRoad.allPatrolPoints.Length - 1) 
+			{
+				//On a atteind le dernier point de patrouille.
+				currentPatrolRoadPointIndex = -1;
+			}
+			currentPatrolRoadPointIndex++;
+		} else 
+		{
+			currentPatrolRoadPointIndex = Random.Range (0, predefinedRoad.allPatrolPoints.Length);
+		}
+	}
+
+	//A appelé pour arrêter la patrouille.
+	public void StopFollowingPatrolRoad()
+	{
+		predefinedRoad = null;
+		isOnPatrolRoad = false;
+	}
+
+	#endregion
+
+
+
+	#endregion
+
 	#region Utilitaires
 	//on évite qq bugs potentiel grace a cette fonction. 
 	//elle permet de s'assurer que l'animator controller est bien configurer au bon moment.
@@ -115,6 +217,14 @@ public class NPCMovementBehaviour : MonoBehaviour
 					if (isPatroling) 
 					{
 						Invoke ("ChangeTargetPatrolPoint", Random.Range (1,5));
+					}
+					if (isOnPatrolRoad) 
+					{
+						Invoke("GoToNextPatrolPoint",Random.Range(minPauseTimeOnPatrolRoad,maxPauseTimeOnPatrolRoad));
+					}
+					if (isFollowingTarget) 
+					{
+						ActualizeFollowPath ();
 					}
 					walking = false;
 					anim.SetBool ("IsWalking", walking);

@@ -13,7 +13,7 @@ public class InGameManager : MonoBehaviour {
 	[Header("Configuration des paramètres principaux du jeu.")]
 
 	[Tooltip("A cocher pour voir les messages de présentation du module")]
-	public bool isShowingWelcomeInModulePanels = true;
+	public bool isShowingWelcomeInModulePanels = true; //Nécéssite un prefab welcomeinmoduleCanvas dans la scene.
 
 
 	#region MonoB functions
@@ -32,7 +32,7 @@ public class InGameManager : MonoBehaviour {
 	{
 		if(isShowingWelcomeInModulePanels)
 		{
-			Invoke ("StartWelcomeInModuleProcedure", 1.5f);
+			Invoke ("StartWelcomeInModuleProcedure", .5f);
 		}
 	}
 	#endregion
