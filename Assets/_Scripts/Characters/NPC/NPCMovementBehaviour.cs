@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
+[RequireComponent(typeof(NPCGeneralBehaviour))]
 public class NPCMovementBehaviour : MonoBehaviour 
 {
 	//Il sert a déplacer les pnj de plusieurs facons.
@@ -13,7 +14,7 @@ public class NPCMovementBehaviour : MonoBehaviour
 	public Animator anim;//aller chercher le modéle du PNJ pour compléter cette variable.
 
 	[HideInInspector]
-	public int patrolRange; //configurer dans le npcgeneral behaviour, pas ici!
+	public int patrolRange; //configurer dans le npcgeneral behaviour(présent sur l'objet obligatoirement), pas ici!
 
 	[HideInInspector]
 	public NPCPatrolRoad predefinedRoad;

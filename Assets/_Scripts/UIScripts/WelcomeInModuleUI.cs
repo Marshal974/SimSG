@@ -94,5 +94,9 @@ public class WelcomeInModuleUI : MonoBehaviour
 
 		allPanelsToShowInOrder [currentPanelIndex].SetActive (false);
 		canvas.enabled = false;
+
+		//on rend la secrétaire un peu plus visible
+
+		NPCManager.instance.secretaryNPC.GetComponent<NPCGeneralBehaviour> ().outliner.enabled = true;
 	}
 }

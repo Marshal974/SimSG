@@ -18,4 +18,10 @@ public class AllEnum  {
 		november,
 		december,
 	}
+
+	public enum allQuests
+	{
+		followMe,
+
+	}
 }

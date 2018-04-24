@@ -7,6 +7,7 @@ public class NPCManager : MonoBehaviour
 	public static NPCManager instance;
 	public List<GameObject> allActiveNPC = new List<GameObject>();
 	public List<NPCPatrolRoad> allPatrolRoads = new List<NPCPatrolRoad>();
+	public GameObject secretaryNPC;
 
 	void Awake()
 	{

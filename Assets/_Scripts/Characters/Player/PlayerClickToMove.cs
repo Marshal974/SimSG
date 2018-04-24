@@ -60,6 +60,14 @@ public class PlayerClickToMove : MonoBehaviour {
 
 	#region déplacement du joueur
 
+	public void GoToTarget( Vector3 targetPos)
+	{
+		navMeshAgent.isStopped = false;
+		walking = true;
+		anim.SetBool ("IsWalking", walking);
+		navMeshAgent.SetDestination (targetPos);
+	}
+
 	//on cast un ray pour dire au joueur ou il doit aller
 	void CastRayForMoving()
 	{

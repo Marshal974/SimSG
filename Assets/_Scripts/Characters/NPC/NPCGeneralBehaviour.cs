@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using cakeslice;
 
 [RequireComponent(typeof(NPCMovementBehaviour))]
 [RequireComponent(typeof(NavMeshAgent))]
@@ -32,6 +33,12 @@ public class NPCGeneralBehaviour : MonoBehaviour
 	public float minimumPauseTime;
 	public float maximumPauseTime;
 
+	[Header("Les propriétés a compléter au besoin:")]
+
+	[Tooltip("L'outliner présent sur le modèle 3D")]
+	public Outline outliner;
+	public Camera npcCam;
+
 	[HideInInspector]
 	public NPCMovementBehaviour npcMovementB;
 
@@ -47,7 +54,12 @@ public class NPCGeneralBehaviour : MonoBehaviour
 	{
 		//on configure certaines variables.
 		npcMovementB = GetComponent<NPCMovementBehaviour> ();
-
+		//il faut le laisser actif de base pour qu'il s'enregistre auprés du outlineeffect sur camera!
+		if (outliner) 
+		{
+			//on le désactive donc pour le moment si il existe.
+			outliner.enabled = false;
+		}
 
 		//On s'enregistre.
 		NPCManager.instance.allActiveNPC.Add (gameObject);
@@ -67,4 +79,10 @@ public class NPCGeneralBehaviour : MonoBehaviour
 
 	#endregion
 
+	#region Utilitaires
+	public void ToggleMyCam(bool camState)
+	{
+		npcCam.enabled = camState;
+	}
+	#endregion
 }
