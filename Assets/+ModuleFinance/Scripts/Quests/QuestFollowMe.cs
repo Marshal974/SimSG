@@ -9,8 +9,8 @@ using NodeCanvas.DialogueTrees;
 public class QuestFollowMe : MonoBehaviour 
 {
 
-	//La quête consiste a commencer par un dialogue entre le joueur et un pnj.
-	//Il y a une fonction pour lancer la quête.
+	//La quête consiste a commencer par un dialogue entre le joueur et un pnj puis le pnj se dirige a un point décidé.
+	//Il y a une fonction pour lancer la quête depuis le quest manager.
 
 	public GameObject targetToFollow; //Ici la secrétaire quoi.
 	public Transform placeToGoTo; //la ou on veut aller avec le pnj.
@@ -35,13 +35,16 @@ public class QuestFollowMe : MonoBehaviour
 		InGameManager.instance.playerObj.GetComponent<PlayerGeneralBehaviour> ().ToggleMyCam (false);
 		targetToFollow.GetComponent<NPCGeneralBehaviour> ().ToggleMyCam (false);
 		GoToDestination ();
+		QuestsManager.instance.questTrail.transform.parent = targetToFollow.transform;
+		QuestsManager.instance.questTrail.transform.localPosition = Vector3.zero;
 	}
 
 	public void CancelQuestFollowMe()
 	{
-		dialogueTreeController.enabled = false;
-		InGameManager.instance.playerObj.GetComponent<PlayerGeneralBehaviour> ().ToggleMyCam (false);
-		targetToFollow.GetComponent<NPCGeneralBehaviour> ().ToggleMyCam (false);
+		EndQuestFollowMe ();
+
+		//Pu utile dans ce cas : la quête est pas répétable, soit il vient soit pas (le joueur).
+//		QuestsManager.instance.AddQuestActivator (targetToFollow.transform.position, AllEnum.allQuests.followMe, .5f);
 	}
 
 	public void ShowPlayerTalking()

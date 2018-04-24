@@ -22,6 +22,7 @@ public class AllEnum  {
 	public enum allQuests
 	{
 		followMe,
+		financeRoom,
 
 	}
 }

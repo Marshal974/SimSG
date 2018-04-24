@@ -270,6 +270,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1380212263767052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4660168626772618}
+  - component: {fileID: 114688399631402410}
+  - component: {fileID: 114172505635332040}
+  m_Layer: 0
+  m_Name: QuestFollowMeSomewhere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1424790702161126
 GameObject:
   m_ObjectHideFlags: 1
@@ -331,7 +348,7 @@ GameObject:
   - component: {fileID: 114036842884635548}
   m_Layer: 0
   m_Name: "NPCSecr\xE9taire"
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -546,6 +563,24 @@ GameObject:
   m_Name: Bip001 L Finger1Nub
   m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1847104723561622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4795353058068646}
+  - component: {fileID: 33538934640134710}
+  - component: {fileID: 135292649486663810}
+  - component: {fileID: 114367994491753640}
+  m_Layer: 9
+  m_Name: FollowMeToOfficeQuestActivator
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -827,7 +862,7 @@ Transform:
   m_Children:
   - {fileID: 4701271519317694}
   m_Father: {fileID: 4230985295953698}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4211692563767892
 Transform:
@@ -849,9 +884,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1497659613826860}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -5.76, y: 0.01, z: 2.06}
+  m_LocalPosition: {x: -5.02, y: 0.01, z: 1.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4795353058068646}
+  - {fileID: 4660168626772618}
   - {fileID: 4209823376923696}
   - {fileID: 4949525793189822}
   - {fileID: 4882639442388934}
@@ -1114,13 +1151,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1694815261480652}
-  m_LocalRotation: {x: 0.37724814, y: 0.7575516, z: 0.4722072, w: 0.24661686}
-  m_LocalPosition: {x: -0.8, y: -0.8, z: 1.2}
+  m_LocalRotation: {x: 0.18087159, y: 0.7733073, z: 0.5912512, w: 0.14036845}
+  m_LocalPosition: {x: -0.108, y: -0.555, z: 0.87600005}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4593422006324622}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -32.5, y: 118.5, z: 75.5}
+  m_LocalEulerAnglesHint: {x: -59.730003, y: 121.242004, z: 62.159004}
 --- !u!4 &4653879215532202
 Transform:
   m_ObjectHideFlags: 1
@@ -1134,6 +1171,19 @@ Transform:
   - {fileID: 4383463969922704}
   m_Father: {fileID: 4936684853384338}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4660168626772618
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1380212263767052}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -1.0400006, y: -0.01, z: -5.0200005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4230985295953698}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4679753620643932
 Transform:
@@ -1265,6 +1315,19 @@ Transform:
   m_Father: {fileID: 4097466423874090}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4795353058068646
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1847104723561622}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4230985295953698}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4814004253699738
 Transform:
   m_ObjectHideFlags: 1
@@ -1290,7 +1353,7 @@ Transform:
   m_LocalScale: {x: 1.3791151, y: 1.3791151, z: 1.3791151}
   m_Children: []
   m_Father: {fileID: 4230985295953698}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 28.112991}
 --- !u!4 &4909632346849748
 Transform:
@@ -1361,7 +1424,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4230985295953698}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4978949920089814
 Transform:
@@ -1408,7 +1471,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 75
   orthographic: 0
   orthographic size: 5
   m_Depth: 2
@@ -1467,6 +1530,13 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1034475672716470}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33538934640134710
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1847104723561622}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!54 &54451014177858280
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -1524,10 +1594,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d71fb7c52372e244baf2e69a9d0d116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: NPC
+  _name: Sam
   _portrait: {fileID: 0}
-  _dialogueColor: {r: 0.9294118, g: 1, b: 1, a: 1}
+  _dialogueColor: {r: 0.08088237, g: 0.076124586, b: 0.076124586, a: 1}
   _dialogueOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114092098365274684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: QuestFollowMeSomewhere
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3302.389,"y":-3203.813},"zoomFactor":0.6558187,"nodes":[{"statement":{"_text":"Bonjour!\nSoyez
+    le bienvenu. Le directeur m''a demand\u00e9 de vous conduire a votre bureau."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5426.0,"y":4910.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|ShowPlayerTalking","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5833.507,"y":4983.324},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"availableChoices":[{"statement":{"_text":"Je
+    vous suis."}},{"statement":{"_text":"Je trouverais mon bureau tout seul. Merci!","_audio":1}}],"_actorName":"Vous","_actorParameterID":"3d461e4b-c28e-48d8-8329-6029de391c3a","_position":{"x":5512.0,"y":5054.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|ShowNPCTalking","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5389.153,"y":5190.162},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"15"},{"statement":{"_text":"Allons
+    \u00e0 votre bureau, par ici je vous prie."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5401.0,"y":5278.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"20"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|EndQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5615.128,"y":5349.333},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Je
+    vous verrais plus tard alors."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5838.319,"y":5170.631},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|CancelQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5861.828,"y":5333.766},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"15"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"15"},"_targetNode":{"$ref":"20"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"20"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Vous","_id":"3d461e4b-c28e-48d8-8329-6029de391c3a"},{"_keyName":"Secr\u00e9taire","_id":"8ed798ea-3997-4663-b672-c7182246264d","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 7a171f3683021e3469ff07d82cef1fd1, type: 3}
+  - {fileID: 114036842884635548}
+  _deserializationFailed: 0
+  _actorParameters:
+  - _keyName: Vous
+    _id: 3d461e4b-c28e-48d8-8329-6029de391c3a
+    _actorObject: {fileID: 0}
+  - _keyName: "Secr\xE9taire"
+    _id: 8ed798ea-3997-4663-b672-c7182246264d
+    _actorObject: {fileID: 114036842884635548}
 --- !u!114 &114150938238849820
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1543,6 +1642,32 @@ MonoBehaviour:
   eraseRenderer: 0
   originalLayer: 0
   originalMaterials: []
+--- !u!114 &114172505635332040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1380212263767052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7510c199dfa5c1e4d83867e5e35d52a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetToFollow: {fileID: 1497659613826860}
+  placeToGoTo: {fileID: 0}
+  dialogueTreeController: {fileID: 114688399631402410}
+--- !u!114 &114367994491753640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1847104723561622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5548f504f1f294f4281ce19e9464afb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questToStart: 0
 --- !u!114 &114405383080638062
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1564,6 +1689,32 @@ MonoBehaviour:
   outliner: {fileID: 114150938238849820}
   npcCam: {fileID: 20628386244592858}
   npcMovementB: {fileID: 0}
+--- !u!114 &114688399631402410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1380212263767052}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c32e4b851ebd8fa4ea0645b99be1cf97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boundGraphSerialization: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3302.389,"y":-3203.813},"zoomFactor":0.6558187,"nodes":[{"statement":{"_text":"Bonjour!\nSoyez
+    le bienvenu. Le directeur m''a demand\u00e9 de vous conduire a votre bureau."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5426.0,"y":4910.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|ShowPlayerTalking","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5833.507,"y":4983.324},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"availableChoices":[{"statement":{"_text":"Je
+    vous suis."}},{"statement":{"_text":"Je trouverais mon bureau tout seul. Merci!","_audio":1}}],"_actorName":"Vous","_actorParameterID":"3d461e4b-c28e-48d8-8329-6029de391c3a","_position":{"x":5512.0,"y":5054.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|ShowNPCTalking","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5389.153,"y":5190.162},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"15"},{"statement":{"_text":"Allons
+    \u00e0 votre bureau, par ici je vous prie."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5401.0,"y":5278.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"20"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|EndQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5615.128,"y":5349.333},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Je
+    vous verrais plus tard alors."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5838.319,"y":5170.631},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|CancelQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5861.828,"y":5333.766},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"15"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"15"},"_targetNode":{"$ref":"20"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"20"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Vous","_id":"3d461e4b-c28e-48d8-8329-6029de391c3a"},{"_keyName":"Secr\u00e9taire","_id":"8ed798ea-3997-4663-b672-c7182246264d","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  boundGraphObjectReferences:
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 7a171f3683021e3469ff07d82cef1fd1, type: 3}
+  - {fileID: 114036842884635548}
+  enableAction: 0
+  disableAction: 0
+  versionUpdateProxyGraph: {fileID: 0}
+  _graph: {fileID: 114092098365274684}
+  _blackboard: {fileID: 0}
 --- !u!124 &124580439750809864
 Behaviour:
   m_ObjectHideFlags: 1
@@ -1571,6 +1722,18 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1694815261480652}
   m_Enabled: 1
+--- !u!135 &135292649486663810
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1847104723561622}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!136 &136833127982687878
 CapsuleCollider:
   m_ObjectHideFlags: 1

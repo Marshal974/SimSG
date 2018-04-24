@@ -906,7 +906,7 @@ Prefab:
     - target: {fileID: 114624267823177742, guid: 84b288ad2ecaaaf4d93ee40b5d2f2161,
         type: 2}
       propertyPath: m_Text
-      value: Version - 0.2.0
+      value: Version - 0.2.1
       objectReference: {fileID: 0}
     - target: {fileID: 1720124781916060, guid: 84b288ad2ecaaaf4d93ee40b5d2f2161, type: 2}
       propertyPath: m_IsActive

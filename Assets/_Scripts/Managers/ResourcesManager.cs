@@ -8,6 +8,8 @@ public class ResourcesManager : MonoBehaviour
 
 	//Ce script gère les ressources du joueur : 
 
+	public static ResourcesManager instance;
+
 	#region variables public mais get et set.
 
 	public int agentsCount
@@ -91,6 +93,18 @@ public class ResourcesManager : MonoBehaviour
 
 	#endregion
 
+	void Awake()
+	{
+		if (instance == null) 
+		{
+			instance = this;
+		} else 
+		{
+			Debug.Log ("ya 2 resources managers!");
+			Destroy (gameObject);
+		}
+	}
+
 	void Start()
 	{
 		Invoke ("ChangeResourcesForTest", 1f);
@@ -98,10 +112,10 @@ public class ResourcesManager : MonoBehaviour
 
 	void ChangeResourcesForTest()
 	{
-		playerGold = 10000000;
-		socialClimate = 20;
+		playerGold = 70000000;
+		socialClimate = 40;
 		currentMonth = AllEnum.Months.april;
-		patientsCount = 40;
-		agentsCount = 25;
+		patientsCount = 754;
+		agentsCount = 1500;
 	}
 }

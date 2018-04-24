@@ -81,15 +81,23 @@ public class PlayerClickToMove : MonoBehaviour {
 			//					Cequetuveux= hit.transform;
 			//					Clicked = true;
 			//				}
-			if (hit.transform.gameObject.layer == LayerMask.NameToLayer ("UI")) 
-			{
-				return;
-			}
 	
 			walking = true;
-			navMeshAgent.destination = hit.point;
-			navMeshAgent.isStopped = false;
 			anim.SetBool ("IsWalking", walking);
+
+			if (hit.transform.gameObject.tag == "Interactable") {
+				if (Vector3.Distance (transform.position, hit.point) > 2) 
+				{
+					navMeshAgent.destination = hit.transform.GetComponent<InteractableObjectScript> ().playerDesiredPos.position;
+				} 
+				else 
+				{
+					hit.transform.GetComponent<InteractableObjectScript> ().activateThisObject ();
+				}
+			} else {
+				navMeshAgent.isStopped = false;
+				navMeshAgent.destination = hit.point;
+			}
 		}
 	}
 

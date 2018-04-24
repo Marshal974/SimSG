@@ -11,7 +11,7 @@ public class QuestTriggerActivator : MonoBehaviour
 	{
 		if (other.tag == "Player") 
 		{
-			QuestsManager.instance.StartNewQuest(AllEnum.allQuests.followMe);
+			QuestsManager.instance.StartNewQuest(questToStart);
 			Destroy (this);
 		}
 	}

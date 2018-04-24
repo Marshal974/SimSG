@@ -9,5 +9,5 @@ EditorBuildSettings:
     path: Assets/_Scenes/MainMenu.unity
     guid: 5a71272b376a50c4e820f081800593a2
   - enabled: 1
-    path: Assets/_Scenes/ModuleFinance/TestGround.unity
-    guid: c892ffd0815f1eb4a908195224625449
+    path: Assets/+ModuleFinance/Scenes/FinanceHospitalScene.unity
+    guid: d2eea352b8724b6429f857412df2eb7b
