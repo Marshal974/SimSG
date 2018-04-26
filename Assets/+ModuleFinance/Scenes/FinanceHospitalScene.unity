@@ -113,103 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 31348c41c9402e9409ee530ea8b730e7, type: 2}
---- !u!1001 &20941910
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -11.95
-      objectReference: {fileID: 0}
-    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 20681668797883798, guid: b58d2c54b9642e7448c8a4cca1a0bea4,
-        type: 2}
-      propertyPath: field of view
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721318606932706, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.9400195
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721318606932706, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 1.46
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721318606932706, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0.0005343406
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721318606932706, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0.9940603
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721318606932706, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0.10851144
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721318606932706, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.008314995
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721318606932706, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 12.459001
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721318606932706, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 179.037
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721318606932706, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.044000003
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721318606932706, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1.83
-      objectReference: {fileID: 0}
-    - target: {fileID: 114361447918157922, guid: b58d2c54b9642e7448c8a4cca1a0bea4,
-        type: 2}
-      propertyPath: _name
-      value: 'Vous:'
-      objectReference: {fileID: 0}
-    - target: {fileID: 114125130088155736, guid: b58d2c54b9642e7448c8a4cca1a0bea4,
-        type: 2}
-      propertyPath: interactableLayer.m_Bits
-      value: 768
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &51187572
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +249,71 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 56531516}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &61149739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1295729997584054, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 61149740}
+  m_Layer: 0
+  m_Name: PlayerDesiredPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 7707008975528953803, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &61149740
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4240590514233686, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 61149739}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.6, y: -0.499, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 100547335}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &61494315
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: QuestFinanceRoom
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-4763.788,"y":-5121.645},"nodes":[{"statement":{"_text":"Et
+    voici votre bureau. Souhaitez vous que je vous en dise un peu plus?"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5447.652,"y":5122.927},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"availableChoices":[{"statement":{"_text":"Parlez
+    moi de la biblioth\u00e8que juste l\u00e0."}},{"statement":{"_text":"Qui pourrait
+    bien appeler le bureau financier?"}},{"statement":{"_text":"Et l''ordinateur?
+    C''est pour les emails?"}},{"statement":{"_text":"Ca ira merci."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5490.428,"y":5258.906},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"4"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowLibraryInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5203.453,"y":5483.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"14"},{"statement":{"_text":"Utilisez
+    la biblioth\u00e8que si vous cherchez une information pr\u00e9cise. Comme une
+    d\u00e9finition par exemple!"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5098.286,"y":5578.739},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"19"},{"_targetNode":{"$ref":"4"},"_nodeColor":{"g":0.7254902,"b":0.9098039,"a":1.0},"_position":{"x":5709.755,"y":5829.886},"$type":"NodeCanvas.DialogueTrees.GoToNode","$id":"21"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowPhoneInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5650.453,"y":5484.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Le
+    directeur par exemple. Il m''a dit qu''il vous appelerez pour s''assurer que tout
+    va bien."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5539.087,"y":5579.589},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowComputerInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6112.197,"y":5480.875},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"},{"statement":{"_text":"Tout
+    a fait. Vous recevrez des emails vous demandant d''accomplir beaucoup pour notre
+    belle hopital."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5991.095,"y":5583.455},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"34"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|EndFinanceRoomQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6446.544,"y":5448.674},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"36"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"14"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"36"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"14"},"_targetNode":{"$ref":"19"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"19"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"22"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"29"},"_targetNode":{"$ref":"34"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"34"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":1},{"_keyName":"secretaire","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 650330075}
+  - {fileID: 1058861881}
+  _deserializationFailed: 0
+  _actorParameters:
+  - _keyName: player
+    _id: 485d77c8-fac8-4008-96be-f94e141e22ea
+    _actorObject: {fileID: 650330075}
+  - _keyName: secretaire
+    _id: fcf44d51-c21f-4895-9cd2-86c9fb8fbd58
+    _actorObject: {fileID: 1058861881}
 --- !u!1 &67400726
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,6 +399,96 @@ Transform:
   m_Father: {fileID: 1908450812}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &100547334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1171329357970834, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 100547335}
+  - component: {fileID: 100547340}
+  - component: {fileID: 100547337}
+  - component: {fileID: 100547336}
+  m_Layer: 9
+  m_Name: Library
+  m_TagString: Interactable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &100547335
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4206619208549490, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 100547334}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.3900003, y: 1.893, z: -3.08}
+  m_LocalScale: {x: 1.0000001, y: 2.2859244, z: 1.8373322}
+  m_Children:
+  - {fileID: 1001748060}
+  - {fileID: 61149740}
+  m_Father: {fileID: 1944406548}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &100547336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114154697751965224, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 100547334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ebfca73a17dc9f4f8e333852c8b5d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInteractable: 1
+  outliner: {fileID: 1001748062}
+  playerDesiredPos: {fileID: 61149740}
+  theActionToDoOnInteraction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 100547337}
+        m_MethodName: OpenGlossary
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &100547337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 100547334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ff524b3457ba748a48a6d78f5f286f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &100547340
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65826254434167018, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 100547334}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 1, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &110799543
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,6 +589,115 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 110799543}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &114188078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1941582257759806, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 114188079}
+  - component: {fileID: 114188082}
+  - component: {fileID: 114188081}
+  - component: {fileID: 114188080}
+  m_Layer: 0
+  m_Name: RoomCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &114188079
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4142509064863142, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 114188078}
+  m_LocalRotation: {x: 0.20277365, y: 0.79603267, z: -0.3780651, w: 0.42694464}
+  m_LocalPosition: {x: -2.4885216, y: 9.192997, z: 6.7624493}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1826176798}
+  m_Father: {fileID: 1944406548}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114188080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114179873716247218, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 114188078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78da3f00f3328541b4526c0b0b5ec5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineThickness: 1.25
+  lineIntensity: 0.5
+  fillAmount: 0.75
+  lineColor0: {r: 1, g: 0, b: 0, a: 1}
+  lineColor1: {r: 0, g: 1, b: 0, a: 1}
+  lineColor2: {r: 0, g: 0, b: 1, a: 1}
+  additiveRendering: 1
+  backfaceCulling: 1
+  cornerOutlines: 0
+  addLinesBetweenColors: 0
+  scaleWithScreenSize: 1
+  alphaCutoff: 0.5
+  flipY: 0
+  sourceCamera: {fileID: 114188082}
+  outlineCamera: {fileID: 1826176799}
+  outlineShaderMaterial: {fileID: 0}
+  renderTexture: {fileID: 930996978}
+  extraRenderTexture: {fileID: 1177799968}
+--- !u!124 &114188081
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 124030109173524092, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 114188078}
+  m_Enabled: 1
+--- !u!20 &114188082
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20532164263761262, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 114188078}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 4
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1 &131874830
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,7 +753,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 0
   m_RenderingPath: 1
-  m_TargetTexture: {fileID: 1477020235}
+  m_TargetTexture: {fileID: 1167785902}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -691,6 +858,94 @@ Transform:
   m_Father: {fileID: 1759428630}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1 &135790400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1495868072413328, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 135790401}
+  - component: {fileID: 135790407}
+  - component: {fileID: 135790406}
+  - component: {fileID: 135790408}
+  - component: {fileID: 135790402}
+  m_Layer: 9
+  m_Name: Phone
+  m_TagString: Interactable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &135790401
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4240596083031146, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 135790400}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.182, y: 1.394, z: -6.884}
+  m_LocalScale: {x: 0.5991732, y: 1, z: 0.34644848}
+  m_Children:
+  - {fileID: 2100490566}
+  - {fileID: 335437171}
+  m_Father: {fileID: 1944406548}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &135790402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114870883532096652, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 135790400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ebfca73a17dc9f4f8e333852c8b5d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInteractable: 1
+  outliner: {fileID: 2100490569}
+  playerDesiredPos: {fileID: 335437171}
+  theActionToDoOnInteraction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!65 &135790406
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65641323466724608, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 135790400}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 1, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &135790407
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33513949859196078, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 135790400}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &135790408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 135790400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efdce88da3a943f479faca2f4ccae753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &136351493 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1233932553828136, guid: 579a245a03df7414b84c3a73a384ecab,
@@ -733,8 +988,8 @@ MonoBehaviour:
   sourceCamera: {fileID: 136351497}
   outlineCamera: {fileID: 131874832}
   outlineShaderMaterial: {fileID: 0}
-  renderTexture: {fileID: 1477020235}
-  extraRenderTexture: {fileID: 294811044}
+  renderTexture: {fileID: 1167785902}
+  extraRenderTexture: {fileID: 1536706520}
 --- !u!1001 &148175747
 Prefab:
   m_ObjectHideFlags: 0
@@ -844,7 +1099,7 @@ Prefab:
     - target: {fileID: 223995091832868950, guid: 9adc61a21646fb54386fec1d2d55039b,
         type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1090168389286322, guid: 9adc61a21646fb54386fec1d2d55039b, type: 2}
       propertyPath: m_IsActive
@@ -863,6 +1118,15 @@ Prefab:
         type: 2}
       propertyPath: allPanelsToShowInOrder.Array.data[4]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114150540905463514, guid: 9adc61a21646fb54386fec1d2d55039b,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1170859935659016, guid: 9adc61a21646fb54386fec1d2d55039b, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9adc61a21646fb54386fec1d2d55039b, type: 2}
@@ -1293,37 +1557,6 @@ Transform:
   m_Father: {fileID: 939589909}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &243465515
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 499
-  m_Height: 281
-  m_AntiAliasing: 1
-  m_DepthFormat: 1
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &251937864
 GameObject:
   m_ObjectHideFlags: 0
@@ -1496,37 +1729,6 @@ Transform:
   m_Father: {fileID: 1040287801}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &294811044
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 499
-  m_Height: 280
-  m_AntiAliasing: 1
-  m_DepthFormat: 1
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!224 &298858839 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224126742777901454, guid: 9adc61a21646fb54386fec1d2d55039b,
@@ -1627,12 +1829,53 @@ GameObject:
   m_PrefabParentObject: {fileID: 1497659613826860, guid: 56150e28d01568e4883e6a59950088f9,
     type: 2}
   m_PrefabInternal: {fileID: 954380518}
---- !u!114 &336981719 stripped
+--- !u!1 &335437170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1854252301232314, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 335437171}
+  m_Layer: 0
+  m_Name: PlayerDesiredPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 7707008975528953803, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &335437171
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4687969287929822, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 335437170}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.63, z: 2.42}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 135790401}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &336981719
 MonoBehaviour:
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 114611199437328066, guid: e8a2525d452f9654e9df6e0a444e95c5,
     type: 2}
-  m_PrefabInternal: {fileID: 1788335192}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2093598070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8dec9d51594e6f24085693305900db8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueTree: {fileID: 2093598072}
+  specificCam: {fileID: 114188082}
+  phoneOutliner: {fileID: 2100490569}
+  libraryOutliner: {fileID: 1001748062}
+  computerOutliner: {fileID: 452745951}
 --- !u!1 &345277049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1690,12 +1933,36 @@ Transform:
   m_Father: {fileID: 308195867}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &363970305 stripped
+--- !u!114 &351890408
 MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114481920192272670, guid: 30ecb32cbb4ff0943898c7bedfafeb5e,
-    type: 2}
-  m_PrefabInternal: {fileID: 859756164}
-  m_Script: {fileID: 11500000, guid: cd11696f870b4364b949092400447f72, type: 3}
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: QuestFollowMeSomewhere
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3333.0,"y":-3271.0},"zoomFactor":0.6724293,"nodes":[{"statement":{"_text":"Bonjour!\nSoyez
+    le bienvenu. Le directeur m''a demand\u00e9 de vous conduire a votre bureau."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5426.0,"y":4910.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5833.507,"y":4983.324},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"availableChoices":[{"statement":{"_text":"Je
+    vous suis."}},{"statement":{"_text":"Je trouverais mon bureau tout seul. Merci!","_audio":1}}],"_actorName":"Vous","_actorParameterID":"3d461e4b-c28e-48d8-8329-6029de391c3a","_position":{"x":5512.0,"y":5054.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5389.153,"y":5190.162},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"15"},{"statement":{"_text":"Allons
+    \u00e0 votre bureau, par ici je vous prie."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5401.0,"y":5278.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"20"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|EndQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5615.128,"y":5349.333},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Je
+    vous verrais plus tard alors."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5895.319,"y":5191.631},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|CancelQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5861.828,"y":5333.766},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"15"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"15"},"_targetNode":{"$ref":"20"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"20"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Vous","_id":"3d461e4b-c28e-48d8-8329-6029de391c3a","_actorObject":2},{"_keyName":"Secr\u00e9taire","_id":"8ed798ea-3997-4663-b672-c7182246264d","_actorObject":3}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 7a171f3683021e3469ff07d82cef1fd1, type: 3}
+  - {fileID: 650330075}
+  - {fileID: 1058861881}
+  _deserializationFailed: 0
+  _actorParameters:
+  - _keyName: Vous
+    _id: 3d461e4b-c28e-48d8-8329-6029de391c3a
+    _actorObject: {fileID: 650330075}
+  - _keyName: "Secr\xE9taire"
+    _id: 8ed798ea-3997-4663-b672-c7182246264d
+    _actorObject: {fileID: 1058861881}
 --- !u!1 &367689715
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,6 +2347,141 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 428384470}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &452745948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1661939063243446, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 452745949}
+  - component: {fileID: 452745955}
+  - component: {fileID: 452745954}
+  - component: {fileID: 452745953}
+  - component: {fileID: 452745952}
+  - component: {fileID: 452745951}
+  - component: {fileID: 452745950}
+  m_Layer: 0
+  m_Name: ComputerVisual
+  m_TagString: Interactable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &452745949
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4518756623549824, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452745948}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1816552266}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &452745950
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 208141837853155212, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452745948}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!114 &452745951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114479566072786830, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452745948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 1
+  eraseRenderer: 0
+  originalLayer: 0
+  originalMaterials: []
+--- !u!23 &452745952
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23936382590375668, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452745948}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &452745953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452745948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f943845989f45304ab1b4ce02572a378, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &452745954
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65973415156634146, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452745948}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &452745955
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33720987582322668, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 452745948}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &460436627 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114378651726235164, guid: 579a245a03df7414b84c3a73a384ecab,
@@ -2728,51 +3130,16 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 613282100}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &626015874
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: QuestFinanceRoom
-  m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-4763.788,"y":-5121.645},"nodes":[{"statement":{"_text":"Et
-    voici votre bureau. Souhaitez vous que je vous en dise un peu plus?"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5447.652,"y":5122.927},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"availableChoices":[{"statement":{"_text":"Parlez
-    moi de la biblioth\u00e8que juste l\u00e0."}},{"statement":{"_text":"Qui pourrait
-    bien appeler le bureau financier?"}},{"statement":{"_text":"Et l''ordinateur?
-    C''est pour les emails?"}},{"statement":{"_text":"Ca ira merci."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5490.428,"y":5258.906},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"4"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowLibraryInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5203.453,"y":5483.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"14"},{"statement":{"_text":"Utilisez
-    la biblioth\u00e8que si vous cherchez une information pr\u00e9cise. Comme une
-    d\u00e9finition par exemple!"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5098.286,"y":5578.739},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"19"},{"_targetNode":{"$ref":"4"},"_nodeColor":{"g":0.7254902,"b":0.9098039,"a":1.0},"_position":{"x":5709.755,"y":5829.886},"$type":"NodeCanvas.DialogueTrees.GoToNode","$id":"21"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowPhoneInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5650.453,"y":5484.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Le
-    directeur par exemple. Il m''a dit qu''il vous appelerez pour s''assurer que tout
-    va bien."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5539.087,"y":5579.589},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowComputerInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6112.197,"y":5480.875},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"},{"statement":{"_text":"Tout
-    a fait. Vous recevrez des emails vous demandant d''accomplir beaucoup pour notre
-    belle hopital."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5991.095,"y":5583.455},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"34"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|EndFinanceRoomQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6446.544,"y":5448.674},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"36"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"14"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"36"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"14"},"_targetNode":{"$ref":"19"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"19"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"22"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"29"},"_targetNode":{"$ref":"34"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"34"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":1},{"_keyName":"secretaire","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-  _objectReferences:
-  - {fileID: 0}
-  - {fileID: 650330075}
-  - {fileID: 1058861881}
-  _deserializationFailed: 0
-  _actorParameters:
-  - _keyName: player
-    _id: 485d77c8-fac8-4008-96be-f94e141e22ea
-    _actorObject: {fileID: 650330075}
-  - _keyName: secretaire
-    _id: fcf44d51-c21f-4895-9cd2-86c9fb8fbd58
-    _actorObject: {fileID: 1058861881}
 --- !u!1 &650330071 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1718350995064642, guid: b58d2c54b9642e7448c8a4cca1a0bea4,
     type: 2}
-  m_PrefabInternal: {fileID: 20941910}
+  m_PrefabInternal: {fileID: 1120540100}
 --- !u!114 &650330075 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114361447918157922, guid: b58d2c54b9642e7448c8a4cca1a0bea4,
     type: 2}
-  m_PrefabInternal: {fileID: 20941910}
+  m_PrefabInternal: {fileID: 1120540100}
   m_Script: {fileID: 11500000, guid: 3d71fb7c52372e244baf2e69a9d0d116, type: 3}
 --- !u!1 &668019080
 GameObject:
@@ -4234,6 +4601,37 @@ Transform:
   m_Father: {fileID: 1390668382}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &930996978
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 628
+  m_Height: 353
+  m_AntiAliasing: 1
+  m_DepthFormat: 1
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 0
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &933614299
 GameObject:
   m_ObjectHideFlags: 0
@@ -4658,11 +5056,11 @@ Prefab:
     - target: {fileID: 114688399631402410, guid: 56150e28d01568e4883e6a59950088f9,
         type: 2}
       propertyPath: boundGraphSerialization
-      value: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3302.389,"y":-3203.813},"zoomFactor":0.6558187,"nodes":[{"statement":{"_text":"Bonjour!\nSoyez
-        le bienvenu. Le directeur m''a demand\u00e9 de vous conduire a votre bureau."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5426.0,"y":4910.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|ShowPlayerTalking","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5833.507,"y":4983.324},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"availableChoices":[{"statement":{"_text":"Je
-        vous suis."}},{"statement":{"_text":"Je trouverais mon bureau tout seul. Merci!","_audio":1}}],"_actorName":"Vous","_actorParameterID":"3d461e4b-c28e-48d8-8329-6029de391c3a","_position":{"x":5512.0,"y":5054.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|ShowNPCTalking","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5389.153,"y":5190.162},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"15"},{"statement":{"_text":"Allons
+      value: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3333.0,"y":-3271.0},"zoomFactor":0.6724293,"nodes":[{"statement":{"_text":"Bonjour!\nSoyez
+        le bienvenu. Le directeur m''a demand\u00e9 de vous conduire a votre bureau."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5426.0,"y":4910.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5833.507,"y":4983.324},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"availableChoices":[{"statement":{"_text":"Je
+        vous suis."}},{"statement":{"_text":"Je trouverais mon bureau tout seul. Merci!","_audio":1}}],"_actorName":"Vous","_actorParameterID":"3d461e4b-c28e-48d8-8329-6029de391c3a","_position":{"x":5512.0,"y":5054.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5389.153,"y":5190.162},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"15"},{"statement":{"_text":"Allons
         \u00e0 votre bureau, par ici je vous prie."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5401.0,"y":5278.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"20"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|EndQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5615.128,"y":5349.333},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Je
-        vous verrais plus tard alors."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5838.319,"y":5170.631},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|CancelQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5861.828,"y":5333.766},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"15"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"15"},"_targetNode":{"$ref":"20"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"20"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+        vous verrais plus tard alors."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5895.319,"y":5191.631},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|CancelQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5861.828,"y":5333.766},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"15"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"15"},"_targetNode":{"$ref":"20"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"20"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
         Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Vous","_id":"3d461e4b-c28e-48d8-8329-6029de391c3a","_actorObject":2},{"_keyName":"Secr\u00e9taire","_id":"8ed798ea-3997-4663-b672-c7182246264d","_actorObject":3}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 114688399631402410, guid: 56150e28d01568e4883e6a59950088f9,
@@ -4679,32 +5077,12 @@ Prefab:
         type: 2}
       propertyPath: _graph
       value: 
-      objectReference: {fileID: 1121228337}
+      objectReference: {fileID: 351890408}
     - target: {fileID: 114172505635332040, guid: 56150e28d01568e4883e6a59950088f9,
         type: 2}
       propertyPath: placeToGoTo
       value: 
-      objectReference: {fileID: 1481391457}
-    - target: {fileID: 4795353058068646, guid: 56150e28d01568e4883e6a59950088f9, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4795353058068646, guid: 56150e28d01568e4883e6a59950088f9, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 4795353058068646, guid: 56150e28d01568e4883e6a59950088f9, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4795353058068646, guid: 56150e28d01568e4883e6a59950088f9, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -0.34
-      objectReference: {fileID: 0}
-    - target: {fileID: 4795353058068646, guid: 56150e28d01568e4883e6a59950088f9, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1944406548}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 56150e28d01568e4883e6a59950088f9, type: 2}
   m_IsPrefabParent: 0
@@ -4869,6 +5247,129 @@ Transform:
   m_Father: {fileID: 536998606}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1001748059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1171329357970834, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1001748060}
+  - component: {fileID: 1001748065}
+  - component: {fileID: 1001748064}
+  - component: {fileID: 1001748063}
+  - component: {fileID: 1001748062}
+  - component: {fileID: 1001748061}
+  m_Layer: 0
+  m_Name: LibraryVisual
+  m_TagString: Interactable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &1001748060
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4206619208549490, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1001748059}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 100547335}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &1001748061
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 208534830815009170, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1001748059}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!114 &1001748062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114668388904642400, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1001748059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 1
+  eraseRenderer: 0
+  originalLayer: 0
+  originalMaterials: []
+--- !u!23 &1001748063
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23312800870678494, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1001748059}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1001748064
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65826254434167018, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1001748059}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1001748065
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33823278088923648, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1001748059}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1009055678
 GameObject:
   m_ObjectHideFlags: 0
@@ -5019,36 +5520,6 @@ TrailRenderer:
     generateLightingData: 0
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
---- !u!114 &1017312422
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: QuestFollowMeSomewhere
-  m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3302.389,"y":-3203.813},"zoomFactor":0.6558187,"nodes":[{"statement":{"_text":"Bonjour!\nSoyez
-    le bienvenu. Le directeur m''a demand\u00e9 de vous conduire a votre bureau."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5426.0,"y":4910.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|ShowPlayerTalking","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5833.507,"y":4983.324},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"availableChoices":[{"statement":{"_text":"Je
-    vous suis."}},{"statement":{"_text":"Je trouverais mon bureau tout seul. Merci!","_audio":1}}],"_actorName":"Vous","_actorParameterID":"3d461e4b-c28e-48d8-8329-6029de391c3a","_position":{"x":5512.0,"y":5054.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|ShowNPCTalking","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5389.153,"y":5190.162},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"15"},{"statement":{"_text":"Allons
-    \u00e0 votre bureau, par ici je vous prie."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5401.0,"y":5278.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"20"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|EndQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5615.128,"y":5349.333},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Je
-    vous verrais plus tard alors."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5838.319,"y":5170.631},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|CancelQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5861.828,"y":5333.766},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"15"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"15"},"_targetNode":{"$ref":"20"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"20"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Vous","_id":"3d461e4b-c28e-48d8-8329-6029de391c3a","_actorObject":2},{"_keyName":"Secr\u00e9taire","_id":"8ed798ea-3997-4663-b672-c7182246264d","_actorObject":3}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-  _objectReferences:
-  - {fileID: 0}
-  - {fileID: 8300000, guid: 7a171f3683021e3469ff07d82cef1fd1, type: 3}
-  - {fileID: 650330075}
-  - {fileID: 1058861881}
-  _deserializationFailed: 0
-  _actorParameters:
-  - _keyName: Vous
-    _id: 3d461e4b-c28e-48d8-8329-6029de391c3a
-    _actorObject: {fileID: 650330075}
-  - _keyName: "Secr\xE9taire"
-    _id: 8ed798ea-3997-4663-b672-c7182246264d
-    _actorObject: {fileID: 1058861881}
 --- !u!1 &1040287800
 GameObject:
   m_ObjectHideFlags: 0
@@ -5080,37 +5551,6 @@ Transform:
   m_Father: {fileID: 237500248}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &1042519358
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 499
-  m_Height: 281
-  m_AntiAliasing: 1
-  m_DepthFormat: 1
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &1054600221
 GameObject:
   m_ObjectHideFlags: 0
@@ -5146,41 +5586,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 954380518}
   m_Script: {fileID: 11500000, guid: 3d71fb7c52372e244baf2e69a9d0d116, type: 3}
---- !u!114 &1063319906
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: QuestFinanceRoom
-  m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-4763.788,"y":-5121.645},"nodes":[{"statement":{"_text":"Et
-    voici votre bureau. Souhaitez vous que je vous en dise un peu plus?"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5447.652,"y":5122.927},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"availableChoices":[{"statement":{"_text":"Parlez
-    moi de la biblioth\u00e8que juste l\u00e0."}},{"statement":{"_text":"Qui pourrait
-    bien appeler le bureau financier?"}},{"statement":{"_text":"Et l''ordinateur?
-    C''est pour les emails?"}},{"statement":{"_text":"Ca ira merci."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5490.428,"y":5258.906},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"4"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowLibraryInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5203.453,"y":5483.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"14"},{"statement":{"_text":"Utilisez
-    la biblioth\u00e8que si vous cherchez une information pr\u00e9cise. Comme une
-    d\u00e9finition par exemple!"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5098.286,"y":5578.739},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"19"},{"_targetNode":{"$ref":"4"},"_nodeColor":{"g":0.7254902,"b":0.9098039,"a":1.0},"_position":{"x":5709.755,"y":5829.886},"$type":"NodeCanvas.DialogueTrees.GoToNode","$id":"21"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowPhoneInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5650.453,"y":5484.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Le
-    directeur par exemple. Il m''a dit qu''il vous appelerez pour s''assurer que tout
-    va bien."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5539.087,"y":5579.589},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowComputerInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6112.197,"y":5480.875},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"},{"statement":{"_text":"Tout
-    a fait. Vous recevrez des emails vous demandant d''accomplir beaucoup pour notre
-    belle hopital."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5991.095,"y":5583.455},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"34"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|EndFinanceRoomQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6446.544,"y":5448.674},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"36"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"14"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"36"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"14"},"_targetNode":{"$ref":"19"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"19"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"22"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"29"},"_targetNode":{"$ref":"34"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"34"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":1},{"_keyName":"secretaire","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-  _objectReferences:
-  - {fileID: 0}
-  - {fileID: 650330075}
-  - {fileID: 1058861881}
-  _deserializationFailed: 0
-  _actorParameters:
-  - _keyName: player
-    _id: 485d77c8-fac8-4008-96be-f94e141e22ea
-    _actorObject: {fileID: 650330075}
-  - _keyName: secretaire
-    _id: fcf44d51-c21f-4895-9cd2-86c9fb8fbd58
-    _actorObject: {fileID: 1058861881}
 --- !u!1 &1070066747
 GameObject:
   m_ObjectHideFlags: 0
@@ -5210,36 +5615,76 @@ Transform:
   m_Father: {fileID: 482105732}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1121228337
+--- !u!1 &1086342060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1407822088816274, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1944406548}
+  - component: {fileID: 1086342061}
+  m_Layer: 0
+  m_Name: FinanceOfficeRoom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1086342061
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1086342060}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: QuestFollowMeSomewhere
+  m_Script: {fileID: 11500000, guid: 7860d0f783abee445b78a5dc4719366b, type: 3}
+  m_Name: 
   m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3302.389,"y":-3203.813},"zoomFactor":0.6558187,"nodes":[{"statement":{"_text":"Bonjour!\nSoyez
-    le bienvenu. Le directeur m''a demand\u00e9 de vous conduire a votre bureau."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5426.0,"y":4910.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|ShowPlayerTalking","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5833.507,"y":4983.324},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"availableChoices":[{"statement":{"_text":"Je
-    vous suis."}},{"statement":{"_text":"Je trouverais mon bureau tout seul. Merci!","_audio":1}}],"_actorName":"Vous","_actorParameterID":"3d461e4b-c28e-48d8-8329-6029de391c3a","_position":{"x":5512.0,"y":5054.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|ShowNPCTalking","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5389.153,"y":5190.162},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"15"},{"statement":{"_text":"Allons
-    \u00e0 votre bureau, par ici je vous prie."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5401.0,"y":5278.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"20"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|EndQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5615.128,"y":5349.333},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Je
-    vous verrais plus tard alors."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5838.319,"y":5170.631},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|CancelQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5861.828,"y":5333.766},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"15"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"15"},"_targetNode":{"$ref":"20"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"20"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Vous","_id":"3d461e4b-c28e-48d8-8329-6029de391c3a","_actorObject":2},{"_keyName":"Secr\u00e9taire","_id":"8ed798ea-3997-4663-b672-c7182246264d","_actorObject":3}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-  _objectReferences:
-  - {fileID: 0}
-  - {fileID: 8300000, guid: 7a171f3683021e3469ff07d82cef1fd1, type: 3}
-  - {fileID: 650330075}
-  - {fileID: 1058861881}
-  _deserializationFailed: 0
-  _actorParameters:
-  - _keyName: Vous
-    _id: 3d461e4b-c28e-48d8-8329-6029de391c3a
-    _actorObject: {fileID: 650330075}
-  - _keyName: "Secr\xE9taire"
-    _id: 8ed798ea-3997-4663-b672-c7182246264d
-    _actorObject: {fileID: 1058861881}
+--- !u!1001 &1120540100
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -11.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027343315683560, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: b58d2c54b9642e7448c8a4cca1a0bea4, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1127424687
 GameObject:
   m_ObjectHideFlags: 0
@@ -5565,6 +6010,37 @@ Transform:
   m_Father: {fileID: 848556187}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &1167785902
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 627
+  m_Height: 353
+  m_AntiAliasing: 1
+  m_DepthFormat: 1
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 0
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &1175166544
 GameObject:
   m_ObjectHideFlags: 0
@@ -5594,6 +6070,37 @@ Transform:
   m_Father: {fileID: 1040287801}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &1177799968
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 628
+  m_Height: 353
+  m_AntiAliasing: 1
+  m_DepthFormat: 1
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &1218438071
 GameObject:
   m_ObjectHideFlags: 0
@@ -5829,12 +6336,12 @@ Prefab:
     - target: {fileID: 224752601233580796, guid: 31f699bdb45a3bc49bfa8e9159d1ab00,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 59.80005
+      value: 59.799805
       objectReference: {fileID: 0}
     - target: {fileID: 224530322295252292, guid: 31f699bdb45a3bc49bfa8e9159d1ab00,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -19.550049
+      value: -19.549805
       objectReference: {fileID: 0}
     - target: {fileID: 224744342513995812, guid: 31f699bdb45a3bc49bfa8e9159d1ab00,
         type: 2}
@@ -6302,6 +6809,36 @@ Transform:
   m_LocalScale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 1984929837}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1327369424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1042293008763736, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1327369425}
+  m_Layer: 0
+  m_Name: PlayerDesiredPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 7707008975528953803, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1327369425
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4107374036819784, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1327369424}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -1.54, y: -0.5, z: 0.07}
+  m_LocalScale: {x: 1.9104314, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1816552266}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1337007904
@@ -6913,37 +7450,7 @@ MonoBehaviour:
   helpUI: {fileID: 0}
   playerResourcesUI: {fileID: 0}
   welcomeInModuleUI: {fileID: 0}
---- !u!84 &1477020235
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 499
-  m_Height: 280
-  m_AntiAliasing: 1
-  m_DepthFormat: 1
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 0
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
+  allCanvases: []
 --- !u!1 &1478196512
 GameObject:
   m_ObjectHideFlags: 0
@@ -7002,11 +7509,109 @@ Transform:
   m_Father: {fileID: 305918106}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1481391457 stripped
+--- !u!4 &1481391457
 Transform:
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4872154136296502, guid: e8a2525d452f9654e9df6e0a444e95c5,
     type: 2}
-  m_PrefabInternal: {fileID: 1788335192}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1498228885}
+  m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
+  m_LocalPosition: {x: 2.482, y: 0, z: 0}
+  m_LocalScale: {x: 14.235573, y: 4, z: 10.807093}
+  m_Children: []
+  m_Father: {fileID: 1944406548}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
+--- !u!1 &1498228885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1931456074991696, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1481391457}
+  - component: {fileID: 1498228889}
+  - component: {fileID: 1498228888}
+  - component: {fileID: 1498228887}
+  - component: {fileID: 1498228886}
+  m_Layer: 0
+  m_Name: RoomAreaDetection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1498228886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114767158694204300, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1498228885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5548f504f1f294f4281ce19e9464afb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questToStart: 1
+--- !u!23 &1498228887
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23581030513987954, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1498228885}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dadb3cfe3b0496a45a1f144381300199, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1498228888
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65620046590689798, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1498228885}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1498228889
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33215109659575818, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1498228885}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1510202294
 GameObject:
   m_ObjectHideFlags: 0
@@ -7114,6 +7719,67 @@ Transform:
   m_Father: {fileID: 1224984602}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &1536706520
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 627
+  m_Height: 353
+  m_AntiAliasing: 1
+  m_DepthFormat: 1
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+--- !u!114 &1537786803
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: QuestFollowMeSomewhere
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3333.0,"y":-3271.0},"zoomFactor":0.6724293,"nodes":[{"statement":{"_text":"Bonjour!\nSoyez
+    le bienvenu. Le directeur m''a demand\u00e9 de vous conduire a votre bureau."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5426.0,"y":4910.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5833.507,"y":4983.324},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"availableChoices":[{"statement":{"_text":"Je
+    vous suis."}},{"statement":{"_text":"Je trouverais mon bureau tout seul. Merci!","_audio":1}}],"_actorName":"Vous","_actorParameterID":"3d461e4b-c28e-48d8-8329-6029de391c3a","_position":{"x":5512.0,"y":5054.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5389.153,"y":5190.162},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"15"},{"statement":{"_text":"Allons
+    \u00e0 votre bureau, par ici je vous prie."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5401.0,"y":5278.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"20"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|EndQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5615.128,"y":5349.333},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Je
+    vous verrais plus tard alors."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5895.319,"y":5191.631},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|CancelQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5861.828,"y":5333.766},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"15"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"15"},"_targetNode":{"$ref":"20"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"20"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Vous","_id":"3d461e4b-c28e-48d8-8329-6029de391c3a","_actorObject":2},{"_keyName":"Secr\u00e9taire","_id":"8ed798ea-3997-4663-b672-c7182246264d","_actorObject":3}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 7a171f3683021e3469ff07d82cef1fd1, type: 3}
+  - {fileID: 650330075}
+  - {fileID: 1058861881}
+  _deserializationFailed: 0
+  _actorParameters:
+  - _keyName: Vous
+    _id: 3d461e4b-c28e-48d8-8329-6029de391c3a
+    _actorObject: {fileID: 650330075}
+  - _keyName: "Secr\xE9taire"
+    _id: 8ed798ea-3997-4663-b672-c7182246264d
+    _actorObject: {fileID: 1058861881}
 --- !u!1 &1559923833
 GameObject:
   m_ObjectHideFlags: 0
@@ -7273,37 +7939,6 @@ Transform:
   m_Father: {fileID: 1524698792}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &1630282572
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 499
-  m_Height: 281
-  m_AntiAliasing: 1
-  m_DepthFormat: 1
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 0
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &1638926817
 GameObject:
   m_ObjectHideFlags: 0
@@ -7740,109 +8375,6 @@ Transform:
   m_Father: {fileID: 1861787608}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1788335192
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1948075031}
-    m_Modifications:
-    - target: {fileID: 114802976911156108, guid: e8a2525d452f9654e9df6e0a444e95c5,
-        type: 2}
-      propertyPath: boundGraphObjectReferences.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4948972607862946, guid: e8a2525d452f9654e9df6e0a444e95c5, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 5.113
-      objectReference: {fileID: 0}
-    - target: {fileID: 4948972607862946, guid: e8a2525d452f9654e9df6e0a444e95c5, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 4948972607862946, guid: e8a2525d452f9654e9df6e0a444e95c5, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -21.418
-      objectReference: {fileID: 0}
-    - target: {fileID: 4948972607862946, guid: e8a2525d452f9654e9df6e0a444e95c5, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4948972607862946, guid: e8a2525d452f9654e9df6e0a444e95c5, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4948972607862946, guid: e8a2525d452f9654e9df6e0a444e95c5, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4948972607862946, guid: e8a2525d452f9654e9df6e0a444e95c5, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4948972607862946, guid: e8a2525d452f9654e9df6e0a444e95c5, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114154697751965224, guid: e8a2525d452f9654e9df6e0a444e95c5,
-        type: 2}
-      propertyPath: theActionToDoOnInteraction.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 363970305}
-    - target: {fileID: 114179873716247218, guid: e8a2525d452f9654e9df6e0a444e95c5,
-        type: 2}
-      propertyPath: outlineShaderMaterial
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114179873716247218, guid: e8a2525d452f9654e9df6e0a444e95c5,
-        type: 2}
-      propertyPath: renderTexture
-      value: 
-      objectReference: {fileID: 1630282572}
-    - target: {fileID: 114179873716247218, guid: e8a2525d452f9654e9df6e0a444e95c5,
-        type: 2}
-      propertyPath: extraRenderTexture
-      value: 
-      objectReference: {fileID: 1042519358}
-    - target: {fileID: 114802976911156108, guid: e8a2525d452f9654e9df6e0a444e95c5,
-        type: 2}
-      propertyPath: boundGraphSerialization
-      value: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-4763.788,"y":-5121.645},"nodes":[{"statement":{"_text":"Et
-        voici votre bureau. Souhaitez vous que je vous en dise un peu plus?"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5447.652,"y":5122.927},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"availableChoices":[{"statement":{"_text":"Parlez
-        moi de la biblioth\u00e8que juste l\u00e0."}},{"statement":{"_text":"Qui pourrait
-        bien appeler le bureau financier?"}},{"statement":{"_text":"Et l''ordinateur?
-        C''est pour les emails?"}},{"statement":{"_text":"Ca ira merci."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5490.428,"y":5258.906},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"4"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowLibraryInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5203.453,"y":5483.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"14"},{"statement":{"_text":"Utilisez
-        la biblioth\u00e8que si vous cherchez une information pr\u00e9cise. Comme
-        une d\u00e9finition par exemple!"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5098.286,"y":5578.739},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"19"},{"_targetNode":{"$ref":"4"},"_nodeColor":{"g":0.7254902,"b":0.9098039,"a":1.0},"_position":{"x":5709.755,"y":5829.886},"$type":"NodeCanvas.DialogueTrees.GoToNode","$id":"21"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowPhoneInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5650.453,"y":5484.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Le
-        directeur par exemple. Il m''a dit qu''il vous appelerez pour s''assurer que
-        tout va bien."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5539.087,"y":5579.589},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowComputerInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6112.197,"y":5480.875},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"},{"statement":{"_text":"Tout
-        a fait. Vous recevrez des emails vous demandant d''accomplir beaucoup pour
-        notre belle hopital."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5991.095,"y":5583.455},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"34"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|EndFinanceRoomQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6446.544,"y":5448.674},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"36"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"14"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"36"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"14"},"_targetNode":{"$ref":"19"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"19"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"22"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"29"},"_targetNode":{"$ref":"34"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"34"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-        Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":1},{"_keyName":"secretaire","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 114802976911156108, guid: e8a2525d452f9654e9df6e0a444e95c5,
-        type: 2}
-      propertyPath: boundGraphObjectReferences.Array.data[1]
-      value: 
-      objectReference: {fileID: 650330075}
-    - target: {fileID: 114802976911156108, guid: e8a2525d452f9654e9df6e0a444e95c5,
-        type: 2}
-      propertyPath: boundGraphObjectReferences.Array.data[2]
-      value: 
-      objectReference: {fileID: 1058861881}
-    - target: {fileID: 114802976911156108, guid: e8a2525d452f9654e9df6e0a444e95c5,
-        type: 2}
-      propertyPath: _graph
-      value: 
-      objectReference: {fileID: 1063319906}
-    - target: {fileID: 20540254469680628, guid: e8a2525d452f9654e9df6e0a444e95c5,
-        type: 2}
-      propertyPath: m_TargetTexture
-      value: 
-      objectReference: {fileID: 1808525227}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e8a2525d452f9654e9df6e0a444e95c5, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1792462542
 GameObject:
   m_ObjectHideFlags: 0
@@ -7872,37 +8404,6 @@ Transform:
   m_Father: {fileID: 1524698792}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &1808525227
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 499
-  m_Height: 281
-  m_AntiAliasing: 1
-  m_DepthFormat: 1
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 0
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &1811569809
 GameObject:
   m_ObjectHideFlags: 0
@@ -7932,6 +8433,162 @@ Transform:
   m_Father: {fileID: 1390668382}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1816552265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1661939063243446, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1816552266}
+  - component: {fileID: 1816552272}
+  - component: {fileID: 1816552271}
+  - component: {fileID: 1816552273}
+  - component: {fileID: 1816552267}
+  m_Layer: 9
+  m_Name: Computer
+  m_TagString: Interactable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &1816552266
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4518756623549824, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1816552265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.39, y: 1.25, z: 2.92}
+  m_LocalScale: {x: 1, y: 1, z: 0.52344227}
+  m_Children:
+  - {fileID: 452745949}
+  - {fileID: 1327369425}
+  m_Father: {fileID: 1944406548}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1816552267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114190147840382940, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1816552265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ebfca73a17dc9f4f8e333852c8b5d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInteractable: 1
+  outliner: {fileID: 452745951}
+  playerDesiredPos: {fileID: 1327369425}
+  theActionToDoOnInteraction:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!65 &1816552271
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65973415156634146, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1816552265}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 1, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1816552272
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33720987582322668, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1816552265}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1816552273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1816552265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f943845989f45304ab1b4ce02572a378, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1826176797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1549481465148050, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1826176798}
+  - component: {fileID: 1826176799}
+  m_Layer: 0
+  m_Name: Outline Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1826176798
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4743567750908116, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1826176797}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 114188079}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &1826176799
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20540254469680628, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1826176797}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 4
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_RenderingPath: 1
+  m_TargetTexture: {fileID: 930996978}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1 &1827099800
 GameObject:
   m_ObjectHideFlags: 0
@@ -8248,11 +8905,26 @@ Transform:
   m_Father: {fileID: 1628658689}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1944406548 stripped
+--- !u!4 &1944406548
 Transform:
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 4948972607862946, guid: e8a2525d452f9654e9df6e0a444e95c5,
     type: 2}
-  m_PrefabInternal: {fileID: 1788335192}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1086342060}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.113, y: -0.75, z: -21.418}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2093598071}
+  - {fileID: 1481391457}
+  - {fileID: 114188079}
+  - {fileID: 1816552266}
+  - {fileID: 100547335}
+  - {fileID: 135790401}
+  m_Father: {fileID: 1948075031}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1944946798
 GameObject:
   m_ObjectHideFlags: 0
@@ -8819,6 +9491,206 @@ Transform:
   m_Father: {fileID: 67400727}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2093598070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1409148808345862, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2093598071}
+  - component: {fileID: 2093598072}
+  - component: {fileID: 336981719}
+  m_Layer: 0
+  m_Name: QuestFinanceRoom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2093598071
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4393856486785818, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2093598070}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.113, y: 0.75, z: 21.418}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1944406548}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2093598072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114802976911156108, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2093598070}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c32e4b851ebd8fa4ea0645b99be1cf97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boundGraphSerialization: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-4763.788,"y":-5121.645},"nodes":[{"statement":{"_text":"Et
+    voici votre bureau. Souhaitez vous que je vous en dise un peu plus?"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5447.652,"y":5122.927},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"availableChoices":[{"statement":{"_text":"Parlez
+    moi de la biblioth\u00e8que juste l\u00e0."}},{"statement":{"_text":"Qui pourrait
+    bien appeler le bureau financier?"}},{"statement":{"_text":"Et l''ordinateur?
+    C''est pour les emails?"}},{"statement":{"_text":"Ca ira merci."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5490.428,"y":5258.906},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"4"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowLibraryInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5203.453,"y":5483.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"14"},{"statement":{"_text":"Utilisez
+    la biblioth\u00e8que si vous cherchez une information pr\u00e9cise. Comme une
+    d\u00e9finition par exemple!"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5098.286,"y":5578.739},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"19"},{"_targetNode":{"$ref":"4"},"_nodeColor":{"g":0.7254902,"b":0.9098039,"a":1.0},"_position":{"x":5709.755,"y":5829.886},"$type":"NodeCanvas.DialogueTrees.GoToNode","$id":"21"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowPhoneInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5650.453,"y":5484.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Le
+    directeur par exemple. Il m''a dit qu''il vous appelerez pour s''assurer que tout
+    va bien."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5539.087,"y":5579.589},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowComputerInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6112.197,"y":5480.875},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"},{"statement":{"_text":"Tout
+    a fait. Vous recevrez des emails vous demandant d''accomplir beaucoup pour notre
+    belle hopital."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5991.095,"y":5583.455},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"34"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|EndFinanceRoomQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6446.544,"y":5448.674},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"36"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"14"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"36"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"14"},"_targetNode":{"$ref":"19"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"19"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"22"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"29"},"_targetNode":{"$ref":"34"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"34"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":1},{"_keyName":"secretaire","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  boundGraphObjectReferences:
+  - {fileID: 0}
+  - {fileID: 650330075}
+  - {fileID: 1058861881}
+  enableAction: 0
+  disableAction: 0
+  versionUpdateProxyGraph: {fileID: 0}
+  _graph: {fileID: 61494315}
+  _blackboard: {fileID: 0}
+--- !u!1 &2100490565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1495868072413328, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2100490566}
+  - component: {fileID: 2100490573}
+  - component: {fileID: 2100490572}
+  - component: {fileID: 2100490571}
+  - component: {fileID: 2100490570}
+  - component: {fileID: 2100490569}
+  - component: {fileID: 2100490568}
+  m_Layer: 0
+  m_Name: PhoneVisual
+  m_TagString: Interactable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 8
+  m_IsActive: 1
+--- !u!4 &2100490566
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4240596083031146, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2100490565}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 135790401}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &2100490568
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 208453533107729802, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2100490565}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!114 &2100490569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114266642783038420, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2100490565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 1
+  eraseRenderer: 0
+  originalLayer: 0
+  originalMaterials: []
+--- !u!114 &2100490570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2100490565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efdce88da3a943f479faca2f4ccae753, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &2100490571
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23438690549617918, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2100490565}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &2100490572
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 65641323466724608, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2100490565}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &2100490573
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33513949859196078, guid: e8a2525d452f9654e9df6e0a444e95c5,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2100490565}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &2102679182
 GameObject:
   m_ObjectHideFlags: 0

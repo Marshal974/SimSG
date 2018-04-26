@@ -653,6 +653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInteractable: 1
+  outliner: {fileID: 0}
   playerDesiredPos: {fileID: 4240590514233686}
   theActionToDoOnInteraction:
     m_PersistentCalls:
@@ -711,6 +712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInteractable: 1
+  outliner: {fileID: 0}
   playerDesiredPos: {fileID: 4107374036819784}
   theActionToDoOnInteraction:
     m_PersistentCalls:
@@ -726,7 +728,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: QuestFinanceRoom
+  m_Name: QuestFinanceRoom(SubAsset)
   m_EditorClassIdentifier: 
   _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-4763.788,"y":-5121.645},"nodes":[{"statement":{"_text":"Et
     voici votre bureau. Souhaitez vous que je vous en dise un peu plus?"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5447.652,"y":5122.927},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"availableChoices":[{"statement":{"_text":"Parlez
@@ -790,11 +792,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dec9d51594e6f24085693305900db8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  financeRoomCam: {fileID: 20532164263761262}
+  dialogueTree: {fileID: 0}
+  specificCam: {fileID: 0}
   phoneOutliner: {fileID: 114266642783038420}
   libraryOutliner: {fileID: 114668388904642400}
   computerOutliner: {fileID: 114479566072786830}
-  dialogueTreeController: {fileID: 114802976911156108}
 --- !u!114 &114668388904642400
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -863,6 +865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInteractable: 1
+  outliner: {fileID: 0}
   playerDesiredPos: {fileID: 4687969287929822}
   theActionToDoOnInteraction:
     m_PersistentCalls:

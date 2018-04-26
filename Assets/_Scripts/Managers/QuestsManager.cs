@@ -30,6 +30,7 @@ public class QuestsManager : MonoBehaviour
 	/// <param name="questToStart">Quest to start.</param>
 	public void StartNewQuest(AllEnum.allQuests questToStart)
 	{
+		ModuleUIManager.instance.HideAllUI ();
 		switch (questToStart) 
 		{
 		case AllEnum.allQuests.followMe:
@@ -39,9 +40,18 @@ public class QuestsManager : MonoBehaviour
 			explainFinanceRoomQuest.Invoke ();
 			break;
 		default:
+			ModuleUIManager.instance.ShowAllUI ();
+
 			Debug.Log ("tu essai de lancer une quête non référencer j'imagine?");
 			break;
 		}
+	}
+
+	//A appelé a la fin de chaque quête pour démarrer les events généraux.
+	public void EndCurrentQuest()
+	{
+		ModuleUIManager.instance.ShowAllUI ();
+
 	}
 
 	/// <summary>

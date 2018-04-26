@@ -32,6 +32,7 @@ public class InGameOptions : MonoBehaviour
 
 		//On s'enregistre auprès du moduleUIManager
 		ModuleUIManager.instance.inGameOptions = this;
+		ModuleUIManager.instance.allCanvases.Add (GetComponent<Canvas> ());
 	}
 
 	void Update()

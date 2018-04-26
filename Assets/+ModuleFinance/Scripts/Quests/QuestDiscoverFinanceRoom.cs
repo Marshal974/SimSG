@@ -5,20 +5,15 @@ using NodeCanvas;
 using NodeCanvas.DialogueTrees;
 using cakeslice;
 
-public class QuestDiscoverFinanceRoom : MonoBehaviour 
+public class QuestDiscoverFinanceRoom : QuestBuilder 
 {
 
 	//Cette quête permet de lancer des explications sur des éléments de la pièce (le tel / la bibliotheque / l'ordi.)
 	//Elle nous est encore une fois présenter par la secrétaire.
 
-	public Camera financeRoomCam;
 	public Outline phoneOutliner;
 	public Outline libraryOutliner;
 	public Outline computerOutliner;
-
-
-
-	public DialogueTreeController dialogueTreeController;
 
 	void Start()
 	{
@@ -28,16 +23,14 @@ public class QuestDiscoverFinanceRoom : MonoBehaviour
 	//Référencer dans le quest manager. 
 	public void StartFinanceRoomQuest()
 	{
-		financeRoomCam.enabled = true;
-		dialogueTreeController.enabled = true;
-		InGameManager.instance.playerObj.GetComponent<PlayerClickToMove> ().enabled = false;
+		StartDialogueQuest ();
+		specificCam.enabled = true;
+
 	}
 
 	public void EndFinanceRoomQuest()
 	{
-		financeRoomCam.enabled = false;
-		dialogueTreeController.enabled = false;
-		InGameManager.instance.playerObj.GetComponent<PlayerClickToMove> ().enabled = true;
+		EndDialogueQuest ();
 		NPCManager.instance.secretaryNPC.GetComponent<NPCMovementBehaviour> ().StartPatroling (25);
 		NPCManager.instance.secretaryNPC.GetComponent<NPCGeneralBehaviour> ().outliner.enabled = false;
 		QuestsManager.instance.questTrail.transform.parent = null;
@@ -72,4 +65,6 @@ public class QuestDiscoverFinanceRoom : MonoBehaviour
 		phoneOutliner.enabled = true;
 
 	}
+
+
 }

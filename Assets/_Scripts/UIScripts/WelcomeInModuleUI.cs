@@ -17,8 +17,10 @@ public class WelcomeInModuleUI : MonoBehaviour
 	//ce array contient tous les panel a afficher sur l'écran d'accueil
 	//Les panel sont afficher dans l'ordre.
 	//Ne pas changer ce que ya déja de base dans l'array, rajouter a la fin de la liste les panels spécifique au scénario!
-	[Tooltip("Faire glisser ici tous les panels en enfant.")]public GameObject[] allPanelsToShowInOrder;
+	[Tooltip("Faire glisser ici tous les panels en enfant.")]
+	public GameObject[] allPanelsToShowInOrder;//chaque panel est affiché dans l'ordre.
 
+	GameObject welcomePanel;
 	int currentPanelIndex;
 	Canvas canvas;
 	AudioSource audioS;
@@ -28,9 +30,11 @@ public class WelcomeInModuleUI : MonoBehaviour
 		//On config qq variables.
 		canvas = GetComponent<Canvas> ();
 		audioS = GetComponent<AudioSource> ();
+		welcomePanel = transform.GetChild (0).gameObject;
 
 		//On s'enregistre auprès du moduleUIManager
 		ModuleUIManager.instance.welcomeInModuleUI = this;
+		ModuleUIManager.instance.allCanvases.Add (canvas);
 	}
 
 	//Appelé par le bouton en enfant : ShowNextBtn
@@ -73,30 +77,23 @@ public class WelcomeInModuleUI : MonoBehaviour
 	/// </summary>
 	public void StartWelcomePanelEvent()
 	{
+		welcomePanel.SetActive (true);
 		TimelineManager.instance.PlayWelcomeCutscene(1);
-
 		InGameManager.instance.playerObj.GetComponent<PlayerClickToMove> ().enabled = false;
-		canvas.enabled = true;
-
 		currentPanelIndex = 0;
 		allPanelsToShowInOrder [currentPanelIndex].SetActive (true);
-
 		audioS.PlayOneShot (SoundsManager.instance.soundsSO.successSnd);
-
 	}
 
 	//a lancer lorsqu'on atteind le dernier panel
 	void EndWelcomePanelEvent()
 	{
+		welcomePanel.SetActive (false);
 		TimelineManager.instance.PlayWelcomeCutscene(2);
-
 		InGameManager.instance.playerObj.GetComponent<PlayerClickToMove> ().enabled = true;
-
 		allPanelsToShowInOrder [currentPanelIndex].SetActive (false);
-		canvas.enabled = false;
 
 		//on rend la secrétaire un peu plus visible
-
 		NPCManager.instance.secretaryNPC.GetComponent<NPCGeneralBehaviour> ().outliner.enabled = true;
 	}
 }

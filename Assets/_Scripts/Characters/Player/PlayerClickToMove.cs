@@ -11,7 +11,11 @@ public class PlayerClickToMove : MonoBehaviour {
 
 	[Tooltip("Les layers qu'on peut raycast.")]
 	public LayerMask interactableLayer;  //la ou le joueur peut aller en gros ^^
+	public float maxInteractionDistance = 2.5f;
 	public Animator anim;//aller chercher le modéle du joueur pour compléter cette variable.
+
+//	[HideInInspector]
+	public InteractableObjectScript currentInteractableObjectTarget;
 
 	private NavMeshAgent navMeshAgent;
 	private bool walking; //le joueur marche t-il actuellement?
@@ -75,26 +79,32 @@ public class PlayerClickToMove : MonoBehaviour {
 
 		if (Physics.Raycast(ray, out hit, 100,interactableLayer))
 		{
-			////A utiliser plus tard pour détecter les objets d'intêret.
-			//				if (hit.collider.CompareTag("Cequetuveux"))
-			//				{
-			//					Cequetuveux= hit.transform;
-			//					Clicked = true;
-			//				}
-	
-			walking = true;
-			anim.SetBool ("IsWalking", walking);
+			currentInteractableObjectTarget = null;
 
-			if (hit.transform.gameObject.tag == "Interactable") {
-				if (Vector3.Distance (transform.position, hit.point) > 2) 
+			if (hit.transform.gameObject.layer == LayerMask.NameToLayer("InteractableObject")) 
+			{
+//				Debug.Log ("done");
+				currentInteractableObjectTarget = hit.transform.GetComponent<InteractableObjectScript> ();
+				if (Vector3.Distance (transform.position, hit.point) > maxInteractionDistance) 
 				{
-					navMeshAgent.destination = hit.transform.GetComponent<InteractableObjectScript> ().playerDesiredPos.position;
+					walking = true;
+					anim.SetBool ("IsWalking", walking);
+					navMeshAgent.isStopped = false;
+
+					navMeshAgent.destination = currentInteractableObjectTarget.playerDesiredPos.position;
 				} 
 				else 
 				{
-					hit.transform.GetComponent<InteractableObjectScript> ().activateThisObject ();
+					walking = false;
+					anim.SetBool ("IsWalking", walking);
+					navMeshAgent.isStopped = true;
+					currentInteractableObjectTarget.activateThisObject ();
 				}
-			} else {
+			} 
+			else 
+			{
+				walking = true;
+				anim.SetBool ("IsWalking", walking);
 				navMeshAgent.isStopped = false;
 				navMeshAgent.destination = hit.point;
 			}

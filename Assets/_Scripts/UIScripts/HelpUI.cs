@@ -28,6 +28,8 @@ public class HelpUI : MonoBehaviour
 
 		//On s'enregistre auprès du moduleUIManager
 		ModuleUIManager.instance.helpUI = this;
+		ModuleUIManager.instance.allCanvases.Add (GetComponent<Canvas> ());
+
 	}
 
 	#endregion
