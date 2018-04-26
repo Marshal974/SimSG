@@ -30,7 +30,7 @@ public class AlertMessageManager : MonoBehaviour
 		GameObject Go = Instantiate (alertPrefab);
 		Go.transform.SetParent(ModuleUIManager.instance.alertUI.allAlertsPanel);
 		Go.transform.SetAsFirstSibling ();
-//		Go.transform.localScale = Vector3.one;
+		Go.transform.localScale = Vector3.one;
 		Go.GetComponent<AlertMessageScript> ().alertTxt.text = alertMess;
 		switch (alertLvl) {
 

@@ -10,6 +10,8 @@ public class QuestsManager : MonoBehaviour
 	public static QuestsManager instance;
 	public UnityEvent followMeQuest;
 	public UnityEvent explainFinanceRoomQuest;
+	public UnityEvent directorCallsQuest;
+	public UnityEvent directorOfficeQuestionnaryQuest;
 
 	public GameObject questActivatorPrefab;
 	public NavMeshAgent trailAgent;
@@ -39,6 +41,12 @@ public class QuestsManager : MonoBehaviour
 			break;
 		case AllEnum.allQuests.financeRoom:
 			explainFinanceRoomQuest.Invoke ();
+			break;
+		case AllEnum.allQuests.directorCall:
+			directorCallsQuest.Invoke ();
+			break;
+		case AllEnum.allQuests.directorQuestionnary:
+			directorOfficeQuestionnaryQuest.Invoke ();
 			break;
 		default:
 			ModuleUIManager.instance.ShowAllUI ();

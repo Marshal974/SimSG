@@ -5,6 +5,7 @@ using UnityEngine;
 public class QuestTriggerActivator : MonoBehaviour 
 {
 
+	public bool canBeRepeated;
 	public AllEnum.allQuests questToStart;
 
 	void OnTriggerEnter(Collider other)
@@ -12,7 +13,9 @@ public class QuestTriggerActivator : MonoBehaviour
 		if (other.tag == "Player") 
 		{
 			QuestsManager.instance.StartNewQuest(questToStart);
-			Destroy (this);
+			if (!canBeRepeated) {
+				Destroy (this);
+			}
 		}
 	}
 }

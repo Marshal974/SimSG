@@ -800,6 +800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7860d0f783abee445b78a5dc4719366b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  officePhone: {fileID: 0}
 --- !u!114 &114086322222208710
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -958,6 +959,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efdce88da3a943f479faca2f4ccae753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isRinging: 0
+  theActionToDoWhenAnswering:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114388554119082192
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -969,6 +976,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efdce88da3a943f479faca2f4ccae753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isRinging: 0
+  theActionToDoWhenAnswering:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114479566072786830
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1048,6 +1061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5548f504f1f294f4281ce19e9464afb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canBeRepeated: 0
   questToStart: 1
 --- !u!114 &114802976911156108
 MonoBehaviour:

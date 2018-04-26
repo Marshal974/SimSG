@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using NodeCanvas.DialogueTrees;
 using UnityEngine.Events;
-
+[RequireComponent(typeof(AudioSource))]
 public class QuestBuilder : MonoBehaviour 
 {
 
@@ -63,5 +63,24 @@ public class QuestBuilder : MonoBehaviour
 	{
 		InGameManager.instance.playerObj.GetComponent<PlayerClickToMove> ().enabled = true;
 
+	}
+
+	public void ChangePlayerCredits(int bonusCredits)
+	{
+		ResourcesManager.instance.playerGold += bonusCredits;
+		if (bonusCredits > 0) {
+			GetComponent<AudioSource> ().PlayOneShot (SoundsManager.instance.soundsSO.successSnd);
+
+			AlertMessageManager.instance.CreateAnAlert ("Vous avez fait gagné " + bonusCredits + " crédits à l'hopital.",1);
+		} else {
+			GetComponent<AudioSource> ().PlayOneShot (SoundsManager.instance.soundsSO.errorSnd);
+			AlertMessageManager.instance.CreateAnAlert ("Vous avez fait perdre " + -bonusCredits + " crédits à l'hopital.",3);
+
+		}
+	}
+
+	public void ChangeSocialClimate(int climateChange)
+	{
+		ResourcesManager.instance.socialClimate += climateChange;
 	}
 }

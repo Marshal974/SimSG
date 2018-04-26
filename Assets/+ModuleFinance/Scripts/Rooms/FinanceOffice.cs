@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class FinanceOffice : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	public static FinanceOffice instance;
+
+	public Phone officePhone;
+
+	void Awake()
+	{
+		if (instance == null) 
+		{
+			instance = this;
+		} else 
+		{
+			Debug.Log ("il a deux salles de finance la!");
+			Destroy (gameObject);
+		}
 	}
 }

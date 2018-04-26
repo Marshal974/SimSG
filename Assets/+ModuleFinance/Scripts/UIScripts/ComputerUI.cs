@@ -15,7 +15,7 @@ public class ComputerUI : MonoBehaviour
 
 	AudioSource audioS;
 	PlayerClickToMove playerMoveScript;
-
+	bool firstTimeOpeningPanel = true;
 
 	void Start()
 	{
@@ -51,6 +51,12 @@ public class ComputerUI : MonoBehaviour
 
 	public void CloseComputerPanel()
 	{
+		if (firstTimeOpeningPanel) 
+		{
+			firstTimeOpeningPanel = false;
+			FinanceOffice.instance.officePhone.StartRinging ();
+			FinanceOffice.instance.officePhone.theActionToDoWhenAnswering.AddListener (QuestsManager.instance.directorCallsQuest.Invoke);
+		}
 		ModuleUIManager.instance.playerResourcesUI.ToggleResourcesUI (true);
 		ModuleUIManager.instance.inGameOptions.openPanelButton.SetActive (true);
 		computerPanel.SetActive(false);

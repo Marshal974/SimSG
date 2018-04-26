@@ -63,7 +63,8 @@ public class ResourcesManager : MonoBehaviour
 		set
 		{  
 			_socialClimate = value;
-			ModuleUIManager.instance.playerResourcesUI.UpdateSocialClimateUI (value) ;			
+			ModuleUIManager.instance.playerResourcesUI.UpdateSocialClimateUI (value) ;
+			AlertMessageManager.instance.CreateAnAlert ("Le climat social a changé. Il est maintenant de "+_socialClimate, 2);
 		}
 	}
 
