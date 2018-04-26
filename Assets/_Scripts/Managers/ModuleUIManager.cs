@@ -13,6 +13,7 @@ public class ModuleUIManager : MonoBehaviour
 	public HelpUI helpUI;
 	public PlayerResourcesUI playerResourcesUI;
 	public WelcomeInModuleUI welcomeInModuleUI;
+	public ComputerUI computerUI;
 
 	public List<Canvas> allCanvases = new List<Canvas>();
 	void Awake()

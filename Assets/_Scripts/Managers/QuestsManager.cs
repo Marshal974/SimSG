@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.AI;
 
 public class QuestsManager : MonoBehaviour 
 {
@@ -11,7 +12,7 @@ public class QuestsManager : MonoBehaviour
 	public UnityEvent explainFinanceRoomQuest;
 
 	public GameObject questActivatorPrefab;
-	public GameObject questTrail;
+	public NavMeshAgent trailAgent;
 
 	void Awake()
 	{

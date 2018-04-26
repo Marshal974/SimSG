@@ -52,9 +52,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7510c199dfa5c1e4d83867e5e35d52a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogueTree: {fileID: 0}
+  specificCam: {fileID: 0}
   targetToFollow: {fileID: 0}
   placeToGoTo: {fileID: 0}
-  dialogueTreeController: {fileID: 114897382090085328}
 --- !u!114 &114657784749446286
 MonoBehaviour:
   m_ObjectHideFlags: 0

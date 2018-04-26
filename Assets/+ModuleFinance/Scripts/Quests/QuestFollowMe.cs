@@ -29,8 +29,9 @@ public class QuestFollowMe : QuestBuilder
 		EndDialogueQuest ();
 		targetToFollow.GetComponent<NPCGeneralBehaviour> ().outliner.enabled = true;
 		GoToDestination ();
-		QuestsManager.instance.questTrail.transform.parent = targetToFollow.transform;
-		QuestsManager.instance.questTrail.transform.localPosition = Vector3.zero;
+		QuestsManager.instance.trailAgent.transform.position = targetToFollow.transform.position;
+		QuestsManager.instance.trailAgent.enabled = true;
+		QuestsManager.instance.trailAgent.SetDestination (placeToGoTo.position);
 	}
 
 	public void CancelQuestFollowMe()
