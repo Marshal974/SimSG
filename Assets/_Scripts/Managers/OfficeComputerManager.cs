@@ -37,7 +37,8 @@ public class OfficeComputerManager : MonoBehaviour
 		go.transform.SetParent (ModuleUIManager.instance.computerUI.allMessagesPanel.transform);
 		go.transform.position = Vector3.zero;
 		go.transform.SetAsFirstSibling ();
-
+		go.transform.localScale = Vector3.one;
+		AlertMessageManager.instance.CreateAnAlert ("Vous avez recu un email.",1);
 		//Rajouter ici un appel au systeme d'alerte IG.
 	}
 
