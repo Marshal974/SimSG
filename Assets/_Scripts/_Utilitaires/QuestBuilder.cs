@@ -83,4 +83,18 @@ public class QuestBuilder : MonoBehaviour
 	{
 		ResourcesManager.instance.socialClimate += climateChange;
 	}
+
+	public void ShowQuestAgentTrail(Transform destination)
+	{
+		StartCoroutine (MoveTrailAgentToDest(destination.position));
+	}
+
+	IEnumerator MoveTrailAgentToDest(Vector3 destPos)
+	{
+		QuestsManager.instance.trailAgent.enabled = false;
+		QuestsManager.instance.trailAgent.transform.position = InGameManager.instance.playerObj.transform.position;
+		yield return new WaitForEndOfFrame ();
+		QuestsManager.instance.trailAgent.enabled = true;
+		QuestsManager.instance.trailAgent.SetDestination (destPos);
+	}
 }

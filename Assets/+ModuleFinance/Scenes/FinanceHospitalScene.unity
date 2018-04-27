@@ -436,6 +436,58 @@ Transform:
   m_Father: {fileID: 848556187}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &76666186
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: QuestDirectorQuestionnaryOnOndam
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3634.0,"y":-4729.0},"zoomFactor":0.7091896,"nodes":[{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5676.819,"y":4913.897},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"2"},{"statement":{"_text":"Vous
+    avez trouver mon bureau!\nVous tombez bien, j''ai quelques questions."},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5662.285,"y":4979.522},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"statement":{"_text":"L\u2019Objectif
+    national de d\u00e9penses d\u2019assurance maladie (Ondam) est objectif de d\u00e9penses
+    \u00e0 ne pas d\u00e9passer en mati\u00e8re de soins de ville et d\u2019hospitalisation
+    dispens\u00e9s dans les \u00e9tablissements priv\u00e9s ou publics, mais aussi
+    dans les centres m\u00e9dico-sociaux. "},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5579.676,"y":5061.685},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"9"},{"statement":{"_text":"D''accord,
+    mais qui d\u00e9cide de la fixation de l''ONDAM. "},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5570.676,"y":5132.685},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"11"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5699.038,"y":5199.801},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"13"},{"availableChoices":[{"statement":{"_text":"Le
+    parlement."}},{"statement":{"_text":"Le minist\u00e8re de la sant\u00e9."}},{"statement":{"_text":"L\u2019ARS."}},{"statement":{"_text":"Aucun
+    des trois!"}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5617.145,"y":5310.7},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"18"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5384.78,"y":5533.979},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"28"},{"statement":{"_text":"Oui
+    vous avez raison. Bravo, [l''\u00e9tablissement a gagn\u00e9 10mo de cr\u00e9dits
+    grace a votre r\u00e9ponse.]"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5272.051,"y":5661.553},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"40"},{"statement":{"_text":"Vot\u00e9
+    par le Parlement, l\u2019Ondam ne constitue pas un budget mais plut\u00f4t un
+    indicateur de ma\u00eetrise des d\u00e9penses de sant\u00e9. \r\nIl est fix\u00e9
+    chaque ann\u00e9e par la loi de financement de la S\u00e9curit\u00e9 sociale (LFSS).
+    "},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5529.548,"y":5829.615},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"42"},{"statement":{"_text":"Ainsi,
+    depuis sa mise en \u0153uvre en 1997, l\u2019Ondam a \u00e9t\u00e9 syst\u00e9matiquement
+    d\u00e9pass\u00e9 jusqu\u2019en 2010. Depuis cette date, il est sous-ex\u00e9cut\u00e9,
+    c\u2019est-\u00e0-dire que les d\u00e9penses de sant\u00e9 constat\u00e9es sont
+    inf\u00e9rieures \u00e0 celles qui avaient \u00e9t\u00e9 initialement pr\u00e9vues."},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5542.537,"y":5905.418},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"44"},{"statement":{"_text":"Si
+    je comprends bien, les d\u00e9penses des h\u00f4pitaux font partie de l\u2019ONDAM
+    ? Quelles sont les autres d\u00e9penses du budget de l\u2019assurance-maladie
+    ?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5553.686,"y":5976.222},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"46"},{"statement":{"_text":"Qu''en
+    est-il des d\u00e9penses de soins de ville?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5582.443,"y":6038.361},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"48"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5655.763,"y":6112.421},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"50"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5697.049,"y":6198.569},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"55"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5457.811,"y":6328.259},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"61"},{"statement":{"_text":"Qu''en
+    est-il des d\u00e9penses relatives aux \u00e9tablissements de sant\u00e9?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5602.447,"y":6512.36},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"73"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5675.768,"y":6586.42},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"75"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5717.053,"y":6672.568},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"80"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5477.815,"y":6802.258},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"86"},{"statement":{"_text":"Les
+    d\u00e9penses relatives aux \u00e9coles et aux instituts de formation param\u00e9dicales
+    font-elle \u00e9galement partie des d\u00e9penses de l''assurance maladie?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5606.45,"y":6958.345},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"98"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5679.771,"y":7032.405},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"100"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5721.056,"y":7118.553},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"105"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5483.641,"y":7262.694},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"111"},{"statement":{"_text":"Qu''en
+    est-il des d\u00e9penses en \u00e9tablissements et services pour personnes \u00e2g\u00e9es?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5656.448,"y":7443.831},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"123"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5729.769,"y":7517.891},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"125"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5771.054,"y":7604.039},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"130"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5531.815,"y":7733.729},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"136"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|EndDialogueQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5769.159,"y":8005.97},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"148"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5883.258,"y":7739.047},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"153"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5828.723,"y":7266.961},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"165"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5810.32,"y":6799.24},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"177"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5790.316,"y":6325.24},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"189"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5701.845,"y":5529.59},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"201"},{"statement":{"_text":"Je
+    crois que vous fa\u00eetes erreur...\n(L''hopital perd 10M).\n\n"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5823.513,"y":5651.611},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"213"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"13"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"13"},"_targetNode":{"$ref":"18"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"28"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"201"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"201"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"201"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"28"},"_targetNode":{"$ref":"40"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"40"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"42"},"_targetNode":{"$ref":"44"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"44"},"_targetNode":{"$ref":"46"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"46"},"_targetNode":{"$ref":"48"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"48"},"_targetNode":{"$ref":"50"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"50"},"_targetNode":{"$ref":"55"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"55"},"_targetNode":{"$ref":"61"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"55"},"_targetNode":{"$ref":"189"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"61"},"_targetNode":{"$ref":"73"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"73"},"_targetNode":{"$ref":"75"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"75"},"_targetNode":{"$ref":"80"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"80"},"_targetNode":{"$ref":"86"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"80"},"_targetNode":{"$ref":"177"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"86"},"_targetNode":{"$ref":"98"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"98"},"_targetNode":{"$ref":"100"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"100"},"_targetNode":{"$ref":"105"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"105"},"_targetNode":{"$ref":"111"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"105"},"_targetNode":{"$ref":"165"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"111"},"_targetNode":{"$ref":"123"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"123"},"_targetNode":{"$ref":"125"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"125"},"_targetNode":{"$ref":"130"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"130"},"_targetNode":{"$ref":"136"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"130"},"_targetNode":{"$ref":"153"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"136"},"_targetNode":{"$ref":"148"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"153"},"_targetNode":{"$ref":"148"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"165"},"_targetNode":{"$ref":"123"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"177"},"_targetNode":{"$ref":"98"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"189"},"_targetNode":{"$ref":"73"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"201"},"_targetNode":{"$ref":"213"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"213"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":1},{"_keyName":"Directeur","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 650330075}
+  - {fileID: 2030006566}
+  _deserializationFailed: 0
+  _actorParameters:
+  - _keyName: player
+    _id: 485d77c8-fac8-4008-96be-f94e141e22ea
+    _actorObject: {fileID: 650330075}
+  - _keyName: Directeur
+    _id: fcf44d51-c21f-4895-9cd2-86c9fb8fbd58
+    _actorObject: {fileID: 2030006566}
 --- !u!1 &93628787
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,8 +769,8 @@ MonoBehaviour:
   sourceCamera: {fileID: 114188082}
   outlineCamera: {fileID: 1826176799}
   outlineShaderMaterial: {fileID: 0}
-  renderTexture: {fileID: 1993089041}
-  extraRenderTexture: {fileID: 1171714420}
+  renderTexture: {fileID: 1501553901}
+  extraRenderTexture: {fileID: 619810389}
 --- !u!124 &114188081
 Behaviour:
   m_ObjectHideFlags: 0
@@ -819,7 +871,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 0
   m_RenderingPath: 1
-  m_TargetTexture: {fileID: 611455312}
+  m_TargetTexture: {fileID: 311087110}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -1154,8 +1206,8 @@ MonoBehaviour:
   sourceCamera: {fileID: 136351497}
   outlineCamera: {fileID: 131874832}
   outlineShaderMaterial: {fileID: 0}
-  renderTexture: {fileID: 611455312}
-  extraRenderTexture: {fileID: 1752236726}
+  renderTexture: {fileID: 311087110}
+  extraRenderTexture: {fileID: 586093942}
 --- !u!20 &139891993 stripped
 Camera:
   m_PrefabParentObject: {fileID: 20628386244592858, guid: 56150e28d01568e4883e6a59950088f9,
@@ -1601,47 +1653,6 @@ Transform:
   m_Father: {fileID: 1660617479}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &218458321
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: QuestDirectorCalls
-  m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-2937.0,"y":-2779.0},"zoomFactor":0.5431396,"nodes":[{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5676.819,"y":4913.897},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"2"},{"statement":{"_text":"Bonjour,
-    j\u2019ai lu que l\u2019ONDAM de cette ann\u00e9e \u00e9tait fix\u00e9 \u00e0
-    2.3%. L\u2019ancien directeur avait pr\u00e9vu un ONDAM \u00e0 3%, c\u2019est
-    grave ?\r\n\r\n"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5586.285,"y":5005.522},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"statement":{"_text":"Euh...
-    Mais au fait c\u2019est quoi l\u2019ONDAM ?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5642.676,"y":5090.685},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5676.038,"y":5175.801},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"11"},{"availableChoices":[{"statement":{"_text":"Objectif
-    National des Directives de l\u2019Assurance-Maladie"}},{"statement":{"_text":"Organisation
-    Nationale des D\u00e9penses de l\u2019Assurance-Maladie"}},{"statement":{"_text":"Objectif
-    National des D\u00e9penses de l\u2019Assurance Maladie "}},{"statement":{"_text":"Objectifs
-    Nationaux de l\u2019Assurance-maladie "}},{"statement":{"_text":"Je ne sais pas."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5567.145,"y":5263.7},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"16"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5518.897,"y":5510.958},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"28"},{"statement":{"_text":"Je
-    crois que vous fa\u00eetes erreur...\nIl est \u00e9crit ici qu''il sagit  de l''
-    Objectif National des D\u00e9penses de l\u2019Assurance Maladie\r. (L''hopital
-    perd 10M).\n\n"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5519.513,"y":5668.611},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"40"},{"statement":{"_text":"J''ai
-    d''autres questions, pourriez vous me rejoindre dans mon bureau pour que nous
-    puissions en parler en d\u00e9tail?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5529.548,"y":5829.615},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"42"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|EndDialogueQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5644.545,"y":5951.748},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"44"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5863.882,"y":5507.531},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"49"},{"statement":{"_text":"Merci
-    beaucoup. Oui vous avez raison. C''est bien l''Objectif National des D\u00e9penses
-    de l\u2019Assurance Maladie\r. (l''hopital gagne 10M )"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5797.051,"y":5676.553},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"61"},{"_targetNode":{"$ref":"28"},"_nodeColor":{"g":0.7254902,"b":0.9098039,"a":1.0},"_position":{"x":6209.193,"y":5521.608},"$type":"NodeCanvas.DialogueTrees.GoToNode","$id":"63"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6394.908,"y":5515.556},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"64"},{"statement":{"_text":"Renseignez
-    vous et revenez me voir!"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":6339.544,"y":5806.588},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"69"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"16"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"28"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"28"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"49"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"63"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"64"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"28"},"_targetNode":{"$ref":"40"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"40"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"42"},"_targetNode":{"$ref":"44"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"49"},"_targetNode":{"$ref":"61"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"61"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"64"},"_targetNode":{"$ref":"69"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"69"},"_targetNode":{"$ref":"44"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":1},{"_keyName":"Directeur","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-  _objectReferences:
-  - {fileID: 0}
-  - {fileID: 650330075}
-  - {fileID: 2030006566}
-  _deserializationFailed: 0
-  _actorParameters:
-  - _keyName: player
-    _id: 485d77c8-fac8-4008-96be-f94e141e22ea
-    _actorObject: {fileID: 650330075}
-  - _keyName: Directeur
-    _id: fcf44d51-c21f-4895-9cd2-86c9fb8fbd58
-    _actorObject: {fileID: 2030006566}
 --- !u!1 &225272672
 GameObject:
   m_ObjectHideFlags: 0
@@ -2138,6 +2149,37 @@ Transform:
   m_Father: {fileID: 482105732}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &311087110
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 450
+  m_Height: 253
+  m_AntiAliasing: 1
+  m_DepthFormat: 1
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 0
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &330762815 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1497659613826860, guid: 56150e28d01568e4883e6a59950088f9,
@@ -3265,6 +3307,37 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.25572175, y: -0.0022055507, z: 0.000000029802322}
     m_Extent: {x: 0.5483052, y: 0.2045279, z: 0.29211783}
   m_DirtyAABB: 0
+--- !u!84 &586093942
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 450
+  m_Height: 253
+  m_AntiAliasing: 1
+  m_DepthFormat: 1
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &595867896
 GameObject:
   m_ObjectHideFlags: 0
@@ -3389,37 +3462,6 @@ Transform:
   m_Father: {fileID: 1759428630}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!84 &611455312
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 794
-  m_Height: 447
-  m_AntiAliasing: 1
-  m_DepthFormat: 1
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 0
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &613282100
 GameObject:
   m_ObjectHideFlags: 0
@@ -3527,6 +3569,37 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 613282100}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!84 &619810389
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 450
+  m_Height: 253
+  m_AntiAliasing: 1
+  m_DepthFormat: 1
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &650330071 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1718350995064642, guid: b58d2c54b9642e7448c8a4cca1a0bea4,
@@ -3987,6 +4060,48 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &742023339
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: QuestDirectorCalls
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-4774.0,"y":-5220.0},"zoomFactor":0.9999863,"nodes":[{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5676.819,"y":4913.897},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"2"},{"statement":{"_text":"Bonjour,
+    j\u2019ai lu que l\u2019ONDAM de cette ann\u00e9e \u00e9tait fix\u00e9 \u00e0
+    2.3%. L\u2019ancien directeur avait pr\u00e9vu un ONDAM \u00e0 3%, c\u2019est
+    grave ?\r\n\r\n"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5586.285,"y":5005.522},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"statement":{"_text":"Euh...
+    Mais au fait c\u2019est quoi l\u2019ONDAM ?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5642.676,"y":5090.685},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5676.038,"y":5175.801},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"11"},{"availableChoices":[{"statement":{"_text":"Objectif
+    National des Directives de l\u2019Assurance-Maladie"}},{"statement":{"_text":"Organisation
+    Nationale des D\u00e9penses de l\u2019Assurance-Maladie"}},{"statement":{"_text":"Objectif
+    National des D\u00e9penses de l\u2019Assurance Maladie "}},{"statement":{"_text":"Objectifs
+    Nationaux de l\u2019Assurance-maladie "}},{"statement":{"_text":"Je ne sais pas."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5567.145,"y":5263.7},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"16"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5345.197,"y":5515.632},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"28"},{"statement":{"_text":"Je
+    crois que vous fa\u00eetes erreur...\nIl est \u00e9crit ici qu''il sagit  de l''
+    Objectif National des D\u00e9penses de l\u2019Assurance Maladie\r. (L''hopital
+    perd 10M).\n\n"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5450.021,"y":5663.501},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"40"},{"statement":{"_text":"J''ai
+    d''autres questions, pourriez vous me rejoindre dans mon bureau pour que nous
+    puissions en parler en d\u00e9tail?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5539.75,"y":5829.164},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"42"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|EndDialogueQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ShowQuestAgentTrail","_paramsInfo":"UnityEngine.Transform"},"parameters":[{"_type":"UnityEngine.Transform","_value":{"$content":1,"$type":"UnityEngine.Transform"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5644.545,"y":5951.748},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"44"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5732.739,"y":5550.49},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"56"},{"statement":{"_text":"Merci
+    beaucoup. Oui vous avez raison. C''est bien l''Objectif National des D\u00e9penses
+    de l\u2019Assurance Maladie\r. (l''hopital gagne 10M )"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5797.051,"y":5676.553},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"68"},{"_targetNode":{"$ref":"28"},"_nodeColor":{"g":0.7254902,"b":0.9098039,"a":1.0},"_position":{"x":6227.281,"y":5553.263},"$type":"NodeCanvas.DialogueTrees.GoToNode","$id":"70"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6394.908,"y":5515.556},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"71"},{"statement":{"_text":"Renseignez
+    vous et revenez me voir!"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":6339.544,"y":5806.588},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"76"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"16"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"28"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"28"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"56"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"70"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"71"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"28"},"_targetNode":{"$ref":"40"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"40"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"42"},"_targetNode":{"$ref":"44"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"56"},"_targetNode":{"$ref":"68"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"68"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"71"},"_targetNode":{"$ref":"76"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"76"},"_targetNode":{"$ref":"44"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":2},{"_keyName":"Directeur","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":3}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 520221953}
+  - {fileID: 650330075}
+  - {fileID: 2030006566}
+  _deserializationFailed: 0
+  _actorParameters:
+  - _keyName: player
+    _id: 485d77c8-fac8-4008-96be-f94e141e22ea
+    _actorObject: {fileID: 650330075}
+  - _keyName: Directeur
+    _id: fcf44d51-c21f-4895-9cd2-86c9fb8fbd58
+    _actorObject: {fileID: 2030006566}
 --- !u!1 &753928088
 GameObject:
   m_ObjectHideFlags: 0
@@ -4643,6 +4758,36 @@ Transform:
   m_Father: {fileID: 1354982433}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &854221591
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: QuestFollowMeSomewhere
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3352.171,"y":-3214.186},"zoomFactor":0.678288,"nodes":[{"statement":{"_text":"Bonjour!\nSoyez
+    le bienvenu. Le directeur m''a demand\u00e9 de vous conduire a votre bureau."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5426.0,"y":4910.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5833.507,"y":4983.324},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"availableChoices":[{"statement":{"_text":"Je
+    vous suis."}},{"statement":{"_text":"Je trouverais mon bureau tout seul. Merci!","_audio":1}}],"_actorName":"Vous","_actorParameterID":"3d461e4b-c28e-48d8-8329-6029de391c3a","_position":{"x":5512.0,"y":5054.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5389.153,"y":5190.162},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"15"},{"statement":{"_text":"Allons
+    \u00e0 votre bureau, par ici je vous prie."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5401.0,"y":5278.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"20"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|EndQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5615.128,"y":5349.333},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Je
+    vous verrais plus tard alors."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5895.319,"y":5191.631},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|CancelQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5861.828,"y":5333.766},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"15"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"15"},"_targetNode":{"$ref":"20"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"20"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Vous","_id":"3d461e4b-c28e-48d8-8329-6029de391c3a","_actorObject":2},{"_keyName":"Secr\u00e9taire","_id":"8ed798ea-3997-4663-b672-c7182246264d","_actorObject":3}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 7a171f3683021e3469ff07d82cef1fd1, type: 3}
+  - {fileID: 650330075}
+  - {fileID: 1058861881}
+  _deserializationFailed: 0
+  _actorParameters:
+  - _keyName: Vous
+    _id: 3d461e4b-c28e-48d8-8329-6029de391c3a
+    _actorObject: {fileID: 650330075}
+  - _keyName: "Secr\xE9taire"
+    _id: 8ed798ea-3997-4663-b672-c7182246264d
+    _actorObject: {fileID: 1058861881}
 --- !u!1 &858036034
 GameObject:
   m_ObjectHideFlags: 0
@@ -5575,41 +5720,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bb2b0c3d0ba297a408a0e7ac8cb232e0, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &969474224
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: QuestFinanceRoom
-  m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-2337.907,"y":-2489.657},"zoomFactor":0.4943419,"nodes":[{"statement":{"_text":"Et
-    voici votre bureau. Souhaitez vous que je vous en dise un peu plus?"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5447.652,"y":5122.927},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5630.134,"y":5186.99},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"availableChoices":[{"statement":{"_text":"Parlez
-    moi de la biblioth\u00e8que juste l\u00e0."}},{"statement":{"_text":"Qui pourrait
-    bien appeler le bureau financier?"}},{"statement":{"_text":"Et l''ordinateur?
-    C''est pour les emails?"}},{"statement":{"_text":"Ca ira merci."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5490.428,"y":5258.906},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"9"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowLibraryInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5203.453,"y":5483.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"19"},{"statement":{"_text":"Utilisez
-    la biblioth\u00e8que si vous cherchez une information pr\u00e9cise. Comme une
-    d\u00e9finition par exemple!"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5098.286,"y":5578.739},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"30"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5684.095,"y":5736.485},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"32"},{"_targetNode":{"$ref":"9"},"_nodeColor":{"g":0.7254902,"b":0.9098039,"a":1.0},"_position":{"x":5721.087,"y":5834.419},"$type":"NodeCanvas.DialogueTrees.GoToNode","$id":"37"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowPhoneInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5650.453,"y":5484.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"38"},{"statement":{"_text":"Le
-    directeur par exemple. Il m''a dit qu''il vous appelerez pour s''assurer que tout
-    va bien."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5539.087,"y":5579.589},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"49"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowComputerInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":6112.197,"y":5480.875},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"51"},{"statement":{"_text":"Tout
-    a fait. Vous recevrez des emails vous demandant d''accomplir beaucoup pour notre
-    belle hopital."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5991.095,"y":5583.455},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"62"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|EndFinanceRoomQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6446.544,"y":5448.674},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"64"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"19"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"38"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"51"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"64"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"19"},"_targetNode":{"$ref":"30"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"30"},"_targetNode":{"$ref":"32"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"32"},"_targetNode":{"$ref":"37"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"38"},"_targetNode":{"$ref":"49"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"49"},"_targetNode":{"$ref":"32"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"51"},"_targetNode":{"$ref":"62"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"62"},"_targetNode":{"$ref":"32"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":1},{"_keyName":"secretaire","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-  _objectReferences:
-  - {fileID: 0}
-  - {fileID: 650330075}
-  - {fileID: 1058861881}
-  _deserializationFailed: 0
-  _actorParameters:
-  - _keyName: player
-    _id: 485d77c8-fac8-4008-96be-f94e141e22ea
-    _actorObject: {fileID: 650330075}
-  - _keyName: secretaire
-    _id: fcf44d51-c21f-4895-9cd2-86c9fb8fbd58
-    _actorObject: {fileID: 1058861881}
 --- !u!1 &978747429
 GameObject:
   m_ObjectHideFlags: 0
@@ -6313,7 +6423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c32e4b851ebd8fa4ea0645b99be1cf97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boundGraphSerialization: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3272.204,"y":-5062.498},"zoomFactor":0.7320246,"nodes":[{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5676.819,"y":4913.897},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"2"},{"statement":{"_text":"Vous
+  boundGraphSerialization: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3634.0,"y":-4729.0},"zoomFactor":0.7091896,"nodes":[{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5676.819,"y":4913.897},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"2"},{"statement":{"_text":"Vous
     avez trouver mon bureau!\nVous tombez bien, j''ai quelques questions."},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5662.285,"y":4979.522},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"statement":{"_text":"L\u2019Objectif
     national de d\u00e9penses d\u2019assurance maladie (Ondam) est objectif de d\u00e9penses
     \u00e0 ne pas d\u00e9passer en mati\u00e8re de soins de ville et d\u2019hospitalisation
@@ -6338,9 +6448,9 @@ MonoBehaviour:
     est-il des d\u00e9penses de soins de ville?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5582.443,"y":6038.361},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"48"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5655.763,"y":6112.421},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"50"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5697.049,"y":6198.569},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"55"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5457.811,"y":6328.259},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"61"},{"statement":{"_text":"Qu''en
     est-il des d\u00e9penses relatives aux \u00e9tablissements de sant\u00e9?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5602.447,"y":6512.36},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"73"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5675.768,"y":6586.42},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"75"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5717.053,"y":6672.568},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"80"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5477.815,"y":6802.258},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"86"},{"statement":{"_text":"Les
     d\u00e9penses relatives aux \u00e9coles et aux instituts de formation param\u00e9dicales
-    font-elle \u00e9galement partie des d\u00e9penses de l''assurance maladie?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5606.45,"y":6958.345},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"98"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5679.771,"y":7032.405},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"100"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5721.056,"y":7118.553},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"105"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5483.641,"y":7262.694},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"111"},{"statement":{"_text":"Qu''en
-    est-il des d\u00e9penses en \u00e9tablissements et services pour personnes \u00e2g\u00e9es?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5656.448,"y":7443.831},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"122"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5729.769,"y":7517.891},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"124"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5771.054,"y":7604.039},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"129"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5531.815,"y":7733.729},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"135"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|EndDialogueQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5769.159,"y":8005.97},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"147"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5883.258,"y":7739.047},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"152"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5828.723,"y":7266.961},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"164"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5810.32,"y":6799.24},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"176"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5790.316,"y":6325.24},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"188"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5701.845,"y":5529.59},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"200"},{"statement":{"_text":"Je
-    crois que vous fa\u00eetes erreur...\n(L''hopital perd 10M).\n\n"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5823.513,"y":5651.611},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"212"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"13"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"13"},"_targetNode":{"$ref":"18"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"28"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"200"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"200"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"200"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"28"},"_targetNode":{"$ref":"40"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"40"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"42"},"_targetNode":{"$ref":"44"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"44"},"_targetNode":{"$ref":"46"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"46"},"_targetNode":{"$ref":"48"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"48"},"_targetNode":{"$ref":"50"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"50"},"_targetNode":{"$ref":"55"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"55"},"_targetNode":{"$ref":"61"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"55"},"_targetNode":{"$ref":"188"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"61"},"_targetNode":{"$ref":"73"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"73"},"_targetNode":{"$ref":"75"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"75"},"_targetNode":{"$ref":"80"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"80"},"_targetNode":{"$ref":"86"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"80"},"_targetNode":{"$ref":"176"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"86"},"_targetNode":{"$ref":"98"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"98"},"_targetNode":{"$ref":"100"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"100"},"_targetNode":{"$ref":"105"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"105"},"_targetNode":{"$ref":"111"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"105"},"_targetNode":{"$ref":"164"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"111"},"_targetNode":{"$ref":"122"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"122"},"_targetNode":{"$ref":"124"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"124"},"_targetNode":{"$ref":"129"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"129"},"_targetNode":{"$ref":"135"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"129"},"_targetNode":{"$ref":"152"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"135"},"_targetNode":{"$ref":"147"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"152"},"_targetNode":{"$ref":"147"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"164"},"_targetNode":{"$ref":"122"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"176"},"_targetNode":{"$ref":"98"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"188"},"_targetNode":{"$ref":"73"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"200"},"_targetNode":{"$ref":"212"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"212"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    font-elle \u00e9galement partie des d\u00e9penses de l''assurance maladie?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5606.45,"y":6958.345},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"98"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5679.771,"y":7032.405},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"100"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5721.056,"y":7118.553},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"105"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5483.641,"y":7262.694},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"111"},{"statement":{"_text":"Qu''en
+    est-il des d\u00e9penses en \u00e9tablissements et services pour personnes \u00e2g\u00e9es?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5656.448,"y":7443.831},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"123"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5729.769,"y":7517.891},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"125"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5771.054,"y":7604.039},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"130"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5531.815,"y":7733.729},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"136"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|EndDialogueQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5769.159,"y":8005.97},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"148"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5883.258,"y":7739.047},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"153"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5828.723,"y":7266.961},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"165"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5810.32,"y":6799.24},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"177"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5790.316,"y":6325.24},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"189"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5701.845,"y":5529.59},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"201"},{"statement":{"_text":"Je
+    crois que vous fa\u00eetes erreur...\n(L''hopital perd 10M).\n\n"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5823.513,"y":5651.611},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"213"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"13"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"13"},"_targetNode":{"$ref":"18"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"28"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"201"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"201"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"201"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"28"},"_targetNode":{"$ref":"40"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"40"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"42"},"_targetNode":{"$ref":"44"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"44"},"_targetNode":{"$ref":"46"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"46"},"_targetNode":{"$ref":"48"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"48"},"_targetNode":{"$ref":"50"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"50"},"_targetNode":{"$ref":"55"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"55"},"_targetNode":{"$ref":"61"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"55"},"_targetNode":{"$ref":"189"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"61"},"_targetNode":{"$ref":"73"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"73"},"_targetNode":{"$ref":"75"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"75"},"_targetNode":{"$ref":"80"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"80"},"_targetNode":{"$ref":"86"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"80"},"_targetNode":{"$ref":"177"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"86"},"_targetNode":{"$ref":"98"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"98"},"_targetNode":{"$ref":"100"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"100"},"_targetNode":{"$ref":"105"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"105"},"_targetNode":{"$ref":"111"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"105"},"_targetNode":{"$ref":"165"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"111"},"_targetNode":{"$ref":"123"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"123"},"_targetNode":{"$ref":"125"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"125"},"_targetNode":{"$ref":"130"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"130"},"_targetNode":{"$ref":"136"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"130"},"_targetNode":{"$ref":"153"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"136"},"_targetNode":{"$ref":"148"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"153"},"_targetNode":{"$ref":"148"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"165"},"_targetNode":{"$ref":"123"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"177"},"_targetNode":{"$ref":"98"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"189"},"_targetNode":{"$ref":"73"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"201"},"_targetNode":{"$ref":"213"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"213"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
     Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":1},{"_keyName":"Directeur","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
   boundGraphObjectReferences:
   - {fileID: 0}
@@ -6349,7 +6459,7 @@ MonoBehaviour:
   enableAction: 0
   disableAction: 0
   versionUpdateProxyGraph: {fileID: 0}
-  _graph: {fileID: 2141879041}
+  _graph: {fileID: 76666186}
   _blackboard: {fileID: 0}
 --- !u!1 &1108936161
 GameObject:
@@ -6819,37 +6929,6 @@ MonoBehaviour:
   lowpriorityAlertColor: {r: 0.9725491, g: 0.9568628, b: 0.45098042, a: 0.5882353}
   normalAlertColor: {r: 0.9921569, g: 0.8117648, b: 0.04705883, a: 0.5882353}
   importantAlertColor: {r: 0.96470594, g: 0.65882355, b: 0.25490198, a: 0.5882353}
---- !u!84 &1171714420
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 795
-  m_Height: 447
-  m_AntiAliasing: 1
-  m_DepthFormat: 1
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &1175166544
 GameObject:
   m_ObjectHideFlags: 0
@@ -7905,8 +7984,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1450568361}
   - component: {fileID: 1450568363}
-  - component: {fileID: 1450568362}
   - component: {fileID: 1450568364}
+  - component: {fileID: 1450568362}
   m_Layer: 0
   m_Name: QuestDirectorCalls
   m_TagString: Untagged
@@ -7936,7 +8015,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1450568360}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a19bdf1cdc0f09489562779a1355ee9, type: 3}
+  m_Script: {fileID: 11500000, guid: 3def0e0cd129d83448add1d15d71aeda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueTree: {fileID: 1450568363}
@@ -7953,32 +8032,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c32e4b851ebd8fa4ea0645b99be1cf97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boundGraphSerialization: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-2937.0,"y":-2779.0},"zoomFactor":0.5431396,"nodes":[{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5676.819,"y":4913.897},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"2"},{"statement":{"_text":"Bonjour,
+  boundGraphSerialization: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-4774.0,"y":-5220.0},"zoomFactor":0.9999863,"nodes":[{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5676.819,"y":4913.897},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"2"},{"statement":{"_text":"Bonjour,
     j\u2019ai lu que l\u2019ONDAM de cette ann\u00e9e \u00e9tait fix\u00e9 \u00e0
     2.3%. L\u2019ancien directeur avait pr\u00e9vu un ONDAM \u00e0 3%, c\u2019est
     grave ?\r\n\r\n"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5586.285,"y":5005.522},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"statement":{"_text":"Euh...
-    Mais au fait c\u2019est quoi l\u2019ONDAM ?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5642.676,"y":5090.685},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5676.038,"y":5175.801},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"11"},{"availableChoices":[{"statement":{"_text":"Objectif
+    Mais au fait c\u2019est quoi l\u2019ONDAM ?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5642.676,"y":5090.685},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5676.038,"y":5175.801},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"11"},{"availableChoices":[{"statement":{"_text":"Objectif
     National des Directives de l\u2019Assurance-Maladie"}},{"statement":{"_text":"Organisation
     Nationale des D\u00e9penses de l\u2019Assurance-Maladie"}},{"statement":{"_text":"Objectif
     National des D\u00e9penses de l\u2019Assurance Maladie "}},{"statement":{"_text":"Objectifs
-    Nationaux de l\u2019Assurance-maladie "}},{"statement":{"_text":"Je ne sais pas."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5567.145,"y":5263.7},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"16"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5518.897,"y":5510.958},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"28"},{"statement":{"_text":"Je
+    Nationaux de l\u2019Assurance-maladie "}},{"statement":{"_text":"Je ne sais pas."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5567.145,"y":5263.7},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"16"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5345.197,"y":5515.632},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"28"},{"statement":{"_text":"Je
     crois que vous fa\u00eetes erreur...\nIl est \u00e9crit ici qu''il sagit  de l''
     Objectif National des D\u00e9penses de l\u2019Assurance Maladie\r. (L''hopital
-    perd 10M).\n\n"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5519.513,"y":5668.611},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"40"},{"statement":{"_text":"J''ai
+    perd 10M).\n\n"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5450.021,"y":5663.501},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"40"},{"statement":{"_text":"J''ai
     d''autres questions, pourriez vous me rejoindre dans mon bureau pour que nous
-    puissions en parler en d\u00e9tail?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5529.548,"y":5829.615},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"42"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|EndDialogueQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5644.545,"y":5951.748},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"44"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5863.882,"y":5507.531},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"49"},{"statement":{"_text":"Merci
+    puissions en parler en d\u00e9tail?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5539.75,"y":5829.164},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"42"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|EndDialogueQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ShowQuestAgentTrail","_paramsInfo":"UnityEngine.Transform"},"parameters":[{"_type":"UnityEngine.Transform","_value":{"$content":1,"$type":"UnityEngine.Transform"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5644.545,"y":5951.748},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"44"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5732.739,"y":5550.49},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"56"},{"statement":{"_text":"Merci
     beaucoup. Oui vous avez raison. C''est bien l''Objectif National des D\u00e9penses
-    de l\u2019Assurance Maladie\r. (l''hopital gagne 10M )"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5797.051,"y":5676.553},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"61"},{"_targetNode":{"$ref":"28"},"_nodeColor":{"g":0.7254902,"b":0.9098039,"a":1.0},"_position":{"x":6209.193,"y":5521.608},"$type":"NodeCanvas.DialogueTrees.GoToNode","$id":"63"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDirectorCall|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6394.908,"y":5515.556},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"64"},{"statement":{"_text":"Renseignez
-    vous et revenez me voir!"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":6339.544,"y":5806.588},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"69"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"16"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"28"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"28"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"49"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"63"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"64"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"28"},"_targetNode":{"$ref":"40"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"40"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"42"},"_targetNode":{"$ref":"44"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"49"},"_targetNode":{"$ref":"61"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"61"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"64"},"_targetNode":{"$ref":"69"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"69"},"_targetNode":{"$ref":"44"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":1},{"_keyName":"Directeur","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+    de l\u2019Assurance Maladie\r. (l''hopital gagne 10M )"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5797.051,"y":5676.553},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"68"},{"_targetNode":{"$ref":"28"},"_nodeColor":{"g":0.7254902,"b":0.9098039,"a":1.0},"_position":{"x":6227.281,"y":5553.263},"$type":"NodeCanvas.DialogueTrees.GoToNode","$id":"70"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6394.908,"y":5515.556},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"71"},{"statement":{"_text":"Renseignez
+    vous et revenez me voir!"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":6339.544,"y":5806.588},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"76"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"16"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"28"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"28"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"56"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"70"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"71"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"28"},"_targetNode":{"$ref":"40"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"40"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"42"},"_targetNode":{"$ref":"44"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"56"},"_targetNode":{"$ref":"68"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"68"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"71"},"_targetNode":{"$ref":"76"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"76"},"_targetNode":{"$ref":"44"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":2},{"_keyName":"Directeur","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":3}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
   boundGraphObjectReferences:
   - {fileID: 0}
+  - {fileID: 520221953}
   - {fileID: 650330075}
   - {fileID: 2030006566}
   enableAction: 0
   disableAction: 0
   versionUpdateProxyGraph: {fileID: 0}
-  _graph: {fileID: 218458321}
+  _graph: {fileID: 742023339}
   _blackboard: {fileID: 0}
 --- !u!82 &1450568364
 AudioSource:
@@ -8367,6 +8447,41 @@ Prefab:
       propertyPath: m_AnchoredPosition.x
       value: -0.000019073486
       objectReference: {fileID: 0}
+    - target: {fileID: 114816207193077706, guid: 64cdd49db7f5e5c45bf9bf2c97c8b209,
+        type: 2}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224984670005874934, guid: 64cdd49db7f5e5c45bf9bf2c97c8b209,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224984670005874934, guid: 64cdd49db7f5e5c45bf9bf2c97c8b209,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224984670005874934, guid: 64cdd49db7f5e5c45bf9bf2c97c8b209,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224984670005874934, guid: 64cdd49db7f5e5c45bf9bf2c97c8b209,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224984670005874934, guid: 64cdd49db7f5e5c45bf9bf2c97c8b209,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: -51.19995
+      objectReference: {fileID: 0}
+    - target: {fileID: 224984670005874934, guid: 64cdd49db7f5e5c45bf9bf2c97c8b209,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: -232.40002
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 64cdd49db7f5e5c45bf9bf2c97c8b209, type: 2}
   m_IsPrefabParent: 0
@@ -8596,6 +8711,31 @@ Prefab:
       propertyPath: m_Spacing
       value: 1.1
       objectReference: {fileID: 0}
+    - target: {fileID: 223946893038428738, guid: e31ad7f1fd3fd7b45b92b1b5cff47ad5,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114508489712933552, guid: e31ad7f1fd3fd7b45b92b1b5cff47ad5,
+        type: 2}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224182883510386920, guid: e31ad7f1fd3fd7b45b92b1b5cff47ad5,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224182883510386920, guid: e31ad7f1fd3fd7b45b92b1b5cff47ad5,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224182883510386920, guid: e31ad7f1fd3fd7b45b92b1b5cff47ad5,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: -51.19995
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e31ad7f1fd3fd7b45b92b1b5cff47ad5, type: 2}
   m_IsPrefabParent: 0
@@ -8689,36 +8829,37 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1498228885}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1506660749
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+--- !u!84 &1501553901
+RenderTexture:
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: QuestFollowMeSomewhere
-  m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3352.171,"y":-3214.186},"zoomFactor":0.678288,"nodes":[{"statement":{"_text":"Bonjour!\nSoyez
-    le bienvenu. Le directeur m''a demand\u00e9 de vous conduire a votre bureau."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5426.0,"y":4910.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5833.507,"y":4983.324},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"availableChoices":[{"statement":{"_text":"Je
-    vous suis."}},{"statement":{"_text":"Je trouverais mon bureau tout seul. Merci!","_audio":1}}],"_actorName":"Vous","_actorParameterID":"3d461e4b-c28e-48d8-8329-6029de391c3a","_position":{"x":5512.0,"y":5054.0},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"9"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5389.153,"y":5190.162},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"15"},{"statement":{"_text":"Allons
-    \u00e0 votre bureau, par ici je vous prie."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5401.0,"y":5278.0},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"20"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|EndQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5615.128,"y":5349.333},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"22"},{"statement":{"_text":"Je
-    vous verrais plus tard alors."},"_actorName":"Secr\u00e9taire","_actorParameterID":"8ed798ea-3997-4663-b672-c7182246264d","_position":{"x":5895.319,"y":5191.631},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"27"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestFollowMe|CancelQuestFollowMe","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5861.828,"y":5333.766},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"29"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"15"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"15"},"_targetNode":{"$ref":"20"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"20"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"27"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Vous","_id":"3d461e4b-c28e-48d8-8329-6029de391c3a","_actorObject":2},{"_keyName":"Secr\u00e9taire","_id":"8ed798ea-3997-4663-b672-c7182246264d","_actorObject":3}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-  _objectReferences:
-  - {fileID: 0}
-  - {fileID: 8300000, guid: 7a171f3683021e3469ff07d82cef1fd1, type: 3}
-  - {fileID: 650330075}
-  - {fileID: 1058861881}
-  _deserializationFailed: 0
-  _actorParameters:
-  - _keyName: Vous
-    _id: 3d461e4b-c28e-48d8-8329-6029de391c3a
-    _actorObject: {fileID: 650330075}
-  - _keyName: "Secr\xE9taire"
-    _id: 8ed798ea-3997-4663-b672-c7182246264d
-    _actorObject: {fileID: 1058861881}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_Width: 450
+  m_Height: 253
+  m_AntiAliasing: 1
+  m_DepthFormat: 1
+  m_ColorFormat: 0
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 0
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &1510202294
 GameObject:
   m_ObjectHideFlags: 0
@@ -8916,7 +9057,7 @@ MonoBehaviour:
   enableAction: 0
   disableAction: 0
   versionUpdateProxyGraph: {fileID: 0}
-  _graph: {fileID: 1506660749}
+  _graph: {fileID: 854221591}
   _blackboard: {fileID: 0}
 --- !u!82 &1591067608
 AudioSource:
@@ -9491,37 +9632,41 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1743130431}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!84 &1752236726
-RenderTexture:
-  m_ObjectHideFlags: 0
+--- !u!114 &1752473546
+MonoBehaviour:
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 794
-  m_Height: 447
-  m_AntiAliasing: 1
-  m_DepthFormat: 1
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
+  m_Name: QuestFinanceRoom
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-2337.907,"y":-2489.657},"zoomFactor":0.4943419,"nodes":[{"statement":{"_text":"Et
+    voici votre bureau. Souhaitez vous que je vous en dise un peu plus?"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5447.652,"y":5122.927},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5630.134,"y":5186.99},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"4"},{"availableChoices":[{"statement":{"_text":"Parlez
+    moi de la biblioth\u00e8que juste l\u00e0."}},{"statement":{"_text":"Qui pourrait
+    bien appeler le bureau financier?"}},{"statement":{"_text":"Et l''ordinateur?
+    C''est pour les emails?"}},{"statement":{"_text":"Ca ira merci."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5490.428,"y":5258.906},"$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"9"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowLibraryInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5203.453,"y":5483.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"19"},{"statement":{"_text":"Utilisez
+    la biblioth\u00e8que si vous cherchez une information pr\u00e9cise. Comme une
+    d\u00e9finition par exemple!"},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5098.286,"y":5578.739},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"30"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5684.095,"y":5736.485},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"32"},{"_targetNode":{"$ref":"9"},"_nodeColor":{"g":0.7254902,"b":0.9098039,"a":1.0},"_position":{"x":5721.087,"y":5834.419},"$type":"NodeCanvas.DialogueTrees.GoToNode","$id":"37"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowPhoneInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5650.453,"y":5484.115},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"38"},{"statement":{"_text":"Le
+    directeur par exemple. Il m''a dit qu''il vous appelerez pour s''assurer que tout
+    va bien."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5539.087,"y":5579.589},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"49"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|ShowComputerInRoom","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":6112.197,"y":5480.875},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"51"},{"statement":{"_text":"Tout
+    a fait. Vous recevrez des emails vous demandant d''accomplir beaucoup pour notre
+    belle hopital."},"_actorName":"secretaire","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5991.095,"y":5583.455},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"62"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestDiscoverFinanceRoom|EndFinanceRoomQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":6446.544,"y":5448.674},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"64"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"19"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"38"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"51"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"64"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"19"},"_targetNode":{"$ref":"30"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"30"},"_targetNode":{"$ref":"32"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"32"},"_targetNode":{"$ref":"37"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"38"},"_targetNode":{"$ref":"49"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"49"},"_targetNode":{"$ref":"32"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"51"},"_targetNode":{"$ref":"62"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"62"},"_targetNode":{"$ref":"32"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":1},{"_keyName":"secretaire","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 650330075}
+  - {fileID: 1058861881}
+  _deserializationFailed: 0
+  _actorParameters:
+  - _keyName: player
+    _id: 485d77c8-fac8-4008-96be-f94e141e22ea
+    _actorObject: {fileID: 650330075}
+  - _keyName: secretaire
+    _id: fcf44d51-c21f-4895-9cd2-86c9fb8fbd58
+    _actorObject: {fileID: 1058861881}
 --- !u!1 &1759428629
 GameObject:
   m_ObjectHideFlags: 0
@@ -9930,7 +10075,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 0
   m_RenderingPath: 1
-  m_TargetTexture: {fileID: 1993089041}
+  m_TargetTexture: {fileID: 1501553901}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -10731,37 +10876,6 @@ Transform:
   m_Father: {fileID: 1646754284}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &1993089041
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_Width: 795
-  m_Height: 447
-  m_AntiAliasing: 1
-  m_DepthFormat: 1
-  m_ColorFormat: 0
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 0
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &2000936613
 GameObject:
   m_ObjectHideFlags: 0
@@ -11092,7 +11206,7 @@ MonoBehaviour:
   enableAction: 0
   disableAction: 0
   versionUpdateProxyGraph: {fileID: 0}
-  _graph: {fileID: 969474224}
+  _graph: {fileID: 1752473546}
   _blackboard: {fileID: 0}
 --- !u!82 &2093598073
 AudioSource:
@@ -11385,55 +11499,3 @@ Transform:
   m_Father: {fileID: 1984929837}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2141879041
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c3f478ef69fbe04fa9ed3664a8a443e, type: 3}
-  m_Name: QuestDirectorQuestionnaryOnOndam
-  m_EditorClassIdentifier: 
-  _serializedGraph: '{"version":2.6,"type":"NodeCanvas.DialogueTrees.DialogueTree","name":"DialogueTree","translation":{"x":-3272.204,"y":-5062.498},"zoomFactor":0.7320246,"nodes":[{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5676.819,"y":4913.897},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"2"},{"statement":{"_text":"Vous
-    avez trouver mon bureau!\nVous tombez bien, j''ai quelques questions."},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5662.285,"y":4979.522},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"statement":{"_text":"L\u2019Objectif
-    national de d\u00e9penses d\u2019assurance maladie (Ondam) est objectif de d\u00e9penses
-    \u00e0 ne pas d\u00e9passer en mati\u00e8re de soins de ville et d\u2019hospitalisation
-    dispens\u00e9s dans les \u00e9tablissements priv\u00e9s ou publics, mais aussi
-    dans les centres m\u00e9dico-sociaux. "},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5579.676,"y":5061.685},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"9"},{"statement":{"_text":"D''accord,
-    mais qui d\u00e9cide de la fixation de l''ONDAM. "},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5570.676,"y":5132.685},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"11"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5699.038,"y":5199.801},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"13"},{"availableChoices":[{"statement":{"_text":"Le
-    parlement."}},{"statement":{"_text":"Le minist\u00e8re de la sant\u00e9."}},{"statement":{"_text":"L\u2019ARS."}},{"statement":{"_text":"Aucun
-    des trois!"}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5617.145,"y":5310.7},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"18"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5384.78,"y":5533.979},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"28"},{"statement":{"_text":"Oui
-    vous avez raison. Bravo, [l''\u00e9tablissement a gagn\u00e9 10mo de cr\u00e9dits
-    grace a votre r\u00e9ponse.]"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5272.051,"y":5661.553},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"40"},{"statement":{"_text":"Vot\u00e9
-    par le Parlement, l\u2019Ondam ne constitue pas un budget mais plut\u00f4t un
-    indicateur de ma\u00eetrise des d\u00e9penses de sant\u00e9. \r\nIl est fix\u00e9
-    chaque ann\u00e9e par la loi de financement de la S\u00e9curit\u00e9 sociale (LFSS).
-    "},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5529.548,"y":5829.615},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"42"},{"statement":{"_text":"Ainsi,
-    depuis sa mise en \u0153uvre en 1997, l\u2019Ondam a \u00e9t\u00e9 syst\u00e9matiquement
-    d\u00e9pass\u00e9 jusqu\u2019en 2010. Depuis cette date, il est sous-ex\u00e9cut\u00e9,
-    c\u2019est-\u00e0-dire que les d\u00e9penses de sant\u00e9 constat\u00e9es sont
-    inf\u00e9rieures \u00e0 celles qui avaient \u00e9t\u00e9 initialement pr\u00e9vues."},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5542.537,"y":5905.418},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"44"},{"statement":{"_text":"Si
-    je comprends bien, les d\u00e9penses des h\u00f4pitaux font partie de l\u2019ONDAM
-    ? Quelles sont les autres d\u00e9penses du budget de l\u2019assurance-maladie
-    ?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5553.686,"y":5976.222},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"46"},{"statement":{"_text":"Qu''en
-    est-il des d\u00e9penses de soins de ville?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5582.443,"y":6038.361},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"48"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5655.763,"y":6112.421},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"50"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5697.049,"y":6198.569},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"55"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5457.811,"y":6328.259},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"61"},{"statement":{"_text":"Qu''en
-    est-il des d\u00e9penses relatives aux \u00e9tablissements de sant\u00e9?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5602.447,"y":6512.36},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"73"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5675.768,"y":6586.42},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"75"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5717.053,"y":6672.568},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"80"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5477.815,"y":6802.258},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"86"},{"statement":{"_text":"Les
-    d\u00e9penses relatives aux \u00e9coles et aux instituts de formation param\u00e9dicales
-    font-elle \u00e9galement partie des d\u00e9penses de l''assurance maladie?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5606.45,"y":6958.345},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"98"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5679.771,"y":7032.405},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"100"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5721.056,"y":7118.553},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"105"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5483.641,"y":7262.694},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"111"},{"statement":{"_text":"Qu''en
-    est-il des d\u00e9penses en \u00e9tablissements et services pour personnes \u00e2g\u00e9es?"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5656.448,"y":7443.831},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"122"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowPlayerCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5729.769,"y":7517.891},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"124"},{"availableChoices":[{"statement":{"_text":"Oui."}},{"statement":{"_text":"Non."}}],"_actorName":"player","_actorParameterID":"485d77c8-fac8-4008-96be-f94e141e22ea","_position":{"x":5771.054,"y":7604.039},"_comment":"\n","$type":"NodeCanvas.DialogueTrees.MultipleChoiceNode","$id":"129"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5531.815,"y":7733.729},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"135"},{"_action":{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|EndDialogueQuest","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":5769.159,"y":8005.97},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"147"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5883.258,"y":7739.047},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"152"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":10000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5828.723,"y":7266.961},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"164"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5810.32,"y":6799.24},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"176"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5790.316,"y":6325.24},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"188"},{"_action":{"actions":[{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ShowSpecificCam","_paramsInfo":""},"parameters":[],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},{"method":{"_returnInfo":"System.Void","_baseInfo":"QuestBuilder|ChangePlayerCredits","_paramsInfo":"System.Int32"},"parameters":[{"_type":"System.Int32","_value":{"$content":-2000000,"$type":"System.Int32"}}],"returnValue":{},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":5701.845,"y":5529.59},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"200"},{"statement":{"_text":"Je
-    crois que vous fa\u00eetes erreur...\n(L''hopital perd 10M).\n\n"},"_actorName":"Directeur","_actorParameterID":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_position":{"x":5823.513,"y":5651.611},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"212"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"13"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"13"},"_targetNode":{"$ref":"18"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"28"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"200"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"200"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"200"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"28"},"_targetNode":{"$ref":"40"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"40"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"42"},"_targetNode":{"$ref":"44"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"44"},"_targetNode":{"$ref":"46"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"46"},"_targetNode":{"$ref":"48"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"48"},"_targetNode":{"$ref":"50"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"50"},"_targetNode":{"$ref":"55"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"55"},"_targetNode":{"$ref":"61"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"55"},"_targetNode":{"$ref":"188"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"61"},"_targetNode":{"$ref":"73"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"73"},"_targetNode":{"$ref":"75"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"75"},"_targetNode":{"$ref":"80"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"80"},"_targetNode":{"$ref":"86"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"80"},"_targetNode":{"$ref":"176"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"86"},"_targetNode":{"$ref":"98"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"98"},"_targetNode":{"$ref":"100"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"100"},"_targetNode":{"$ref":"105"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"105"},"_targetNode":{"$ref":"111"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"105"},"_targetNode":{"$ref":"164"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"111"},"_targetNode":{"$ref":"122"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"122"},"_targetNode":{"$ref":"124"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"124"},"_targetNode":{"$ref":"129"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"129"},"_targetNode":{"$ref":"135"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"129"},"_targetNode":{"$ref":"152"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"135"},"_targetNode":{"$ref":"147"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"152"},"_targetNode":{"$ref":"147"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"164"},"_targetNode":{"$ref":"122"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"176"},"_targetNode":{"$ref":"98"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"188"},"_targetNode":{"$ref":"73"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"200"},"_targetNode":{"$ref":"212"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"212"},"_targetNode":{"$ref":"42"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
-    Blackboard","_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"player","_id":"485d77c8-fac8-4008-96be-f94e141e22ea","_actorObject":1},{"_keyName":"Directeur","_id":"fcf44d51-c21f-4895-9cd2-86c9fb8fbd58","_actorObject":2}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
-  _objectReferences:
-  - {fileID: 0}
-  - {fileID: 650330075}
-  - {fileID: 2030006566}
-  _deserializationFailed: 0
-  _actorParameters:
-  - _keyName: player
-    _id: 485d77c8-fac8-4008-96be-f94e141e22ea
-    _actorObject: {fileID: 650330075}
-  - _keyName: Directeur
-    _id: fcf44d51-c21f-4895-9cd2-86c9fb8fbd58
-    _actorObject: {fileID: 2030006566}
