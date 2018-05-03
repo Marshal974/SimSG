@@ -56,6 +56,7 @@ public class InGameOptions : MonoBehaviour
 
 	public void BackToMainMenu()
 	{
+		SoundOptionsManager.instance.HideSoundOptionsPanel ();
 		SceneManager.LoadScene (0, LoadSceneMode.Single);
 
 	}
@@ -71,7 +72,6 @@ public class InGameOptions : MonoBehaviour
 		playerMoveScript.enabled = false;
 		openPanelButton.SetActive (false);
 		ModuleUIManager.instance.helpUI.openPanelButton.SetActive (false);
-
 		optionsPanel.SetActive(true);
 		audioS.PlayOneShot (SoundsManager.instance.soundsSO.validationSnd );
 
@@ -83,6 +83,7 @@ public class InGameOptions : MonoBehaviour
 		ModuleUIManager.instance.helpUI.openPanelButton.SetActive (true);
 		optionsPanel.SetActive(false);
 		playerMoveScript.enabled = true;
+		SoundOptionsManager.instance.HideSoundOptionsPanel ();
 		audioS.PlayOneShot (SoundsManager.instance.soundsSO.validationSnd );
 
 	}
