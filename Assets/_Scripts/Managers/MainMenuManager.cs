@@ -159,6 +159,8 @@ public class MainMenuManager : MonoBehaviour
 		welcomePanel.SetActive (false);
 		logInPanel.SetActive (false);
 		serialNumberPanel.SetActive (false);
+		SoundOptionsManager.instance.HideSoundOptionsPanel ();
+
 	}
 
 	public void QuitGame()
@@ -205,6 +207,7 @@ public class MainMenuManager : MonoBehaviour
 	//appeler depuis UI
 	public void ChangeYourNickname(string newNickname)
 	{
+		
 		ShowMainMenu ();
 		PlayerPrefs.SetString ("NICKNAME", newNickname);
 	}
