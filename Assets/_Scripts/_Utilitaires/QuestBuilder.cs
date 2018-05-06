@@ -16,6 +16,7 @@ public class QuestBuilder : MonoBehaviour
 
 	public Camera specificCam; //Une caméra spécial qui mettra en valeur le deuxieme protagoniste du dialogue/ pas obligé de compléter.
 
+	#region fonctions utiles pour construire une quête
 	public void StartDialogueQuest()
 	{
 		dialogueTree.enabled = true;
@@ -30,6 +31,7 @@ public class QuestBuilder : MonoBehaviour
 		Invoke ("DelayedEndOfQuestEvents", .5f);
 
 	}
+
 	public void ShowSpecificCam()
 	{
 		if (specificCam) 
@@ -39,6 +41,7 @@ public class QuestBuilder : MonoBehaviour
 		InGameManager.instance.playerObj.GetComponent<PlayerGeneralBehaviour> ().ToggleMyCam (false);
 
 	}
+
 	public void ShowPlayerCam()
 	{
 		if (specificCam) 
@@ -49,21 +52,7 @@ public class QuestBuilder : MonoBehaviour
 
 	}
 
-	void DisableAllQuestCams()
-	{
-		if (specificCam) 
-		{
-			specificCam.enabled = false;
-		}
-		InGameManager.instance.playerObj.GetComponent<PlayerGeneralBehaviour> ().ToggleMyCam (false);
 
-	}
-
-	void DelayedEndOfQuestEvents()
-	{
-		InGameManager.instance.playerObj.GetComponent<PlayerClickToMove> ().enabled = true;
-
-	}
 
 	public void ChangePlayerCredits(int bonusCredits)
 	{
@@ -71,10 +60,10 @@ public class QuestBuilder : MonoBehaviour
 		if (bonusCredits > 0) {
 			GetComponent<AudioSource> ().PlayOneShot (SoundsManager.instance.soundsSO.successSnd);
 
-			AlertMessageManager.instance.CreateAnAlert ("Vous avez fait gagné " + bonusCredits + " crédits à l'hopital.",1);
+			AlertMessageManager.instance.CreateAnAlert ("Vous avez fait gagné " + bonusCredits + " million(s) à l'hopital.",1);
 		} else {
 			GetComponent<AudioSource> ().PlayOneShot (SoundsManager.instance.soundsSO.errorSnd);
-			AlertMessageManager.instance.CreateAnAlert ("Vous avez fait perdre " + -bonusCredits + " crédits à l'hopital.",3);
+			AlertMessageManager.instance.CreateAnAlert ("Vous avez fait perdre " + -bonusCredits + " million(s) à l'hopital.",3);
 
 		}
 	}
@@ -97,4 +86,48 @@ public class QuestBuilder : MonoBehaviour
 		QuestsManager.instance.trailAgent.enabled = true;
 		QuestsManager.instance.trailAgent.SetDestination (destPos);
 	}
+
+	public void ChangeTheMonth(int month)
+	{
+		ResourcesManager.instance.currentMonth = (AllEnum.Months)month;
+	}
+
+	public void DisplayAnImage(Sprite toShow)
+	{
+		ModuleUIManager.instance.dialogueUI.graphDisplayer.enabled = true;
+		ModuleUIManager.instance.dialogueUI.graphDisplayer.sprite = toShow;
+		ModuleUIManager.instance.dialogueUI.graphDisplayer.SetNativeSize();
+	}
+	public void HideDisplayedImage()
+	{
+		ModuleUIManager.instance.dialogueUI.graphDisplayer.enabled = false;
+
+	}
+
+	public void ChangePlayerProgressInModule(int bonusInPrct)
+	{
+		ResourcesManager.instance.playerProgress += bonusInPrct;
+	}
+	#endregion
+
+	#region utilitaires
+	//pour le flow du gameplay, fait pas gaffe
+	void DelayedEndOfQuestEvents()
+	{
+		InGameManager.instance.playerObj.GetComponent<PlayerClickToMove> ().enabled = true;
+
+	}
+
+	void DisableAllQuestCams()
+	{
+		if (specificCam) 
+		{
+			specificCam.enabled = false;
+		}
+		InGameManager.instance.playerObj.GetComponent<PlayerGeneralBehaviour> ().ToggleMyCam (false);
+
+	}
+
+	#endregion
+
 }

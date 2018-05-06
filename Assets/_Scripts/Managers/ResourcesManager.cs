@@ -80,7 +80,20 @@ public class ResourcesManager : MonoBehaviour
 			_currentMonth = value;
 			ModuleUIManager.instance.playerResourcesUI.currentMonthDisplay.text = value.ToString ();
 		}
-	} 
+	}
+
+	public int playerProgress
+	{
+		get
+		{
+			return _playerProgress;
+		}
+		set
+		{
+			_playerProgress = value;
+			ModuleUIManager.instance.playerResourcesUI.UpdatePlayerProgress(_playerProgress);
+		}
+	}
 	#endregion
 
 	#region variables privés utilisés par les get set nottament
@@ -90,6 +103,7 @@ public class ResourcesManager : MonoBehaviour
 	int _playergold;
 	int _socialClimate;
 	AllEnum.Months _currentMonth;
+	int _playerProgress;
 
 
 	#endregion
@@ -113,9 +127,9 @@ public class ResourcesManager : MonoBehaviour
 
 	void ChangeResourcesForTest()
 	{
-		playerGold = 70000000;
+		playerGold = 70;
 		socialClimate = 40;
-		currentMonth = AllEnum.Months.april;
+		currentMonth = AllEnum.Months.mai;
 		patientsCount = 754;
 		agentsCount = 1500;
 	}

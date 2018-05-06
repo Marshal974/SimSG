@@ -15,8 +15,10 @@ public class ModuleUIManager : MonoBehaviour
 	public WelcomeInModuleUI welcomeInModuleUI;
 	public ComputerUI computerUI;
 	public AlertUI alertUI;
+	public DialogueUI dialogueUI;
 
 	public List<Canvas> allCanvases = new List<Canvas>();
+
 	void Awake()
 	{
 		if (instance == null) {

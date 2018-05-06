@@ -11,8 +11,9 @@ public class PlayerResourcesUI : MonoBehaviour
 	//L'ordre d'actualisation de UI est également envoyer par ce dernier.
 
 	public GameObject ResourcesPanel; //Le panel contenant tous les UI de ressources
-	public Text playerGoldDisplay; 
 	public Slider socialClimateSlider;
+	public Slider playerProgressSlider;
+	public Text playerGoldDisplay; 
 	public Text SocialClimateDisplay;
 	public Text currentMonthDisplay;
 	public Text patientsCountDisplay;
@@ -40,6 +41,11 @@ public class PlayerResourcesUI : MonoBehaviour
 	{
 		socialClimateSlider.value = newClimate;
 		SocialClimateDisplay.text = newClimate.ToString ();
+	}
+
+	public void UpdatePlayerProgress(int pProgress)
+	{
+		playerProgressSlider.value = pProgress;
 	}
 
 }
