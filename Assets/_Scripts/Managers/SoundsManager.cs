@@ -20,7 +20,8 @@ public class SoundsManager : MonoBehaviour
 		if (instance == null) {
 			instance = this;
 		} else {
-			Debug.Log ("Two Managers here!");
+			//Ce bug se produit souvent sur le sound manager car on l'utilise pour test plus vite le module
+//			Debug.Log ("Two Managers here!");
 			Destroy (gameObject);
 		}
 	}

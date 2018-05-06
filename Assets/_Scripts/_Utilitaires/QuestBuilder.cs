@@ -108,6 +108,12 @@ public class QuestBuilder : MonoBehaviour
 	{
 		ResourcesManager.instance.playerProgress += bonusInPrct;
 	}
+
+	public void ShowLoadingScreen()
+	{
+		LoadingScreenManager.instance.ShowLoadingScreen ();
+	}
+
 	#endregion
 
 	#region utilitaires

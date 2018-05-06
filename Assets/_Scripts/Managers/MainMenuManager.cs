@@ -172,6 +172,7 @@ public class MainMenuManager : MonoBehaviour
 
 	public void StartNewGame()
 	{
+		LoadingScreenManager.instance.ShowLoadingScreen ();
 		PlayerPrefs.SetString("GAME", "new");
 		effectsAudioS.PlayOneShot(SoundsManager.instance.soundsSO.successSnd);
 		Invoke("LoadSpecificScene",.8f);
@@ -180,6 +181,7 @@ public class MainMenuManager : MonoBehaviour
 
 	public void ContinueGame()
 	{
+		LoadingScreenManager.instance.ShowLoadingScreen ();
 		PlayerPrefs.SetString("GAME", "continue");
 		effectsAudioS.PlayOneShot(SoundsManager.instance.soundsSO.successSnd);
 
