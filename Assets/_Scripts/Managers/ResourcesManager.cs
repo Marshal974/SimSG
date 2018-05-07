@@ -82,6 +82,7 @@ public class ResourcesManager : MonoBehaviour
 		}
 	}
 
+	//Sur 100
 	public int playerProgress
 	{
 		get

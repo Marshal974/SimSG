@@ -408,6 +408,21 @@ Prefab:
       propertyPath: m_RaycastTarget
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114088667509044960, guid: 149c4a81b7045814a918231bdb6e03e0,
+        type: 2}
+      propertyPath: loadingColor.r
+      value: 0.08088237
+      objectReference: {fileID: 0}
+    - target: {fileID: 114088667509044960, guid: 149c4a81b7045814a918231bdb6e03e0,
+        type: 2}
+      propertyPath: loadingColor.g
+      value: 0.076124586
+      objectReference: {fileID: 0}
+    - target: {fileID: 114088667509044960, guid: 149c4a81b7045814a918231bdb6e03e0,
+        type: 2}
+      propertyPath: loadingColor.b
+      value: 0.076124586
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 149c4a81b7045814a918231bdb6e03e0, type: 2}
   m_IsPrefabParent: 0

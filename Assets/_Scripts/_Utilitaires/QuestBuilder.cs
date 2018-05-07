@@ -17,6 +17,7 @@ public class QuestBuilder : MonoBehaviour
 	public Camera specificCam; //Une caméra spécial qui mettra en valeur le deuxieme protagoniste du dialogue/ pas obligé de compléter.
 
 	#region fonctions utiles pour construire une quête
+
 	public void StartDialogueQuest()
 	{
 		dialogueTree.enabled = true;
@@ -51,9 +52,7 @@ public class QuestBuilder : MonoBehaviour
 		InGameManager.instance.playerObj.GetComponent<PlayerGeneralBehaviour> ().ToggleMyCam (true);
 
 	}
-
-
-
+		
 	public void ChangePlayerCredits(int bonusCredits)
 	{
 		ResourcesManager.instance.playerGold += bonusCredits;
@@ -77,16 +76,7 @@ public class QuestBuilder : MonoBehaviour
 	{
 		StartCoroutine (MoveTrailAgentToDest(destination.position));
 	}
-
-	IEnumerator MoveTrailAgentToDest(Vector3 destPos)
-	{
-		QuestsManager.instance.trailAgent.enabled = false;
-		QuestsManager.instance.trailAgent.transform.position = InGameManager.instance.playerObj.transform.position;
-		yield return new WaitForEndOfFrame ();
-		QuestsManager.instance.trailAgent.enabled = true;
-		QuestsManager.instance.trailAgent.SetDestination (destPos);
-	}
-
+		
 	public void ChangeTheMonth(int month)
 	{
 		ResourcesManager.instance.currentMonth = (AllEnum.Months)month;
@@ -98,6 +88,7 @@ public class QuestBuilder : MonoBehaviour
 		ModuleUIManager.instance.dialogueUI.graphDisplayer.sprite = toShow;
 		ModuleUIManager.instance.dialogueUI.graphDisplayer.SetNativeSize();
 	}
+
 	public void HideDisplayedImage()
 	{
 		ModuleUIManager.instance.dialogueUI.graphDisplayer.enabled = false;
@@ -132,6 +123,15 @@ public class QuestBuilder : MonoBehaviour
 		}
 		InGameManager.instance.playerObj.GetComponent<PlayerGeneralBehaviour> ().ToggleMyCam (false);
 
+	}
+
+	IEnumerator MoveTrailAgentToDest(Vector3 destPos)
+	{
+		QuestsManager.instance.trailAgent.enabled = false;
+		QuestsManager.instance.trailAgent.transform.position = InGameManager.instance.playerObj.transform.position;
+		yield return new WaitForEndOfFrame ();
+		QuestsManager.instance.trailAgent.enabled = true;
+		QuestsManager.instance.trailAgent.SetDestination (destPos);
 	}
 
 	#endregion

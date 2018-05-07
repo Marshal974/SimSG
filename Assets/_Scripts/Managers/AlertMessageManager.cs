@@ -6,7 +6,7 @@ public class AlertMessageManager : MonoBehaviour
 {
 	public static AlertMessageManager instance;
 	public GameObject alertPrefab;
-
+	 
 	public Color lowpriorityAlertColor;
 	public Color normalAlertColor;
 	public Color importantAlertColor;

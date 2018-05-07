@@ -21,6 +21,7 @@ public class InteractableObjectScript : MonoBehaviour
 			theActionToDoOnInteraction.Invoke ();
 		}
 	}
+
 	public void OnTriggerEnter(Collider other)
 	{
 		if (other.tag == "Player")
@@ -32,6 +33,7 @@ public class InteractableObjectScript : MonoBehaviour
 			}
 		}
 	}
+
 	public void OnTriggerExit(Collider other)
 	{
 		if (other.tag == "Player")
