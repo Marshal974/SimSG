@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class AlertMessageManager : MonoBehaviour 
 {
+
+	//Gestion du systeme d'alerte avec les 3 niveaux d'alertes personnalisable.
 	public static AlertMessageManager instance;
 	public GameObject alertPrefab;
 	 

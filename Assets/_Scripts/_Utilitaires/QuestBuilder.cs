@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using NodeCanvas.DialogueTrees;
 using UnityEngine.Events;
+
 [RequireComponent(typeof(AudioSource))]
 public class QuestBuilder : MonoBehaviour 
 {
+	//ce script est au coeur du système de création de quête
+	//Il a pour mission de référencer en un endroit de façon simple et accessible
+	//Toutes les fonctionnalités recquises a la création d'une nouvelle quête.
 
-	//Ce quest builder est a associé a un autre script qui commence par Quest.
+	//Il arrive que des quêtes spécifique dérive de ce script.
 	//Il contient les fonctions récurrentes entre les quêtes.
-	//On peut trouver aussi certaines de ces fonctions sur le QuestManager pour diverses raisons.
+	//On peut trouver aussi certaines de ces fonctions sur le QuestManager pour référencement.
 
 
 	public DialogueTreeController dialogueTree; //chaque quête a un dialogue tree associé.

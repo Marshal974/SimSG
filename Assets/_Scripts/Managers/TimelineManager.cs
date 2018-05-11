@@ -5,6 +5,9 @@ using UnityEngine.Playables;
 
 public class TimelineManager : MonoBehaviour 
 {
+
+	// gestion des cinématiques du jeu.
+
 	public static TimelineManager instance;
 
 	[Header("Les cutscenes de l'écran de bienvenue.")]
@@ -13,6 +16,7 @@ public class TimelineManager : MonoBehaviour
 
 	PlayableDirector playableDirector;
 
+	#region monob territory
 	void Awake()
 	{
 		if (instance == null) {
@@ -28,6 +32,8 @@ public class TimelineManager : MonoBehaviour
 	{
 		playableDirector = GetComponent<PlayableDirector> ();
 	}
+
+	#endregion
 
 	#region welcome cutscene
 	public void PlayWelcomeCutscene(int cutscenePart)

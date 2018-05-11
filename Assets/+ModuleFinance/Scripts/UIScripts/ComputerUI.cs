@@ -5,9 +5,12 @@ using UnityEngine.UI;
 
 public class ComputerUI : MonoBehaviour 
 {
+
+	//Gère l'interface d'email.
+
 	public GameObject computerPanel;
 	public GameObject allMessagesPanel;
-	public GameObject currentMessagePanel;
+	public GameObject currentMessagePanel; //Le panel du message actuellement lu.
 
 	public Text mainSender;
 	public Text mainObject;
@@ -15,7 +18,7 @@ public class ComputerUI : MonoBehaviour
 
 	AudioSource audioS;
 	PlayerClickToMove playerMoveScript;
-	bool firstTimeOpeningPanel = true;
+	bool firstTimeOpeningPanel = true; //pour la ptite quête du tel qui sonne.
 
 	void Start()
 	{

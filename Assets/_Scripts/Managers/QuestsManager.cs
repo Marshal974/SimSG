@@ -7,6 +7,9 @@ using UnityEngine.AI;
 public class QuestsManager : MonoBehaviour 
 {
 
+	//Ce script me permet de garder une trace des quêtes créer dans le module.
+	//De les référencer / de faire des actions récurrentes en quête.
+
 	public static QuestsManager instance;
 	public UnityEvent followMeQuest;
 	public UnityEvent explainFinanceRoomQuest;
