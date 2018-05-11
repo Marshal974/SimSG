@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6014341e85601b74dae86bf377d3d734, type: 3}
+  m_Name: MCO
+  m_EditorClassIdentifier: 
+  visualToDisplay: {fileID: 21300000, guid: 8baec0d2aa8b4284b96b598389a11a6d, type: 3}
+  entryName: "MCO: m\xE9decine, chirurgie, obst\xE9trique"
+  entryDefContent: "Le sigle MCO (m\xE9decine, chirurgie, obst\xE9trique) correspond
+    aux s\xE9jours hospitaliers en soins de courte dur\xE9e, avec ou sans h\xE9bergement,
+    ou des affections graves pendant leur phase aigu\xEB. Les \xE9tablissements dits
+    MCO pratiquent ainsi litt\xE9ralement les activit\xE9s de m\xE9decine, chirurgie,
+    obst\xE9trique et odontologie mais aussi les activit\xE9s ambulatoires et la canc\xE9rologie.
+    Ils ne comprennent donc pas les activit\xE9s de sant\xE9 mentale ni celles de
+    soins de suite et de r\xE9adaptation (SSR) ni celles de l'hospitalisation \xE0
+    domicile (HAD). "

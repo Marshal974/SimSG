@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6014341e85601b74dae86bf377d3d734, type: 3}
+  m_Name: T2A
+  m_EditorClassIdentifier: 
+  visualToDisplay: {fileID: 0}
+  entryName: "T2A : Tarification \xE0 l'activit\xE9 (T2A)"
+  entryDefContent: "La tarification \xE0 l'activit\xE9 (T2A) est un mode de financement
+    des \xE9tablissements de sant\xE9 fran\xE7ais qui vise \xE0 m\xE9dicaliser le
+    financement tout en \xE9quilibrant l'allocation des ressources financi\xE8res
+    et en responsabilisant les acteurs de sant\xE9. C\u2019est un m\xE9canisme de
+    prix-volume qui permet d\u2019allouer un tarif \xE0 chaque acte r\xE9alis\xE9. "

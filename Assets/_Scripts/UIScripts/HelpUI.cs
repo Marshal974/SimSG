@@ -1,12 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(AudioSource))]
 public class HelpUI : MonoBehaviour
 {
 	[Tooltip("Le panel associé a ce menu.")]
 	public GameObject helpPanel;
+	public GameObject allEntriesScrollView;
+	public Text mainEntryNameTxt;
+	public Text mainEntryDefinitionTxt;
+	public Image mainEntryVisualImage;
 
 	public GameObject openPanelButton;
 

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6014341e85601b74dae86bf377d3d734, type: 3}
+  m_Name: DMS
+  m_EditorClassIdentifier: 
+  visualToDisplay: {fileID: 0}
+  entryName: "DMS : dur\xE9e moyenne de s\xE9jour"
+  entryDefContent: "La dur\xE9e moyenne de s\xE9jour est le nombre de journ\xE9es
+    r\xE9alis\xE9es divis\xE9 par le nombre de patients. La dur\xE9e moyenne de s\xE9jour
+    \xE0 l\u2019h\xF4pital est souvent consid\xE9r\xE9e comme un indicateur d\u2019efficience.
+    \nEn savoir plus \u2192  Toutes choses \xE9gales par ailleurs, un s\xE9jour plus
+    court diminue le co\xFBt par sortie et d\xE9place les soins vers le cadre moins
+    on\xE9reux des soins de suite. Toutefois, un s\xE9jour plus court exige g\xE9n\xE9ralement
+    une intensit\xE9 de services plus \xE9lev\xE9e et est plus co\xFBteux par journ\xE9e
+    d\u2019hospitalisation. Un s\xE9jour trop court peut aussi avoir des effets n\xE9gatifs
+    sur les r\xE9sultats de sant\xE9 ou nuire au confort ou au r\xE9tablissement du
+    patient. S\u2019il en r\xE9sulte un taux de r\xE9admissions accru, les co\xFBts
+    par \xE9pisode de maladie peuvent n\u2019\xEAtre que l\xE9g\xE8rement r\xE9duits,
+    ou m\xEAme augmenter. "
