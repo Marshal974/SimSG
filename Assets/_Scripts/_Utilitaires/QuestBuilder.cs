@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using NodeCanvas.DialogueTrees;
 using UnityEngine.Events;
+using UnityEngine.AI;
 
 [RequireComponent(typeof(AudioSource))]
 public class QuestBuilder : MonoBehaviour 
@@ -107,6 +108,20 @@ public class QuestBuilder : MonoBehaviour
 	public void ShowLoadingScreen()
 	{
 		LoadingScreenManager.instance.ShowLoadingScreen ();
+	}
+
+	public void TeleportPlayerToStartPos()
+	{
+		InGameManager.instance.playerObj.GetComponent<NavMeshAgent> ().enabled = false;
+		InGameManager.instance.playerObj.transform.position = InGameManager.instance.playerObj.GetComponent<PlayerGeneralBehaviour> ().myStartPos;
+		InGameManager.instance.playerObj.GetComponent<NavMeshAgent> ().enabled = true;
+
+	}
+	public void TeleportPlayerToSpecificPos(Transform desiredPos)
+	{
+		InGameManager.instance.playerObj.GetComponent<NavMeshAgent> ().enabled = false;
+		InGameManager.instance.playerObj.transform.position = desiredPos.position;
+		InGameManager.instance.playerObj.GetComponent<NavMeshAgent> ().enabled = true;
 	}
 
 	#endregion

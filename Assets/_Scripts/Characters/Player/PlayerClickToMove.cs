@@ -52,7 +52,7 @@ public class PlayerClickToMove : MonoBehaviour {
 		//on s'assure qu'en cas de désactivation du script, aucun prob ne peut survenir.
 		walking = false;
 
-		//ce check permet juste de s'assurer qu'on est pas en train de quitter le jeu.
+		//ce check permet juste de s'assurer qu'on est pas en train de quitter le jeu(le mode play)
 		if (anim.isActiveAndEnabled) 
 		{
 		anim.SetBool ("IsWalking", walking);
@@ -83,7 +83,6 @@ public class PlayerClickToMove : MonoBehaviour {
 
 			if (hit.transform.gameObject.layer == LayerMask.NameToLayer("InteractableObject")) 
 			{
-//				Debug.Log ("done");
 				currentInteractableObjectTarget = hit.transform.GetComponent<InteractableObjectScript> ();
 				if (Vector3.Distance (transform.position, hit.point) > maxInteractionDistance) 
 				{
