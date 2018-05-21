@@ -20,12 +20,21 @@ public class PlayerClickToMove : MonoBehaviour {
 	private NavMeshAgent navMeshAgent;
 	private bool walking; //le joueur marche t-il actuellement?
 	private RaycastHit hit; //sert pour le raycast du joueur.
+	private AchievementTriggerer ATrigger;
+
+	[HideInInspector]
+	public GameObject clicTargeterObj;
 
 	#region MonoB functions
 
 	void Awake () 
 	{
 		navMeshAgent = GetComponent<NavMeshAgent> ();
+	}
+
+	void Start()
+	{
+		ATrigger = GetComponent<AchievementTriggerer> ();
 	}
 
 	void Update () 
@@ -51,7 +60,7 @@ public class PlayerClickToMove : MonoBehaviour {
 	{
 		//on s'assure qu'en cas de désactivation du script, aucun prob ne peut survenir.
 		walking = false;
-
+		clicTargeterObj.SetActive (false);
 		//ce check permet juste de s'assurer qu'on est pas en train de quitter le jeu(le mode play)
 		if (anim.isActiveAndEnabled) 
 		{
@@ -70,6 +79,9 @@ public class PlayerClickToMove : MonoBehaviour {
 		walking = true;
 		anim.SetBool ("IsWalking", walking);
 		navMeshAgent.SetDestination (targetPos);
+		clicTargeterObj.SetActive (true);
+		clicTargeterObj.SetActive (true);
+		clicTargeterObj.transform.localPosition = navMeshAgent.destination;
 	}
 
 	//on cast un ray pour dire au joueur ou il doit aller
@@ -91,6 +103,8 @@ public class PlayerClickToMove : MonoBehaviour {
 					navMeshAgent.isStopped = false;
 
 					navMeshAgent.destination = currentInteractableObjectTarget.playerDesiredPos.position;
+					clicTargeterObj.SetActive (true);
+					clicTargeterObj.transform.localPosition = navMeshAgent.destination;
 				} 
 				else 
 				{
@@ -106,6 +120,12 @@ public class PlayerClickToMove : MonoBehaviour {
 				anim.SetBool ("IsWalking", walking);
 				navMeshAgent.isStopped = false;
 				navMeshAgent.destination = hit.point;
+				clicTargeterObj.SetActive (true);
+				clicTargeterObj.transform.localPosition = navMeshAgent.destination;
+				if (!ATrigger.enabled) 
+				{
+					ATrigger.enabled = true;
+				}
 			}
 		}
 	}

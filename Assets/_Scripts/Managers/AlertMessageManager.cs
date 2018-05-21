@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class AlertMessageManager : MonoBehaviour 
 {
 
@@ -13,6 +14,7 @@ public class AlertMessageManager : MonoBehaviour
 	public Color normalAlertColor;
 	public Color importantAlertColor;
 
+	AudioSource audioS;
 	void Awake()
 	{
 		if (instance == null) {
@@ -22,6 +24,12 @@ public class AlertMessageManager : MonoBehaviour
 			Debug.Log ("on a 2 alert managers");
 		}
 	}
+
+	void Start()
+	{
+		audioS = GetComponent<AudioSource> ();
+	}
+
 	/// <summary>
 	/// Creates an alert.
 	/// </summary>
@@ -38,12 +46,17 @@ public class AlertMessageManager : MonoBehaviour
 
 		case 1:
 			Go.GetComponent<AlertMessageScript> ().alertVisual.color = lowpriorityAlertColor;
+			audioS.PlayOneShot (SoundsManager.instance.soundsSO.successSnd);
 			break;
 		case 2:
 			Go.GetComponent<AlertMessageScript> ().alertVisual.color = normalAlertColor;
+			audioS.PlayOneShot (SoundsManager.instance.soundsSO.validationSnd);
+
 			break;
 		case 3:
 			Go.GetComponent<AlertMessageScript> ().alertVisual.color = importantAlertColor;
+			audioS.PlayOneShot (SoundsManager.instance.soundsSO.errorSnd);
+
 			break;
 		default:
 			Debug.Log ("ce niveau d'alerte est inconnu ! ");

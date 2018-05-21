@@ -21,6 +21,8 @@ public class QuestBuilder : MonoBehaviour
 
 	public Camera specificCam; //Une caméra spécial qui mettra en valeur le deuxieme protagoniste du dialogue/ pas obligé de compléter.
 
+	public AchievementSO unlockedASO; //A compléter si on veut utiliser la fonction pour dévérouiller un succés.
+
 	#region fonctions utiles pour construire une quête
 
 	public void StartDialogueQuest()
@@ -122,6 +124,19 @@ public class QuestBuilder : MonoBehaviour
 		InGameManager.instance.playerObj.GetComponent<NavMeshAgent> ().enabled = false;
 		InGameManager.instance.playerObj.transform.position = desiredPos.position;
 		InGameManager.instance.playerObj.GetComponent<NavMeshAgent> ().enabled = true;
+	}
+
+	public void UnlockLinkedAchievement()
+	{
+		if (unlockedASO == null) 
+		{
+			Debug.Log ("Attention tu as oublié de définir l'ASO");
+			return;
+		}
+		if(AchievementsManager.instance.CheckIfAchievementIsLocked(unlockedASO))
+		{
+			AchievementsManager.instance.UnlockAchievement (unlockedASO);
+		}
 	}
 
 	#endregion

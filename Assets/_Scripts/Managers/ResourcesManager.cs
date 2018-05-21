@@ -62,9 +62,23 @@ public class ResourcesManager : MonoBehaviour
 		}
 		set
 		{  
+			//si le climat augmente
+			if (value > _socialClimate) 
+			{
+				if (value > 50 && _socialClimate <= 50) 
+				{
+					AlertMessageManager.instance.CreateAnAlert ("Le climat social est maintenant positif!", 1);
+
+				}
+			}else
+			{
+				if (value < 50 && _socialClimate >= 50) {
+					AlertMessageManager.instance.CreateAnAlert ("Attention, le climat social s'est dégradé.", 3);
+				}
+			}
 			_socialClimate = value;
 			ModuleUIManager.instance.playerResourcesUI.UpdateSocialClimateUI (value) ;
-			AlertMessageManager.instance.CreateAnAlert ("Le climat social a changé. Il est maintenant de "+_socialClimate, 2);
+			AlertMessageManager.instance.CreateAnAlert ("TEMPORAIRE: utilise X pour changer le climat social. qui est de: "+_socialClimate, 2);
 		}
 	}
 
@@ -124,6 +138,16 @@ public class ResourcesManager : MonoBehaviour
 	void Start()
 	{
 		Invoke ("ChangeResourcesForTest", 1f);
+	}
+
+	//pour du test
+	void Update()
+	{
+		if(Input.GetKeyDown(KeyCode.X))
+			{
+			
+			socialClimate = Random.Range (0, 100);
+		}
 	}
 
 	void ChangeResourcesForTest()

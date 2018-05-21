@@ -23,6 +23,7 @@ public class MailScript : MonoBehaviour
 		{
 			unreadMailImg.enabled = false;
 			read = true;
+			FinanceOffice.instance.officeComputer.mailVisualCanvasObj.SetActive (false);
 			OnFirstRead.Invoke ();
 		}
 		ModuleUIManager.instance.computerUI.ShowMessage (sender.text, objectMess.text, mailContent);

@@ -38,6 +38,7 @@ public class OfficeComputerManager : MonoBehaviour
 		go.transform.position = Vector3.zero;
 		go.transform.localScale = Vector3.one;
 		go.transform.SetAsFirstSibling ();
+		FinanceOffice.instance.officeComputer.mailVisualCanvasObj.SetActive (true);
 		AlertMessageManager.instance.CreateAnAlert ("Vous avez recu un email.",1);
 		//Rajouter ici un appel au systeme d'alerte IG.
 	}

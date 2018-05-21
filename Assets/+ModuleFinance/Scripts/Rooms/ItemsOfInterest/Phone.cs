@@ -5,6 +5,11 @@ using UnityEngine.Events;
 
 public class Phone : MonoBehaviour 
 {
+
+	//Référencer dans le singleton de l'officeRoom
+
+	public GameObject ringingVisualCanvasObj;
+
 	[HideInInspector]
 	public bool isRinging;
 
@@ -26,6 +31,7 @@ public class Phone : MonoBehaviour
 	IEnumerator RingThePhone()
 	{
 		isRinging = true;
+		ringingVisualCanvasObj.SetActive (true);
 		GetComponent<InteractableObjectScript> ().outliner.enabled = true;
 		GetComponent<AudioSource> ().enabled = true;
 		AlertMessageManager.instance.CreateAnAlert ("Le téléphone sonne!", 3);
@@ -41,7 +47,9 @@ public class Phone : MonoBehaviour
 	public void AnswerTheCall()
 	{
 		if (isRinging) 
-		{					
+		{			
+			ringingVisualCanvasObj.SetActive (false);
+
 			theActionToDoWhenAnswering.Invoke ();
 			theActionToDoWhenAnswering.RemoveAllListeners ();
 			isRinging = false;

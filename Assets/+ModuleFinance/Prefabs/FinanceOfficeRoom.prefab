@@ -801,6 +801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   officePhone: {fileID: 0}
+  officeComputer: {fileID: 0}
 --- !u!114 &114086322222208710
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -812,6 +813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f943845989f45304ab1b4ce02572a378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mailVisualCanvasObj: {fileID: 0}
 --- !u!114 &114154697751965224
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -959,6 +961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efdce88da3a943f479faca2f4ccae753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ringingVisualCanvasObj: {fileID: 0}
   isRinging: 0
   theActionToDoWhenAnswering:
     m_PersistentCalls:
@@ -976,6 +979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efdce88da3a943f479faca2f4ccae753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ringingVisualCanvasObj: {fileID: 0}
   isRinging: 0
   theActionToDoWhenAnswering:
     m_PersistentCalls:
@@ -1019,6 +1023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f943845989f45304ab1b4ce02572a378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mailVisualCanvasObj: {fileID: 0}
 --- !u!114 &114611199437328066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1032,6 +1037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueTree: {fileID: 114802976911156108}
   specificCam: {fileID: 20532164263761262}
+  unlockedASO: {fileID: 0}
   phoneOutliner: {fileID: 114266642783038420}
   libraryOutliner: {fileID: 114668388904642400}
   computerOutliner: {fileID: 114479566072786830}

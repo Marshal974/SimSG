@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aec1b4003b1e79439baf126ed3bce3d, type: 3}
+  m_Name: OpenMailBox
+  m_EditorClassIdentifier: 
+  achievementName: Vous avez un message
+  achievementDesc: Ouvrir la boite mail.
+  achievementVisual: {fileID: 0}
+  achievementScore: 10

@@ -16,6 +16,8 @@ public class ModuleUIManager : MonoBehaviour
 	public ComputerUI computerUI;
 	public AlertUI alertUI;
 	public DialogueUI dialogueUI;
+	public AchievementsUI achievementsUI;
+
 
 	public List<Canvas> allCanvases = new List<Canvas>();
 
@@ -34,6 +36,7 @@ public class ModuleUIManager : MonoBehaviour
 		foreach (var c in allCanvases) {
 			c.enabled = false;
 		}
+		alertUI.GetComponent<Canvas> ().enabled = true;
 	}
 
 	public void ShowAllUI()
